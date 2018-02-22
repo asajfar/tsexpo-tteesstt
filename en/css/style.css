@@ -6448,6 +6448,30 @@ galerija-widget ul {
 	opacity: 1;
 }
 
+.galerija-widget.manja ul li a {
+    display: inline-block;
+	width: 164px;
+	opacity: 0.8;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+	border: 2px solid #333;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.galerija-widget.manja ul li a img {
+    width: 100%;
+	height: unset;
+}
+
+.galerija-widget.manja ul li a:hover {
+	opacity: 1;
+}
+
 /*------------------------------------ CSS za POP UP window -----------------------------------------*/
 
 .blur-in {
