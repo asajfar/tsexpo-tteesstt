@@ -483,15 +483,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "sr/ts-expo-2017.html",
-			"settings":
-			{
-				"buffer_size": 49141,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -500,10 +491,22 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 238.0,
-		"last_filter": "",
+		"height": 357.0,
+		"last_filter": "incr",
 		"selected_items":
 		[
+			[
+				"incr",
+				"Increment Selection"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"con",
+				"Convert Case: Upper Case"
+			],
 			[
 				"case",
 				"Convert Case: Lower Case"
@@ -533,10 +536,6 @@
 				"Snippet: <strong>"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"snippet",
 				"Snippet: input - month"
 			],
@@ -553,7 +552,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 538.0
+		"width": 558.0
 	},
 	"console":
 	{
@@ -574,13 +573,31 @@
 	},
 	"expanded_folders":
 	[
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/css",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr"
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en/css",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr"
 	],
 	"file_history":
 	[
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/izlagaci-2017.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/ts-expo-2017.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/index.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/smestaj.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en/css/style.css",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en/csspr/style.css",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/tlocrt.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/izlagaci.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/izlozba.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/posetioci.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/profil-izlagaca.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/program.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/ts-exposr.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/uslovi-izlaganja.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/lokacija.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en/index.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/ts-expo-2017.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/css/style.css",
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/index.html",
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/lokacija.html",
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/program.html",
@@ -589,7 +606,6 @@
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/profil-izlagaca.html",
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/uslovi-izlaganja.html",
 		"/D/OneDrive/WEB Design/tsexpo.rs/en/js/nivo-lightbox.js",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/css/style.css",
 		"/D/OneDrive/WEB Design/tsexpo.rs/.git/config",
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/css/responsive.css",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombudsman-project",
@@ -691,34 +707,18 @@
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-db/login/index.php",
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-db/login/css/style.css",
 		"/C/Users/alen.sajfar/Desktop/Biologija sesti - jelenabaclic2000@gmail.com - Gmail.html",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/savetdb/panel/posalji-vest.php",
-		"/C/Users/alen.sajfar/Desktop/2017-04-26_omb-racunari",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/savetdb/login/index.php",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/sbsnsdb/clanstvo.php",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/index.php",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/savetdb/panel/index.php",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/savetdb/panel/komentari.php",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/savetdb/panel/korisnici.php",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/savetdb/panel/export-excel.php",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/savetdb/panel/export.php",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/sbsnsdb/uslovi.php",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/include/meni-db.php",
-		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/servis.php",
-		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/servis 2.php",
-		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/arhiva.php",
-		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/vesti.php",
-		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/sednice.php",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/include/meni.php"
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/savetdb/panel/posalji-vest.php"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 49.0
 	},
 	"find_in_files":
 	{
-		"height": 98.0,
+		"height": 191.0,
 		"where_history":
 		[
+			"D:\\SkyDrive\\WEB Design\\tsexpo.rs\\tteesstt\\sr",
 			"D:\\OneDrive\\WEB Design\\Ombudsman-sajt\\Code",
 			"D:\\OneDrive\\WEB Design\\tsexpo.rs\\tteesstt\\sr",
 			"D:\\OneDrive\\WEB Design\\tsexpo.rs\\tteesstt\\en",
@@ -757,6 +757,52 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"otvaranje",
+			"bg5.jpg",
+			"d(5)",
+			"<img alt=\"\" src=\"../en/images/galerija2017/155_Simulacije.jpg\">",
+			"<a href=\"../en/images/galerija2017/155_Simulacije.jpg\"",
+			"Radni sastanak",
+			"<img alt=\"\" src=\"../en/images/galerija2017/155_Simulacije.jpg\">",
+			" <a href=\"../en/images/galerija2017/155_Simulacije.jpg\"",
+			"Radni sastanak",
+			"150_Radni sastanak",
+			"<img alt=\"\" src=\"../en/images/galerija2017/150_Radni sastanak.jpg.jpg\">",
+			"<a href=\"../en/images/galerija2017/150_Radni sastanak.jpg.jpg\"",
+			"Edukativni deo",
+			"128",
+			"<a href=\"../en/images/galerija2017/128_Edukativni deo\"",
+			"<img alt=\"\" src=\"../en/images/galerija2017/94_Edukativni deo\">",
+			"<a href=\"../en/images/galerija2017/94_Edukativni deo\"",
+			"Standovi.jpg",
+			"tandovi.jpg",
+			"50_Standovi.jpg",
+			"src=\"../en/images/galerija2017/50_Standovi.jpg\"",
+			"<a href=\"../en/images/galerija2017/50_Standovi.jpg\"",
+			"50",
+			"0",
+			"otvaranje.jpg",
+			"01_otvaranje.jpg",
+			"-otvaranje",
+			"01",
+			"ts-expo-2017",
+			"<img class=\"img-thumbnail\"",
+			"alen",
+			"<li><a href=\"profil-izlagaca.html\">SMEŠTAJ</a></li>",
+			" <li>\n            <a href=\"lokacija.html\">KONTAKT</a>\n          </li>",
+			"<li>\n                <a href=\"lokacija.html\">KONTAKT</a>\n              </li>",
+			"<a href=\"lokacija.html\">Lokacija i kontakt</a>",
+			"<li><a href=\"profil-izlagaca.html\">PROFILI IZLAGAČA</a>\n                  </li>\n                  <li><a href=\"uslovi-izlaganja.html\">USLOVI ZA IZLAGANJE</a>\n                  </li>\n                  <li><a href=\"tlocrt.html\">TLOCRT</a>\n                  </li>",
+			"<li><a href=\"profil-izlagaca.html\">PROFILI IZLAGAČA</a>\n                  </li>\n                  <li><a href=\"uslovi-izlaganja.html\">USLOVI ZA IZLAGANJE</a>\n                  </li>",
+			"</li>\n                  <li><a href=\"profil-izlagaca.html\">PROFILI IZLAGAČA</a>\n                  </li>\n                  <li><a href=\"uslovi-izlaganja.html\">USLOVI ZA IZLAGANJE</a>\n                  </li>",
+			"class=\"lightbox",
+			"st-1",
+			"<li>\n            <a href=\"ts-exposr.html\">TS-EXPO</a>\n          </li>",
+			"<li>\n                <a href=\"ts-exposr.html\">TS-EXPO</a>\n              </li>",
+			"uskoro",
+			"015",
+			"001",
+			"exhibition/st-1.jpg",
 			"2017",
 			"0.2",
 			"lightbox",
@@ -838,53 +884,7 @@
 			"message",
 			"leftCol",
 			"navbar",
-			"clanovi",
-			"triggerAnimation",
-			"cnews",
-			"tp-banner",
-			"<li>\n                  <a class=\"twitter\" href=\"#\"><i class=\"fa fa-twitter\"></i></a>\n                </li>\n                <li>\n                  <a class=\"google\" href=\"#\"><i class=\"fa fa-google-plus\"></i></a>\n                </li>\n                <li>\n                  <a class=\"skype\" href=\"#\"><i class=\"fa fa-skype\"></i></a>\n                </li>",
-			"<a class=\"twitter\" href=\"#\"><i class=\"fa fa-twitter\"></i></a>",
-			"<!",
-			"<li>\n                  <a class=\"google\" href=\"#\"><i class=\"fa fa-google-plus\"></i></a>\n                </li>\n                <li>\n                  <a class=\"skype\" href=\"#\"><i class=\"fa fa-skype\"></i></a>\n                </li>",
-			"<!-- Tab sa strane ciji link vodi ka B2B stranici  -->\n\n  <div id=\"side-tab\">\n      <a class=\"b2b\" onmouseover=\"changeb2b(this)\" onmouseout=\"normalb2b(this)\" target=\"_blank\" href=\"http://trafficb2b2017.talkb2b.net/\"></a>\n  </div>\n\n  <!-- kraja taba  -->",
-			"facebook",
-			"Scroll",
-			"scroll",
-			"header-top-line",
-			"CyrLat",
-			"togg",
-			"modal",
-			"bs",
-			"modal",
-			"registracija",
-			"message",
-			"cnews",
-			"pdf",
-			"cnews",
-			"th",
-			"width",
-			"tabela",
-			"tabela1",
-			"id",
-			"css",
-			"data-column",
-			"square",
-			"Organiyatori",
-			"navbar",
-			"params",
-			"1.5",
-			"1.57",
-			")",
-			"index.html",
-			"registracija",
-			"test",
-			"testsite",
-			"test",
-			"testsite",
-			"fn",
-			"nTf",
-			"butto",
-			"class=\"active\""
+			"clanovi"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -892,6 +892,13 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<li><a href=\"smestaj.html\">SMEŠTAJ</a></li>",
+			"<li>\n            <a href=\"lokacija.html\">KONTAKT</a>\n            <ul class=\"dropdown\">\n              <li><a href=\"smestaj.html\">SMEŠTAJ</a></li>\n          </li>",
+			"<li>\n                <a href=\"lokacija.html\">KONTAKT</a>\n                <ul class=\"dropdown\">\n                  <li><a href=\"profil-izlagaca.html\">SMEŠTAJ</a></li>\n                </ul>\n              </li>",
+			"<a href=\"lokacija.html\">KONTAKT</a>",
+			"<li><a href=\"profil-izlagaca.html\">PROFILI IZLAGAČA</a>\n                  </li>\n                  <li><a href=\"uslovi-izlaganja.html\">USLOVI ZA IZLAGANJE</a>\n                  </li>\n                  <li><a href=\"tlocrt.html\">TLOCRT</a>\n                  </li>",
+			"<!-- <li>\n            <a href=\"ts-exposr.html\">TS-EXPO</a>\n          </li> -->",
+			"<!-- <li>\n                <a href=\"ts-exposr.html\">TS-EXPO</a>\n              </li> -->",
 			"<ul class=\"dropdown\">\n<li><a href=\"izlagaci-2017.html\">SPISAK IZLAGAČA 2017</a>\n              </li>\n              <li><a href=\"profil-izlagaca.html\">PROFILI IZLAGAČA</a>\n              </li>\n              <li><a href=\"uslovi-izlaganja.html\">USLOVI ZA IZLAGANJE</a>\n              </li>\n            </ul>",
 			"<ul class=\"dropdown\">\n                  <li><a href=\"izlagaci-2017.html\">SPISAK IZLAGAČA 2017</a>\n                  </li>\n                  <li><a href=\"profil-izlagaca.html\">PROFILI IZLAGAČA</a>\n                  </li>\n                  <li><a href=\"uslovi-izlaganja.html\">USLOVI ZA IZLAGANJE</a>\n                  </li> \n                </ul>",
 			"<ul class=\"dropdown\">\n                  <li><a href=\"izlagaci-2017.html\">SPISAK IZLAGAČA 2017</a>\n                  </li>\n                  <li><a href=\"profil-izlagaca.html\">PROFILI IZLAGAČA</a>\n                  </li>\n                  <li><a href=\"uslovi-izlaganja.html\">USLOVI ZA IZLAGANJE</a>\n                  </li> \n                </ul>\n                  <a class=\"twitter\" href=\"https://twitter.com/ts_expo_ns\" target=\"_blank\"><i class=\"fa fa-twitter\"></i></a>\n                </li>\n                <!-- <li>\n                  <a class=\"google\" href=\"#\"><i class=\"fa fa-google-plus\"></i></a>\n                </li>\n                <li>\n                  <a class=\"skype\" href=\"#\"><i class=\"fa fa-skype\"></i></a>\n                </li> -->",
@@ -909,208 +916,14 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "sr/ts-expo-2017.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 49141,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								13162,
-								13162
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										13158,
-										13161
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										12567,
-										12570
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4817.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -1151,7 +964,7 @@
 	"project": "ts-expo-tteesstt-project.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
