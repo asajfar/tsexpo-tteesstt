@@ -491,17 +491,17 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 338.0,
-		"last_filter": "insta",
+		"height": 357.0,
+		"last_filter": "incr",
 		"selected_items":
 		[
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"incr",
 				"Increment Selection"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
 			],
 			[
 				"con",
@@ -552,7 +552,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 538.0
+		"width": 558.0
 	},
 	"console":
 	{
@@ -573,24 +573,14 @@
 	},
 	"expanded_folders":
 	[
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr"
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en/php",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr"
 	],
 	"file_history":
 	[
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/index.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/lokacija.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/posetioci.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/ts-expo-2017.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/uslovi-izlaganja.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/izlagaci-2017.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/izlagaci.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/izlozba.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/profil-izlagaca.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/program.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/smestaj.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/tlocrt.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/ts-exposr.html",
+		"/C/Users/d2/Desktop/Adoomne problem sa sjtom/public_html/neez.php",
 		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/lokacija.html",
 		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/index.html",
 		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/ts-expo-2017.html",
@@ -609,7 +599,15 @@
 		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/program.html",
 		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/ts-exposr.html",
 		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en/index.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/ts-expo-2017.html",
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/css/style.css",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/index.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/lokacija.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/program.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/posetioci.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/ts-exposr.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/profil-izlagaca.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/uslovi-izlaganja.html",
 		"/D/OneDrive/WEB Design/tsexpo.rs/en/js/nivo-lightbox.js",
 		"/D/OneDrive/WEB Design/tsexpo.rs/.git/config",
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/css/responsive.css",
@@ -651,11 +649,14 @@
 		"/C/Users/alen.sajfar/Desktop/cache.manifest",
 		"/C/Users/alen.sajfar/Desktop/CHECKLIST.html",
 		"/C/Users/alen.sajfar/Desktop/Potpis-NIS.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/izlagaci-2017.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/izlagaci.html",
 		"/C/Users/alen.sajfar/Desktop/index.xml",
 		"/C/Users/alen.sajfar/Desktop/sitemap.xml",
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/index.html",
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo.html",
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/visitors.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/izlozba.html",
 		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/dbconfig.php",
 		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/index.php",
 		"/J/xampp/htdocs/sbsns.rs/savetdb/login/index.php",
@@ -705,11 +706,12 @@
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/php/registration.php",
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-db/panel/index.php",
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-db/panel/plugins/datatables/jquery.dataTables.js",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-db/panel/dist/css/skins/skin-red.css"
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-db/panel/dist/css/skins/skin-red.css",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-db/login/index.php"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -756,28 +758,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"standovi",
-			"<img alt=\"\" src=\"../en/images/galerija2017/94_Edukativni deo.jpg\"",
-			"href=\"../en/images/galerija2017/94_Edukativni deo.jpg",
-			"./en/images/galerija2017/50_Standovi.jpg",
-			"posetioci",
-			"../en/images/galerija2017/93_Standovi.jpg",
-			"<img alt=\"\" src=\"../en/images/galerija2017/50_Standovi.jpg",
-			"50",
-			"src=\"../en/images/galerija2017/50_Standovi.jpg",
-			" href=\"../en/images/galerija2017/50_Standovi.jpg",
-			"href=\"../en/images/galerija2017/50_Standovi.jpg",
-			"../en/images/galerija2017/50_Standovi.jpg",
-			"href=\"../en/images/galerija2017/01_Otvaranje.jpg",
-			"../en/images/galerija2017/02_Otvaranje.jpg",
-			"src=\"../en/images/galerija2017/01_Otvaranje.jpg",
-			"href=\"../en/images/galerija2017/01_Otvaranje.jpg",
-			"../en/images/posetioci/001_posetioci.jpg",
-			"href=\"../en/images/galerija2017/01_Otvaranje.jpg\">",
-			"en/images/gal",
-			"href=\"../en/images/galerija2017/01_Otvaranje.jpg\">",
-			"<li><a href=\"smestaj.html\">SMEŠTAJ</a></li>",
-			"16.",
 			"margin-left:30px",
 			"<li>",
 			"</p>",
@@ -883,7 +863,29 @@
 			"navbar-collapse collapse",
 			"5",
 			"ease",
-			"aweso"
+			"aweso",
+			"4",
+			"3",
+			"popup-2",
+			"1",
+			"0.5",
+			"gallery",
+			"0.3",
+			"podnas",
+			"data-animate",
+			"fadeInRight",
+			"h1",
+			"header3",
+			"navbar-fixed-top",
+			"header-top-line",
+			"clearfix",
+			"span",
+			"icon",
+			"import",
+			"naziv",
+			"tp",
+			"owl",
+			"bx"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -922,7 +924,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -963,7 +965,7 @@
 	"project": "ts-expo-tteesstt-project.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -983,7 +985,7 @@
 		[
 			[
 				"",
-				"D:\\OneDrive\\WEB Design\\Ombudsman-sajt\\Code\\ombudsman-project.sublime-project"
+				"D:\\SkyDrive\\WEB Design\\Ombudsman-sajt\\Code\\ombudsman-project.sublime-project"
 			]
 		],
 		"width": 380.0
