@@ -6,7 +6,7 @@
 <head>
 
   <!-- Basic -->
-  <title>TRAFFIC SOLUTIONS EXPO</title>
+  <title>CONTACT | TRAFFIC SOLUTIONS EXPO</title>
 
   <!-- Define Charset -->
   <meta charset="utf-8">
@@ -66,12 +66,24 @@
   <script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
   <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
   <script type="text/javascript" src="js/jquery.parallax.js"></script>
-  <script type="text/javascript" src="js/mediaelement-and-player.js"></script>
+  <script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
   <script type="text/javascript" src="js/jquery.slicknav.js"></script>
   
 
   <!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <!-- Google Analytics Code -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-76465485-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
 
 </head>
 
@@ -105,7 +117,7 @@
             <div class="col-md-5">
               <!-- Start Social Links -->
               <ul class="social-list">
-               <!--<li>
+                <!--<li>
                   <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
                 </li>
                 <li>
@@ -140,7 +152,7 @@
                   <a class="language-choose active" href="#"><i>EN</i></a>
                 </li>
                 <li>
-                  <a class="language-choose" href="#"><i>SR</i></a>
+                  <a class="language-choose" href="../sr/lokacija.html"><i>SR</i></a>
                 </li>
               </ul>
               <!-- End Social Links -->
@@ -186,13 +198,31 @@
                 <a href="index.html">Home</a>
               </li>
               <li>
-                <a class="active" href="conference.html">Coference</a>
+                <a href="ts-expo.html">TS-EXPO</a>
+              </li>
+              <li class="drop">
+                <a class="not-link" href="#">EXHIBITORS</a>
+                <ul class="dropdown">
+                  <li><a href="exhibitors-profile.html">PROFILE OF EXHIBITORS</a>
+                  </li>
+                  <li><a href="exhibitors-terms.html">GENERAL TERMS</a>
+                  </li> 
+                </ul>
               </li>
               <li>
-                <a href="location.html">Contact</a>
+                <a href="visitors.html">VISITORS</a>
+              </li>
+              <li>
+                <a href="program_en.html">PROGRAM</a>
+              </li>
+              <li>
+                <a class="active" href="location.html">Contact</a>
                 <ul class="dropdown">
                   <li><a href="accommodation.html">ACCOMMODATION</a></li>
                 </ul>
+              </li>
+              <li>
+                <a href="ts-expo-en-2017.html" style="color: #29aae2; font-weight: 600;">TS-EXPO 2017</a>
               </li>
             </ul>
             <!-- End Navigation List -->
@@ -202,13 +232,31 @@
         <!-- Mobile Menu Start -->
         <ul class="wpb-mobile-menu">
           <li>
-            <a href="index.html">Home</a>
+            <a href="index.html">HOME</a>
           </li>
           <li>
-            <a class="active" href="coference.html">Coference</a>
+            <a href="ts-expo.html">TS-EXPO</a>
           </li>
           <li>
-            <a href="location.html">CONTACT</a>
+            <a class="not-link" href="#">EXHIBITORS</a>
+            <ul class="dropdown">
+              <li><a href="exhibitors-profile.html">PROFILE OF EXHIBITORS</a>
+              </li>
+              <li><a href="exhibitors-terms.html">GENERAL TERMS</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="visitors.html">VISITORS</a>
+          </li>
+          <li>
+            <a href="program_en.html">PROGRAM</a>
+          </li>
+          <li>
+            <a class="active" href="location.html">CONTACT</a>
+          </li>
+          <li>
+            <a href="ts-expo-en-2017.html" style="color: #29aae2; font-weight: 600;">TS-EXPO 2017</a>
           </li>
         </ul>
         <!-- Mobile Menu End -->
@@ -219,20 +267,19 @@
     </header>
     <!-- End Header Section -->
 
-
     <!-- Start Page Banner -->
-    <div class="page-banner" style="padding:40px 0; background: url(images/bg1.jpg) center;">
+    <div class="page-banner" style="padding:40px 0; background: url(../en/images/bg1.jpg) center;">
       <div class="slika-effect1"></div>
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h2>Conference</h2>
-            <p>Traffic Solutions Expo</p>
+            <h2>ACCOMMODATION</h2>
+            <!-- <p>Traffic Solutions Expo</p> -->
           </div>
           <div class="col-md-6">
             <ul class="breadcrumbs">
-              <li><a href="index.html">Home</a></li>
-              <li>Conference</li>
+              <!-- <li><a href="index.html">Naslovna</a></li>
+              <li>TS-EXPO</li> -->
             </ul>
           </div>
         </div>
@@ -240,45 +287,161 @@
     </div>
     <!-- End Page Banner -->
 
-
     <!-- Start Content -->
     <div id="content">
       <div class="container">
         <div class="page-content">
 
+          <div class="row">
+            <div class="col-md-12">
+              <!-- Classic Heading -->
+              <h4 class="classic-title"><span>HOTELS IN NOVI SAD</span></h4>
+            </div>
+          </div>
 
           <div class="row">
-
-            <div class="col-md-7">
-
-              <!-- Classic Heading -->
-              <h4 class="classic-title"><span>Conference</span></h4>
-
-              <!-- Some Text -->
-              <p>Stay with us.</p>
-              <p>New information coming soon!</p>
-
-            </div>
-
-            <div class="col-md-5">
-
-              <!-- Start Touch Slider -->
-              <div class="touch-slider" data-slider-navigation="true" data-slider-pagination="true">
-                <div class="item"><img alt="" src="images/about-01.jpg"></div>
-                <div class="item"><img alt="" src="images/about-02.jpg"></div>
-                <div class="item"><img alt="" src="images/about-03.jpg"></div>
+            <!-- Start Image Service Box 1 -->
+            <div class="col-md-4 image-service-box">
+              <a href="http://www.a-hotel-master.com" target="_blank"><img class="img-thumbnail" src="../en/images/hotels/master.jpg" alt=""></a>
+              <div class="hotel-stars">
+                <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
               </div>
-              <!-- End Touch Slider -->
-
+              <h4>HOTEL MASTER</h4>
+              <p>Braće Popović bb, 21000 Novi Sad, Serbia</p>
+              <p>+381 21 4878700, Fax: +381 21 4878777</p>
+              <p>office@a-hotel-master.com<br>www.a-hotel-master.com</p>
+              <p><a href="https://goo.gl/maps/QA7zWUYYPB22" target="_blank">Map <i class="fa fa-location-arrow" aria-hidden="true"></i></a></p>
             </div>
+            <!-- End Image Service Box 1 -->
 
+            <!-- Start Image Service Box 2 -->
+            <div class="col-md-4 image-service-box">
+              <a href="http://www.hotelparkns.com" target="_blank"><img class="img-thumbnail" src="../en/images/hotels/park.jpg" alt=""></a>
+              <div class="hotel-stars">
+                <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <h4>HOTEL PARK</h4>
+              <p>Novosadskog sajma 35, 21000 Novi Sad, Serbia</p>
+              <p>+ 381 21 4888888, Fax: +381 21 4888878</p>
+              <p>info@hotelparkns.com<br>www.hotelparkns.com</p>
+              <p><a href="https://goo.gl/maps/RhyaYNearjH2" target="_blank">Map <i class="fa fa-location-arrow" aria-hidden="true"></i></a></p>  
+            </div>
+            <!-- End Image Service Box 2 -->
+
+            <!-- Start Image Service Box 3 -->
+            <div class="col-md-4 image-service-box">
+              <a href="http://www.hotelputnik.rs" target="_blank"><img class="img-thumbnail" src="../en/images/hotels/putnik.jpg" alt=""></a>
+              <div class="hotel-stars">
+                <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <h4>HOTEL PUTNIK</h4>
+              <p>Ilije Ognjanovića 24, 21000 Novi Sad, Serbia</p>
+              <p>+381 21 6615555, Fax: +381 21 422652</p>
+              <p>info@hotelputnik.rs<br>www.hotelputnik.rs/</p>
+              <p><a href="https://goo.gl/maps/EH3VW3smAAB2" target="_blank">Map <i class="fa fa-location-arrow" aria-hidden="true"></i></a></p>
+            </div>
+            <!-- End Image Service Box 3 -->
           </div>
+
+          <div class="hr1" style="margin-bottom:50px;"></div>
+          
+          <div class="row">
+            <!-- Start Image Service Box 1 -->
+            <div class="col-md-4 image-service-box">
+              <a href="http://www.hotelvojvodina.rs" target="_blank"><img class="img-thumbnail" src="../en/images/hotels/vojvodina.jpg" alt=""></a>
+              <div class="hotel-stars">
+                <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <h4>HOTEL VOJVODINA</h4>
+              <p>Trg slobode 2, 21000 Novi Sad, Serbia</p>
+              <p>+381 21 6622122, Fax: +381 21 6615445</p>
+              <p>office@hotelvojvodina.rs<br>www.hotelvojvodina.rs</p>
+              <p><a href="https://goo.gl/maps/HphtepZ7Dqt" target="_blank">Map <i class="fa fa-location-arrow" aria-hidden="true"></i></a></p>
+            </div>
+            <!-- End Image Service Box 1 -->
+
+            <!-- Start Image Service Box 2 -->
+            <div class="col-md-4 image-service-box">
+              <a href="http://www.hotelzenit.rs" target="_blank"><img class="img-thumbnail" src="../en/images/hotels/zenit.jpg" alt=""></a>
+              <div class="hotel-stars">
+                <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <h4>HOTEL ZENIT</h4>
+              <p>Zmaj Jovina 8, 21000 Novi Sad, Serbia</p>
+              <p> + 381 21 6621444, + 381 63 52 02 43</p>
+              <p>office@hotelzenit.rs<br>www.hotelzenit.rs/</p>
+              <p><a href="https://goo.gl/maps/7pA13hHwvA32" target="_blank">Map <i class="fa fa-location-arrow" aria-hidden="true"></i></a></p>  
+            </div>
+            <!-- End Image Service Box 2 -->
+
+            <!-- Start Image Service Box 3 -->
+            <div class="col-md-4 image-service-box">
+              <a href="http://www.hotelnovisad.co.rs" target="_blank"><img class="img-thumbnail" src="../en/images/hotels/novisad.jpg" alt=""></a>
+              <div class="hotel-stars">
+                <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <h4>HOTEL NOVI SAD</h4>
+              <p>Bulevar Jaše Tomića bb, 21000 Novi Sad, Serbia</p>
+              <p>+381 21 442511, Fax: +381 21 443072</p>
+              <p>info@hotelnovisad.rs<br>www.hotelnovisad.co.rs</p>
+              <p><a href="https://goo.gl/maps/sGApo6PXWg62" target="_blank">Map <i class="fa fa-location-arrow" aria-hidden="true"></i></a></p>
+            </div>
+            <!-- End Image Service Box 3 -->
+          </div>
+
+          <div class="hr1" style="margin-bottom:50px;"></div>
+          
+          <div class="row">
+            <!-- Start Image Service Box 1 -->
+            <div class="col-md-4 image-service-box">
+              <a href="http://www.hotel-centar.rs" target="_blank"><img class="img-thumbnail" src="../en/images/hotels/centar.jpg" alt=""></a>
+              <div class="hotel-stars">
+                <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <h4>HOTEL CENTAR</h4>
+              <p>Uspenska 1, 21000 Novi Sad, Serbia</p>
+              <p>+381 21 4776333, Fax: + 381 21 4776322</p>
+              <p>recepcija@hotel-centar.rs<br>www.hotel-centar.rs</p>
+              <p><a href="https://goo.gl/maps/VfhCYb14YiJ2" target="_blank">Map <i class="fa fa-location-arrow" aria-hidden="true"></i></a></p>
+            </div>
+            <!-- End Image Service Box 1 -->
+
+            <!-- Start Image Service Box 2 -->
+            <div class="col-md-4 image-service-box">
+              <a href="http://www.leopoldns.com" target="_blank"><img class="img-thumbnail" src="../en/images/hotels/leopold.jpg" alt=""></a>
+              <div class="hotel-stars">
+                <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <h4>HOTEL LEOPOLD I</h4>
+              <p>Petrovaradinska tvrđava, Petrovaradin/Novi Sad, Serbia</p>
+              <p>+381 21 4887878</p>
+              <p>office@leopoldns.com<br>www.leopoldns.com/</p>
+              <p><a href="https://goo.gl/maps/1PTkJC97kgS2" target="_blank">Map <i class="fa fa-location-arrow" aria-hidden="true"></i></a></p>  
+            </div>
+            <!-- End Image Service Box 2 -->
+
+            <!-- Start Image Service Box 3 -->
+            <div class="col-md-4 image-service-box">
+              <a href="http://www.starwoodhotels.com" target="_blank"><img class="img-thumbnail" src="../en/images/hotels/seraton.jpg" alt=""></a>
+              <div class="hotel-stars">
+                <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <h4>HOTEL SHERATON</h4>
+              <p>Polgar Andraša 1, 21000 Novi Sad, Serbia</p>
+              <p>+381 21 4878000, Fax: +381 21 4878000</p>
+              <p>info@starwoodhotels.com<br>www.starwoodhotels.com</p>
+              <p><a href="https://goo.gl/maps/KDxTRqyoN2H2" target="_blank">Map <i class="fa fa-location-arrow" aria-hidden="true"></i></a></p>
+            </div>
+            <!-- End Image Service Box 3 -->
+          </div>  
+
 
           <!-- Divider -->
           <div class="hr1" style="margin-bottom:50px;"></div>
         </div>
       </div>
     </div>
+    <div class="hr1" style="margin-bottom:50px;"></div>
     <!-- End content -->
 
 
@@ -469,6 +632,19 @@
   </div>-->
 
   <script type="text/javascript" src="js/script.js"></script>
+
+  <script type="text/javascript">
+    //Contact Form
+
+    $('#submit').click(function() {
+
+      $.post("php/send.php", $(".contact-form").serialize(), function(response) {
+        $('#success').html(response);
+      });
+      return false;
+
+    });
+  </script>
 
   <!-- Google Analytics Code -->
   <script>
