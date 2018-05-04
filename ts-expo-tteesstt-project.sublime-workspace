@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ba",
+				"background-image"
+			],
+			[
 				"we",
 				"wednesday"
 			],
@@ -70,10 +74,6 @@
 			[
 				"tar",
 				"target\tAttr"
-			],
-			[
-				"ba",
-				"background-size"
 			],
 			[
 				"side-",
@@ -484,12 +484,29 @@
 	"buffers":
 	[
 		{
-			"file": "en/ts-expo-en-2017.html",
+			"file": "en/index.html",
 			"settings":
 			{
-				"buffer_size": 137219,
+				"buffer_size": 56331,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "en/location.html",
+			"settings":
+			{
+				"buffer_size": 26221,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sr/index.html",
+			"settings":
+			{
+				"buffer_size": 57301,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -588,48 +605,67 @@
 	],
 	"file_history":
 	[
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/location.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/program_en.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/visitors.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/uslovi-izlaganja.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/exhibitors-terms.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/index.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/exhibitors-profile.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/login.php",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/php/welcome.php",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/programme.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/search.php",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/successreg.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/conference.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/exhibitors.html",
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/index.html",
-		"/C/Users/d2/Desktop/Adoomne problem sa sjtom/public_html/neez.php",
-		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/lokacija.html",
-		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/index.html",
-		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/ts-expo-2017.html",
-		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en/js/jquery.appear.js",
-		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/posetioci.html",
-		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/uslovi-izlaganja.html",
-		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/index-01.html",
-		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/izlagaci-2017.html",
-		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/smestaj.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/izlagaci-2017.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/izlagaci.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/izlozba.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/lokacija.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/posetioci.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/profil-izlagaca.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/program.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/smestaj.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/tlocrt.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/ts-expo-2017.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/ts-exposr.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/uslovi-izlaganja.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/index.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/location.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/accommodation.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/conference.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/exhibitors-profile.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/exhibitors-terms.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/exhibitors.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/googlef43e719b35e94e48.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en/index.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en/css/colors/red.css",
 		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en/css/style.css",
-		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en/csspr/style.css",
-		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/tlocrt.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en/program_en.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/smestaj.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en/accommodation.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/index.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-en-2017.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/posetioci.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en/visitors.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/izlagaci-2017.html",
 		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/izlagaci.html",
 		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/izlozba.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/lokacija.html",
 		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/profil-izlagaca.html",
 		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/program.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/tlocrt.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/ts-expo-2017.html",
 		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/ts-exposr.html",
-		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en/index.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/ts-expo-2017.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/uslovi-izlaganja.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en/conference.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en/successreg.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en/exhibitors.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en/exhibitors-profile.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en/exhibitors-terms.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en/location.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/program_en.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/programme.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-en-2017.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/visitors.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/login.php",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/php/welcome.php",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/search.php",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/successreg.html",
+		"/C/Users/d2/Desktop/Adoomne problem sa sjtom/public_html/neez.php",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en/js/jquery.appear.js",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/sr/index-01.html",
+		"/D/SkyDrive/WEB Design/tsexpo.rs/tteesstt/en/csspr/style.css",
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/css/style.css",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/lokacija.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/program.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/posetioci.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/ts-exposr.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/profil-izlagaca.html",
 		"/D/OneDrive/WEB Design/tsexpo.rs/en/js/nivo-lightbox.js",
 		"/D/OneDrive/WEB Design/tsexpo.rs/.git/config",
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/css/responsive.css",
@@ -671,11 +707,8 @@
 		"/C/Users/alen.sajfar/Desktop/cache.manifest",
 		"/C/Users/alen.sajfar/Desktop/CHECKLIST.html",
 		"/C/Users/alen.sajfar/Desktop/Potpis-NIS.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/izlagaci-2017.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/izlagaci.html",
 		"/C/Users/alen.sajfar/Desktop/index.xml",
 		"/C/Users/alen.sajfar/Desktop/sitemap.xml",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/izlozba.html",
 		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/dbconfig.php",
 		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/index.php",
 		"/J/xampp/htdocs/sbsns.rs/savetdb/login/index.php",
@@ -699,33 +732,21 @@
 		"/J/xampp/htdocs/sbsns.rs/kampanje.php",
 		"/J/xampp/htdocs/sbsns.rs/servis.php",
 		"/J/xampp/htdocs/sbsns.rs/zahtevi.php",
-		"/J/xampp/htdocs/sbsns.rs/onama.php",
-		"/J/xampp/htdocs/sbsns.rs/index.php",
-		"/J/xampp/htdocs/sbsns.rs/vesti.php",
-		"/J/xampp/htdocs/sbsns.rs/js/script.js",
-		"/J/xampp/htdocs/sbsns.rs/include/meni.php",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/php/baza.php",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/php/baza_all.php",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/php/baza_app.php",
-		"/J/xampp/htdocs/sbsns.rs/js/bootstrap.js",
-		"/J/xampp/htdocs/sbsns.rs/include/logo-baner.php",
-		"/J/xampp/htdocs/sbsns.rs/arhiva.php",
-		"/J/xampp/htdocs/sbsns.rs/sednice.php",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/php/registration.php",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-db/panel/index.php",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-db/panel/plugins/datatables/jquery.dataTables.js",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-db/panel/dist/css/skins/skin-red.css",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-db/login/index.php"
+		"/J/xampp/htdocs/sbsns.rs/onama.php"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
 		"height": 191.0,
 		"where_history":
 		[
+			"D:\\OneDrive\\WEB Design\\tsexpo.rs\\tteesstt\\en",
+			"D:\\OneDrive\\WEB Design\\tsexpo.rs\\tteesstt\\sr",
+			"D:\\SkyDrive\\WEB Design\\tsexpo.rs\\tteesstt\\sr",
+			"D:\\SkyDrive\\WEB Design\\tsexpo.rs\\tteesstt\\en",
 			"D:\\OneDrive\\WEB Design\\tsexpo.rs\\tteesstt\\en",
 			"D:\\SkyDrive\\WEB Design\\tsexpo.rs\\tteesstt\\en\\js",
 			"D:\\SkyDrive\\WEB Design\\tsexpo.rs\\tteesstt\\sr",
@@ -767,6 +788,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<li>\n                  <a class=\"twitter\" href=\"https://twitter.com/ts_expo_ns\"><i class=\"fa fa-twitter\"></i></a>\n                </li>",
+			"www.hotelzenit.rs",
+			"class=\"not-active language-choose\"",
+			"class=\"not-active language-choose",
+			"not-active language-choose",
+			"ts-expo.html",
+			"s-expo.html",
+			"<li>\n                <a href=\"ts-expo.html\">TS-EXPO</a>\n              </li>",
+			"USKORO",
+			"USKO",
+			"USKORO",
+			"Pogledajte na mapi",
+			"Srbija",
+			"<li>\n                <a href=\"location.html\">Contact</a>\n              </li>",
 			"#tuesday",
 			"•",
 			"<p>&copy; 2017 ts-expo.rs - All Rights Reserved</p>",
@@ -880,21 +915,7 @@
 			"navbar-collapse",
 			"navbar-collapse collapse",
 			"5",
-			"ease",
-			"aweso",
-			"4",
-			"3",
-			"popup-2",
-			"1",
-			"0.5",
-			"gallery",
-			"0.3",
-			"podnas",
-			"data-animate",
-			"fadeInRight",
-			"h1",
-			"header3",
-			"navbar-fixed-top"
+			"ease"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -902,6 +923,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<li>\n                  <a class=\"twitter\" target=\"_blank\" href=\"https://twitter.com/ts_expo_ns\"><i class=\"fa fa-twitter\"></i></a>\n                </li>",
+			"class=\"language-choose\"",
+			"<!--<li>\n                <a href=\"ts-expo.html\">TS-EXPO</a>\n              </li>-->",
+			"<li>\n                <a href=\"location.html\">Contact</a>\n                <ul class=\"dropdown\">\n                  <li><a href=\"accommodation.html\">ACCOMMODATION</a></li>\n                </ul>\n              </li>",
 			"<p>&copy; 2018 ts-expo.rs - All Rights Reserved</p>",
 			"<li>\n            <a href=\"location.html\">CONTACT</a>\n          </li>",
 			"<li>\n                <a href=\"location.html\">Contact</a>\n              </li>",
@@ -929,24 +954,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "en/ts-expo-en-2017.html",
+					"file": "en/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 137219,
+						"buffer_size": 56331,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								104328,
-								104328
+								0,
+								0
 							]
 						],
 						"settings":
@@ -985,36 +1010,31 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -1025,32 +1045,52 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
-								"bh_round_content"
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
 							],
 							"bracket_highlighter.locations":
 							{
 								"close":
 								{
+									"1":
+									[
+										14,
+										15
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/angle_bracket.png",
+										"region.orangish"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										0,
+										1
+									]
 								},
 								"unmatched":
 								{
@@ -1058,36 +1098,31 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -1098,28 +1133,449 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
-								"bh_round_content"
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
 							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 15647.0,
+						"translation.y": 7857.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "en/location.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										14,
+										15
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/angle_bracket.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										14,
+										15
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/angle_bracket.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8587.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sr/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 57301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								518,
+								518
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										14,
+										15
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/angle_bracket.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										581,
+										582
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										486,
+										487
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
