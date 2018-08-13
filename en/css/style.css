@@ -6801,3 +6801,54 @@ galerija-widget ul {
 	padding-left: 10px;
     color: #ee3733;
 }
+
+/* ---------------------------------------------------- STRANICA TLOCRT -------------------------------------------------------------*/
+
+.tlocrt {
+	margin-bottom: 35px;
+}
+
+
+/* ---------------------------------------------------- STRANICA TLOCRT -------------------------------------------------------------*/
+
+.tour-image {
+	background: url(../images/virtual-tour/tour.jpg) center;
+	background-size: cover;
+    background-repeat: no-repeat;
+   	padding: 200px 0 200px 0;
+}
+
+#content-tour {
+	padding: 0px;
+}
+
+.container-tour {
+
+}
+
+.tour-image a {
+    background: url(../images/virtual-tour/360-video-icon-white.png) center;
+    width: 400px;
+    margin: 0 auto;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    padding: 100px 0 100px 0;
+    height: 200px;
+    display: block;
+    filter: drop-shadow(8px 8px 4px black);
+}
+
+.tour-image a:hover {
+	background: url(../images/virtual-tour/360-video-icon-red.png) center;
+	width: 400px;
+    margin: 0 auto;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
