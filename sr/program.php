@@ -1,7 +1,12 @@
+<?php 
+$page = 'program';
+$englink = 'program';
+?>
+
 <!doctype html>
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><html lang="en" class="no-js"> <![endif]-->
-<html lang="en">
+<html lang="sr">
 
 <head>
 
@@ -40,10 +45,10 @@
   <link rel="stylesheet" type="text/css" href="../en/css/animate.css" media="screen">
   
   <!-- Css3 for program page  -->
-  <!-- <link href="csspr/bootstrap.css" rel="stylesheet"> -->
-  <link href="csspr/revolution-slider.css" rel="stylesheet">
-  <link href="csspr/style.css" rel="stylesheet">
-  <link href="csspr/responsive.css" rel="stylesheet">
+  <!-- <link href="../en/csspr/bootstrap.css" rel="stylesheet"> -->
+  <link href="../en/csspr/revolution-slider.css" rel="stylesheet">
+  <link href="../en/csspr/style.css" rel="stylesheet">
+  <link href="../en/csspr/responsive.css" rel="stylesheet">
 
 
   <!-- Color CSS Styles  -->
@@ -107,184 +112,14 @@
 
 
     <!-- Start Header Section -->
-    <div class="hidden-header"></div>
-    <header class="clearfix">
-
-      <!-- Start Top Bar -->
-      <div class="top-bar">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-7">
-              <!-- Start Contact Info -->
-              <ul class="contact-details">
-                <li><a href="#"><i class="fa fa-map-marker"></i> Novi Sad Fair, City of Novi Sad, Serbia</a>
-                </li>
-                <li><a href="#"><i class="fa fa-envelope-o"></i> office@ts-expo.rs</a>
-                </li>
-                <li><a href="#"><i class="fa fa-phone"></i> +381 (0) 64 12 49 757</a>
-                </li>
-              </ul>
-              <!-- End Contact Info -->
-            </div>
-            <!-- .col-md-6 -->
-            <div class="col-md-5">
-              <!-- Start Social Links -->
-              <ul class="social-list">
-                <!--<li>
-                  <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a class="google itl-tooltip" data-placement="bottom" title="Google Plus" href="#"><i class="fa fa-google-plus"></i></a>
-                </li>
-                
-                <li>
-                  <a class="dribbble itl-tooltip" data-placement="bottom" title="Dribble" href="#"><i class="fa fa-dribbble"></i></a>
-                </li>
-                <li>
-                  <a class="linkdin itl-tooltip" data-placement="bottom" title="Linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-                </li>
-                <li>
-                  <a class="flickr itl-tooltip" data-placement="bottom" title="Flickr" href="#"><i class="fa fa-flickr"></i></a>
-                </li>
-                <li>
-                  <a class="tumblr itl-tooltip" data-placement="bottom" title="Tumblr" href="#"><i class="fa fa-tumblr"></i></a>
-                </li>
-                <li>
-                  <a class="instgram itl-tooltip" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
-                </li>
-                <li>
-                  <a class="vimeo itl-tooltip" data-placement="bottom" title="vimeo" href="#"><i class="fa fa-vimeo-square"></i></a>
-                </li>
-                <li>
-                  <a class="skype itl-tooltip" data-placement="bottom" title="Skype" href="callto://+***********"><i class="fa fa-skype"></i></a>
-                </li>-->
-                <li>
-                  <a class="language-choose active" href="#"><i>EN</i></a>
-                </li>
-                <li>
-                  <a class="language-choose" href="../sr/program.html"><i>SR</i></a>
-                </li>
-              </ul>
-              <!-- End Social Links -->
-            </div>
-            <!-- .col-md-6 -->
-          </div>
-          <!-- .row -->
-        </div>
-        <!-- .container -->
-      </div>
-      <!-- .top-bar -->
-      <!-- End Top Bar -->
-
-
-      <!-- Start  Logo & Naviagtion  -->
-      <div class="navbar navbar-default navbar-top">
-        <div class="container">
-          <div class="navbar-header">
-            <!-- Stat Toggle Nav Link For Mobiles -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <i class="fa fa-bars"></i>
-            </button>
-            <!-- End Toggle Nav Link For Mobiles -->
-            <a class="navbar-brand" href="index.html">
-              <img alt="" src="../en/images/tslogo.png" class="logo-full">
-              <img alt="" src="../en/images/tslogo2.png" class="logo-mobile">
-            </a>
-          </div>
-          <div class="navbar-collapse collapse">
-            <!-- Stat Search -->
-            <div class="search-side">
-              <a class="show-search"><i class="fa fa-search"></i></a>
-              <div class="search-form">
-                <form autocomplete="off" role="search" method="get" class="searchform" action="#">
-                  <input type="text" value="" name="s" id="s" placeholder="Search the site...">
-                </form>
-              </div>
-            </div>
-            <!--End Search -->
-            <!-- Start Navigation List -->
-            <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a href="index.html">Home</a>
-              </li>
-              <li class="drop">
-                <a class="not-link" href="#">EXHIBITORS</a>
-                <ul class="dropdown">
-                  <li><a href="exhibitors-profile.html">PROFILE OF EXHIBITORS</a>
-                  </li>
-                  <li><a href="exhibitors-terms.html">GENERAL TERMS</a>
-                  </li>
-                  <li><a href="ground-plan.html">GROUND PLAN</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="visitors.html">VISITORS</a>
-              </li>
-              <li>
-                <a class="active" href="program_en.html">PROGRAM</a>
-              </li>
-              <li>
-                <a href="location.html">Contact</a>
-                <ul class="dropdown">
-                  <li><a href="accommodation.html">ACCOMMODATION</a></li>
-                </ul>
-              </li>
-              <li>
-            <a href="ts-expo-en-2017.html" style="color: #29aae2; font-weight: 600;">TS-EXPO 2017</a>
-            <ul class="dropdown">
-              <li><a href="virtual-tour.html">VRTUAL TOUR 360°</a></li>
-            </ul>
-          </li> 
-            </ul>
-            <!-- End Navigation List -->
-          </div>
-        </div>
-
-        <!-- Mobile Menu Start -->
-        <ul class="wpb-mobile-menu">
-          <li>
-            <a href="index.html">HOME</a>
-          </li>
-          <li>
-            <a class="not-link" href="#">EXHIBITORS</a>
-            <ul class="dropdown">
-              <li><a href="exhibitors-profile.html">PROFILE OF EXHIBITORS</a>
-              </li>
-              <li><a href="exhibitors-terms.html">GENERAL TERMS</a>
-              </li>
-              </li>
-              <li><a href="ground-plan.html">GROUND PLAN</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="visitors.html">VISITORS</a>
-          </li>
-          <li>
-            <a class="active" href="program_en.html">PROGRAM</a>
-          </li>
-          <li>
-            <a href="location.html">CONTACT</a>
-          </li>
-          <li>
-            <a href="ts-expo-en-2017.html" style="color: #29aae2; font-weight: 600;">TS-EXPO 2017</a>
-          </li>
-        </ul>
-        <!-- Mobile Menu End -->
-
-      </div>
-      <!-- End Header Logo & Naviagtion -->
-
-    </header>
+    <?php 
+      include 'header.php';
+    ?>
     <!-- End Header Section -->
 
 
     <!-- Start Page Banner -->
-    <div class="page-banner" style="padding:40px 0; background: url(images/bg1.jpg) center;">
+    <div class="page-banner" style="padding:40px 0; background: url(../en/images/bg1.jpg) center;">
       <div class="slika-effect1"></div>
       <div class="container">
         <div class="row">
@@ -308,10 +143,10 @@
     <div id="content">
       <div class="container">
         <div class="page-content">
-          
-          <!-- <div class="row">
-            <div class="col-md-12">The page is under construction, information will be available shortly</div>
-          </div> -->
+        	
+        	<!-- <div class="row">
+        		<div class="col-md-12">STRANICA JE U PRIPREMI</div>
+        	</div> -->
 
 
           <div class="row"> <!-- Da se ne bi video program u ovaj red ubaciti style="display: none;" -->
@@ -334,15 +169,15 @@
                    <!--  <li class="tab-btn active" data-id="#monday"><span class="day">Četvrtak</span><span class="date">13.10.2016.</span><span class="curve"></span></li>
                     <li class="tab-btn" data-id="#tuesday"><span class="day">Petak</span><span class="date">14.10.2016.</span><span class="curve"></span></li>
                     <li class="tab-btn" data-id="#wednesday"><span class="day">Subota</span><span class="date">15.10.2016.</span><span class="curve"></span></li> -->
-                    <li class="tab-btn active" data-id="#tuesday"><span class="day">Tuesday</span><span class="date">16 Oct 2018</span><span class="curve"></span></li>
-                    <li class="tab-btn" data-id="#wednesday"><span class="day">Wednesday</span><span class="date">17 Oct 2018</span><span class="curve"></span></li>
-                    <li class="tab-btn" data-id="#thursday"><span class="day">Thursday</span><span class="date">18 Oct 2018</span><span class="curve"></span></li>
+                    <li class="tab-btn active" data-id="#tuesday"><span class="day">Utorak</span><span class="date">16.10.2018.</span><span class="curve"></span></li>
+                    <li class="tab-btn" data-id="#wednesday"><span class="day">Sreda</span><span class="date">17.10.2018.</span><span class="curve"></span></li>
+                    <li class="tab-btn" data-id="#thursday"><span class="day">Četvrtak</span><span class="date">18.10.2018.</span><span class="curve"></span></li>
                 </ul>
                 
                 <!--Tabs Box-->
                 <div class="tabs-box">
                     
-                    <!--Tab / Current / Cetvrtak-->
+                    <!--Tab / Current / Monday-->
                     <div class="tab" id="monday">
                         
                         <!-- <div class="hour-box active-box">
@@ -367,12 +202,55 @@
                             </div>
                         </div> -->
                         
-                       <!--  <div class="hour-box">
+                        <!-- <div class="hour-box">
                             <div class="hour">12:00 AM</div>
                             <div class="img-circle circle"><span></span></div>
                             <div class="toggle-btn"><h3>The latest design standarts for web</h3></div>
                             <div class="content-box">
-                                <div class="content"><p>Our most popular service is our Virtual Receptionist. We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss that important call that could be the start of an exciting new business opportunity, so let us answer it for you. </p></div>
+                                <div class="content">
+                                    <p>Simpozijum <strong>Prevencija saobraćajnih nezgoda na putevima 2016</strong> je trinaesti simpozijum u nizu posvećen pitanjima bezbednosti saobraćaja na putevima, a koji je prvi put organizovan 1990. godine.</p>
+                                    <h5>Organizatori:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Fakultet tehničkih nauka Univerziteta u Novom Sadu;</li>
+                                      <li><i class="fa fa-check-circle"></i>Saobraćajni fakultet Univerziteta u Beogradu;</li>
+                                      <li><i class="fa fa-check-circle"></i>Fakultet za građevinu, saobraćajno inženjerstvo i arhitekturu Univerziteta u Mariboru, Slovenija;</li>
+                                      <li><i class="fa fa-check-circle"></i>Kriminalističko-policijska akademija, Zemun;</li>
+                                      <li><i class="fa fa-check-circle"></i>Visoka tehnička škola strukovnih studija, Niš;</li>
+                                      <li><i class="fa fa-check-circle"></i>Udruženje za bezbednost saobraćaja Srbije.</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Ciljevi:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Osposobljavanje i jačanje aktivnosti zaštitnog sistema bezbednosti saobraćaja;</li>
+                                      <li><i class="fa fa-check-circle"></i>Analiza i vrednovanje aktuelnih problema, trendova, etiologije i fenomenologije saobraćajnih nezgoda, iskustva, znanja i istraživanja u oblasti bezbednosti saobraćaja;</li>
+                                      <li><i class="fa fa-check-circle"></i>Razvoj odgovarajuće strategije bezbednosti saobraćaja i sistema prevencije saobraćajnih nezgoda u odnosu na data znanja i iskustva.</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Tematske oblasti:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Upravljanje bezbednošću saobraćaja;</li>
+                                      <li><i class="fa fa-check-circle"></i>Bezbedniji učesnici u saobraćaju;</li>
+                                      <li><i class="fa fa-check-circle"></i>Bezbedniji putevi i kretanje;</li>
+                                      <li><i class="fa fa-check-circle"></i>Bezbednija vozila;</li>
+                                      <li><i class="fa fa-check-circle"></i>Aktivnosti nakon nezgode.</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Važni datumi:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>01. avgust 2016. – Registracija i prijava abstrakta</li>
+                                      <li><i class="fa fa-check-circle"></i>10. avgust, 2016. – Informacija za autore o prihvatanju rada</li>
+                                      <li><i class="fa fa-check-circle"></i>15. septembar, 2016.– Predaja radova</li>
+                                      <li><i class="fa fa-check-circle"></i>25. septembar, 2016.– Pregled radova</li>
+                                      <li><i class="fa fa-check-circle"></i>01. oktobar, 2016. – Finalni program simpozijuma</li>
+                                      <li><i class="fa fa-check-circle"></i>13. oktobar, 2016. – Svečano otvaranje simpozijuma</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Kontakti:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i><a href="http://www.yubs.rs/" target="_blank">Udruženje za bezbednost saobraćaja Srbije</a><p style="margin: 0px 0px 0px 30px;">Boško Matović, MSc<br>Tel: (+381) 21 485 2494<br>boskom@uns.ac.rs</p></li>
+                                      <li><i class="fa fa-check-circle"></i><a href="http://balkanija.rs/">Balkanija d.o.o. Novi Sad</a><p style="margin: 0px 0px 0px 30px;">Robert Antičević<br>Tel: (+381) 21 301 45 90<br>info@balkanija.rs</p></li>
+                                    </ul>
+                                </div>
                                 <br>
                                 <div class="row professional clearfix">
                                     <div class="col-md-6 col-sm-6 col-xs-12 info">
@@ -459,7 +337,7 @@
                     
                     <!--Tab / Tuesday-->
                     <div class="tab current" id="tuesday">
-                      <!-- <div><p>SOON!</p></div> -->
+                      <!-- <div><p>USKORO!</p></div> -->
                         
                         <div class="hour-box">
                             <div class="hour">10:00-11:00 <p><span style="position: relative; top: -6px; left: 3px"></span></p></div>
@@ -476,8 +354,8 @@
                                     <ul class="icons-list program-list">
                                       <li><i class="fa fa-check-circle"></i>Nenad Grbić, Pokrajinski sekretar za građevinarstvo, energetiku i saobraćaj</li>
                                       <li><i class="fa fa-check-circle"></i>Aleksandar Andrić, zamenik Pokrajinskog sekretara za urbanizam i zaštitu životne sredine</li>
-                                      <li><i class="fa fa-check-circle"></i>Branko Smiljanić, savetnik, Koridori Srbije</li>
                                       <li><i class="fa fa-check-circle"></i>Aleksandar Kravić, Član gradskog veća Grada Novog Sada zadužen za saobraćaj</li>
+                                      <li><i class="fa fa-check-circle"></i>Branko Smiljanić, savetnik, Koridori Srbije</li>
                                       <li><i class="fa fa-check-circle"></i>dr Dragan Jovanović, Fakultet tehničkih nauka, direktor Departmana za saobraćaj</li>
                                     </ul>
                                 </div>
@@ -654,10 +532,10 @@
                 
                     <!--Tab / Wednesday-->
                     <div class="tab" id="wednesday">
-                      <!-- <div><p>SOON!</p></div> -->
+                      <!-- <div><p>USKORO!</p></div> -->
                         
                         
-                         <div class="hour-box">
+                        <div class="hour-box">
                             <div class="hour">8:00-16:15 <p><span style="position: relative; top: -6px; left: 3px">Velika sala</span></p></div>
                             <div class="img-circle circle"><span></span></div>
                             <div class="toggle-btn"><h6>XIV međunarodni Simpozijum</h6><h3>“PREVENCIJA SAOBRAĆAJNIH NEZGODA NA PUTEVIMA 2018”</h3><br><h5>Kongresni centar Master, Novi Sad Srbija, 17 i 18. oktobar 2018. godine.</h5></div>
@@ -853,6 +731,31 @@
                             <div class="img-circle circle"><span></span></div>
                             <div class="1toggle-btn"><h6>Nacionalna vozačka akademija (NAVAK) d.o.o. Beograd</h6><h3>SIMULACIJA ČEONOG SUDARA I BOČNOG PREVRTANJA AUTOMOBILA <br>ZNAČAJ SIGURNOSNOG POJASA, VAZDUŠNIH JASTUKA I UPOTREBE DEČIJIH SEDIŠTA</h3></div>
                         </div>
+
+
+
+                        
+                        <!-- <div class="hour-box">
+                            <div class="hour">12:00 AM</div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h3>The latest design standarts for web</h3></div>
+                            <div class="content-box">
+                                <div class="content"><p>Our most popular service is our Virtual Receptionist. We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss that important call that could be the start of an exciting new business opportunity, so let us answer it for you. </p></div>
+                                <br>
+                                <div class="row professional clearfix">
+                                    <div class="col-md-6 col-sm-6 col-xs-12 info">
+                                        <figure class="img-circle image"><img class="img-circle" src="images/resource/testi-thumb-1.jpg" alt=""></figure>
+                                        <h5 class="prof-title">Laurence Francis</h5>
+                                        <h6 class="prof-occup">Speaker</h6>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12 text-right">
+                                        
+                                        <a href="#" class="theme-btn btn-style-one hvr-bounce-to-right dull">10:00 - 12:00</a>
+                                        <a href="single-event.html" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>DETAILS ABOUT THE EVENT</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
                         
                         <!-- <div class="hour-box">
                             <div class="hour">02:00 PM</div>
@@ -876,7 +779,7 @@
                             </div>
                         </div> -->
                         
-                       <!--  <div class="hour-box">
+                        <!-- <div class="hour-box">
                             <div class="hour">04:00 PM</div>
                             <div class="img-circle circle"><span></span></div>
                             <div class="toggle-btn"><h3>Build awesome templates with Adobe Photoshop</h3></div>
@@ -924,7 +827,7 @@
                 
                     <!--Tab / Thursday-->
                     <div class="tab" id="thursday">
-                      <!-- <div><p>SOON!</p></div> -->
+                      <!-- <div><p>USKORO!</p></div> -->
                         
                         <div class="hour-box">
                             <div class="hour">9:00-16:00 <p><span style="position: relative; top: -6px; left: 3px">SALA 6</span></p></div>
@@ -1061,6 +964,311 @@
                             <div class="img-circle circle"><span></span></div>
                             <div class="1toggle-btn"><h6>Nacionalna vozačka akademija (NAVAK) d.o.o. Beograd</h6><h3>SIMULACIJA ČEONOG SUDARA I BOČNOG PREVRTANJA AUTOMOBILA <br>ZNAČAJ SIGURNOSNOG POJASA, VAZDUŠNIH JASTUKA I UPOTREBE DEČIJIH SEDIŠTA</h3></div>
                         </div>
+
+                        
+
+                        <!-- <div class="hour-box">
+                            <div class="hour">10:00-13:00 <p><span style="position: relative; top: -6px; left: 3px">SALA 4</span></p></div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>Panel diskusjija:</h6><h3>SAVETOVANJE INSPEKTORA IZ OBLASTI SAOBRAĆAJA NA TERITORIJI APV</h3><br><h5>Kongresni centar Master Novosadskog sajma, Novi Sad, četvrtak, 26. oktobar 2017. godine.</h5></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <h5>Organizator:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Pokrajinski sekretarijat za energetiku, gradjevinarstvo i saobraćaj</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Cilj:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Povećanje informisanosti stručne javnosti o inspekcijskom nadzoru iz oblasti saobraćaja.</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Tematske oblasti:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Problemi u primeni novog Zakona o prevozu putnika i Zakona o prevozu tereta <span style="font-style:italic;">- Nosilac teme je Pokrajinski inspektor za drumski saobraćaj Branislav Pažur;</span></li>
+                                      <li><i class="fa fa-check-circle"></i>Prikaz predloga nacrta zakona o putevima <span style="font-style:italic;">- Nosilac teme je Pokrajinska inspektorka za državne puteve Zorica Pavićević;</span></li>
+                                      <li><i class="fa fa-check-circle"></i>Putni prelazi u okviru novog zakona o železnici <span style="font-style:italic;">- Nosilac teme je Pokrajinski inspektor za železnički saobraćaj Jovo Milanović.</span></li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Kontakt:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><span style="font-weight:700;">Graovac Milorad</span>, načelnik odseka za inspekcijski nadzor u saobraćaju i građevini<br>Bulevar Mihajla Pupina 16, 21000 Novi Sad<br>Broj tel: 063/263-658, milorad.graovac@vojvodina.gov.rs</li>
+                                    </ul>
+                                </div>
+                                <br>
+                                <div class="row professional clearfix">
+                                    <div class="col-md-6 col-sm-6 col-xs-12 info">
+                                        <figure class="img-circle image"><img class="img-circle" src="images/resource/testi-thumb-1.jpg" alt=""></figure>
+                                        <h5 class="prof-title">Ime i prezime</h5>
+                                        <h6 class="prof-occup">Uloga</h6>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12 text-right">
+                                        
+                                        <a href="#" class="theme-btn btn-style-one hvr-bounce-to-right dull">Vreme 1 - Vreme 2</a>
+                                        <a href="single-event.html" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Detalji događaja</a>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 col-xs-12 text-right">
+                                        <a href="../en/docs/prog/Call_for_papers.pdf" target="_blank" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Preuzmite flajer</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <!-- <div class="hour-box">
+                            <div class="hour">11:00-13:00 <p><span style="position: relative; top: -6px; left: 3px">SALA 5</span></p></div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h3>LOGISTIKA DANAS – MOGUĆNOSTI I IZAZOVI</h3><br><h5>Kongresni centar Master Novosadskog sajma, Novi Sad, četvrtak, 26. oktobar 2017. godine.</h5></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <h5>Organizator:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Srpska Logistička Asocijacija</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Cilj:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Analiza trenutnog stanja logistike u regionu, problemi i pravci razvoja.</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Tematske oblasti:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Intralogistika</li>
+                                      <li><i class="fa fa-check-circle"></i>Distribucija</li>
+                                      <li><i class="fa fa-check-circle"></i>Drumski, vodni i železnički transport</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Predavači:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li>Predavači: prof.dr Milosav Georgijević (SLA), Bojan Ćuk (STAMH), Vladimir Jović (Univerexport), Vladan Mišić (Luka Konstanca) i Msc Marijana Devčić (FTN)</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Kontakt:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><span style="font-weight:700;">Branka Patić Macan</span>, marketing menadžer SLA<br>Augusta Cesarca 18, Novi Sad<br>Broj tel: 381 60 043 45 01<br>brankapaticmacan@logistikaitransport.com</li>
+                                    </ul>
+                                </div>
+                                <br>
+                                <div class="row professional clearfix">
+                                    <div class="col-md-6 col-sm-6 col-xs-12 info">
+                                        <figure class="img-circle image"><img class="img-circle" src="images/resource/testi-thumb-1.jpg" alt=""></figure>
+                                        <h5 class="prof-title">Ime i prezime</h5>
+                                        <h6 class="prof-occup">Uloga</h6>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12 text-right">
+                                        
+                                        <a href="#" class="theme-btn btn-style-one hvr-bounce-to-right dull">Vreme 1 - Vreme 2</a>
+                                        <a href="single-event.html" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Detalji događaja</a>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 col-xs-12 text-right">
+                                        <a href="../en/docs/prog/Call_for_papers.pdf" target="_blank" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Preuzmite flajer</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <!-- <div class="hour-box">
+                            <div class="hour">13:00-13:30</div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div> <h3>SVEČANO OTVARANJE SAJMA TRAFFIC SOLUTIONS EXPO 2017, koktel</h3><h5>Kongresni centar Master Novosadskog sajma, Novi Sad, četvrtak, 26. oktobar 2017. godine.</h5></div>                            
+                        </div> -->
+
+                         <!-- <div class="hour-box">
+                            <div class="hour">13:30-14:00 <p><span style="position: relative; top: -6px; left: 3px">SALA 4</span></p></div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h3>STANJE BICIKLISTIČKE (TURISTIČKE) SIGNALIZACIJE NA TRASI EUROVELO 6 KORIDORA U A.P. VOJVODINI</h3><br><h5>Kongresni centar Master Novosadskog sajma, Novi Sad, četvrtak, 26. oktobar 2017. godine.</h5></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <h5>Organizator:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Pokrajinski sekretarijat za privredu i turizam</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Cilj:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li>Cilj prezentacije je da predstavi rezultate elaborata o stanju bicikitičke signalizacije na trasi najvažnijeg međunarodnog biciklističkog koridora u A.P. Vojvodini Eurovela 6. U završnom delu izlaganja biće obrađeni izazovi koji se postavljaju pred sve učesnike u postupku implementacije biciklističke signalizacije na terenu od investitora, preko projektatskih kuća do firmi koje proizvode signalizaciju i postavljaju je na terenu.</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Predavač:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li>Mast. inž Nenad Berić</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Kontakt:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><span style="font-weight:700;">Mast. inž Nenad Berić</span><br>telefon: +381-060-01951-00<br>nenad.beric@vojvodina.gov.rs</li>
+                                    </ul>
+                                </div>
+                                <br>
+                                <div class="row professional clearfix">
+                                    <div class="col-md-6 col-sm-6 col-xs-12 info">
+                                        <figure class="img-circle image"><img class="img-circle" src="images/resource/testi-thumb-1.jpg" alt=""></figure>
+                                        <h5 class="prof-title">Ime i prezime</h5>
+                                        <h6 class="prof-occup">Uloga</h6>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12 text-right">
+                                        
+                                        <a href="#" class="theme-btn btn-style-one hvr-bounce-to-right dull">Vreme 1 - Vreme 2</a>
+                                        <a href="single-event.html" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Detalji događaja</a>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 col-xs-12 text-right">
+                                        <a href="../en/docs/prog/Call_for_papers.pdf" target="_blank" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Preuzmite flajer</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <!-- <div class="hour-box">
+                            <div class="hour">13:30-14:30 <p><span style="position: relative; top: -6px; left: 3px">SALA 5</span></p></div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>Prezentacija:</h6><h3>ŠTA ZNAČE TRACE, COCTA, APACHE, AUTOPACE, NEOSIS, INTEND I ENGAGE?<br>PREDSTAVLJANJE HORIZON 2020 PROJEKATA KOJE SAOBRAĆAJNI FAKULTET UNIVERZITETA U BEOGRADU VODI ILI UČESTVUJE NA NJIMA."</h3><br><h5>Kongresni centar Master Novosadskog sajma, Novi Sad, Srbija, četvrtak, 26. oktobar 2017. godine.</h5></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <h5>Organizator:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Saobraćajni fakultet Univerziteta u Beogradu</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Cilj:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Informisanje i upoznavanje stručne i ostale javnosti kroz prezentaciju aktivnosti u okviru projekata HORIZON 2020 koje vodi ili u kojima učestvuje Saobraćajni fakultet Univerziteta u Beogradu.</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Tematske oblasti:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Međunarodna akademska i naučna saradnja</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Prezentatori:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Docent dr Vladislav Maraš - v.maras@sf.bg.ac.rs</li>
+                                      <li><i class="fa fa-check-circle"></i>Istraživač-saradnik Emir Ganić e.ganic@sf.bg.ac.rs</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Kontakt:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><span style="font-weight:700;">Draško Tankosić</span>, - dtankosic@ukt.rs , br.tel.: 060 3777 343</li>
+                                    </ul>
+                                </div>
+                                <br>
+                                <div class="row professional clearfix">
+                                    <div class="col-md-6 col-sm-6 col-xs-12 info">
+                                        <figure class="img-circle image"><img class="img-circle" src="images/resource/testi-thumb-1.jpg" alt=""></figure>
+                                        <h5 class="prof-title">Ime i prezime</h5>
+                                        <h6 class="prof-occup">Uloga</h6>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12 text-right">
+                                        
+                                        <a href="#" class="theme-btn btn-style-one hvr-bounce-to-right dull">Vreme 1 - Vreme 2</a>
+                                        <a href="single-event.html" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Detalji događaja</a>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 col-xs-12 text-right">
+                                        <a href="../en/docs/prog/Call_for_papers.pdf" target="_blank" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Preuzmite flajer</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <!-- <div class="hour-box">
+                            <div class="hour">14:30-16:30 <p><span style="position: relative; top: -6px; left: 3px">SALA 4</span></p></div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>Prezentacija:</h6><h3>INTELIGENTNI TRANSPORTNI SISTEMI U FUNKCIJI RAZVOJA I POVEĆANJA BEZBEDNOSTI SAOBRAĆAJA</h3><br><h5>Kongresni centar Master Novosadskog sajma, Novi Sad, Srbija, četvrtak, 26. oktobar 2017. godine.</h5></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <h5>Organizator:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Zodax d.o.o. Beograd</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Cilj:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Informisanje i upoznavanje stručne i ostale javnosti kroz prezentaciju aktivnosti u okviru projekata HORIZON 2020 koje vodi ili u kojima učestvuje Saobraćajni fakultet Univerziteta u Beogradu.</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Tematske oblasti:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Međunarodna akademska i naučna saradnja</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Prezentatori:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Docent dr Vladislav Maraš - v.maras@sf.bg.ac.rs</li>
+                                      <li><i class="fa fa-check-circle"></i>Istraživač-saradnik Emir Ganić e.ganic@sf.bg.ac.rs</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Kontakt:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><span style="font-weight:700;">Draško Tankosić</span>, - dtankosic@ukt.rs , br.tel.: 060 3777 343</li>
+                                    </ul>
+                                </div>
+                                <br>
+                                <div class="row professional clearfix">
+                                    <div class="col-md-6 col-sm-6 col-xs-12 info">
+                                        <figure class="img-circle image"><img class="img-circle" src="images/resource/testi-thumb-1.jpg" alt=""></figure>
+                                        <h5 class="prof-title">Ime i prezime</h5>
+                                        <h6 class="prof-occup">Uloga</h6>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12 text-right">
+                                        
+                                        <a href="#" class="theme-btn btn-style-one hvr-bounce-to-right dull">Vreme 1 - Vreme 2</a>
+                                        <a href="single-event.html" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Detalji događaja</a>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 col-xs-12 text-right">
+                                        <a href="../en/docs/prog/Call_for_papers.pdf" target="_blank" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Preuzmite flajer</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <!-- <div class="hour-box">
+                            <div class="hour">10:00-17:00 <p><span style="position: relative; top: -6px; left: 3px">Na svakih 2 sata <br>Dvorište sajma</span></p></div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>Prezentacija:</h6><h3>SIMULACIJA ČEONOG SUDARA I BOČNOG PREVRTANJA AUTOMOBILA. <br> ZNAČAJ SIGURNOSNOG POJASA, VAZDUŠNIH JASTUKA I UPOTREBE DEČIJIH SEDIŠTA</h3><br><h5>Kongresni centar Master Novosadskog sajma, Novi Sad, Srbija, četvrtak, 26. oktobar 2017. godine.</h5></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <h5>Organizator:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Nacionalna vozačka akademija (NAVAK) d.o.o. Beograd</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Cilj:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Informisanje i upoznavanje stručne i ostale javnosti kroz prezentaciju aktivnosti u okviru projekata HORIZON 2020 koje vodi ili u kojima učestvuje Saobraćajni fakultet Univerziteta u Beogradu.</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Tematske oblasti:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Međunarodna akademska i naučna saradnja</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Prezentatori:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Docent dr Vladislav Maraš - v.maras@sf.bg.ac.rs</li>
+                                      <li><i class="fa fa-check-circle"></i>Istraživač-saradnik Emir Ganić e.ganic@sf.bg.ac.rs</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Kontakt:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><span style="font-weight:700;">Draško Tankosić</span>, - dtankosic@ukt.rs , br.tel.: 060 3777 343</li>
+                                    </ul>
+                                </div>
+                                <br>
+                                <div class="row professional clearfix">
+                                    <div class="col-md-6 col-sm-6 col-xs-12 info">
+                                        <figure class="img-circle image"><img class="img-circle" src="images/resource/testi-thumb-1.jpg" alt=""></figure>
+                                        <h5 class="prof-title">Ime i prezime</h5>
+                                        <h6 class="prof-occup">Uloga</h6>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12 text-right">
+                                        
+                                        <a href="#" class="theme-btn btn-style-one hvr-bounce-to-right dull">Vreme 1 - Vreme 2</a>
+                                        <a href="single-event.html" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Detalji događaja</a>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 col-xs-12 text-right">
+                                        <a href="../en/docs/prog/Call_for_papers.pdf" target="_blank" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Preuzmite flajer</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
                         
                         <!-- <div class="hour-box">
                             <div class="hour">Vreme 2</div>
@@ -1155,37 +1363,46 @@
                     <!--Tab / Friday-->
                     <div class="tab" id="friday">
                         
-                         <div class="hour-box">
-                            <!-- <div class="hour">> > > ></div> -->
-                            <!-- <div class="img-circle circle"><span></span></div> -->
-                            <!-- <div class="toggle-btn"><h3>PREVENCIJA SAOBRAĆAJNIH NEZGODA NA PUTEVIMA 2016</h3><br><h5>Kongresni centar Master Novosadskog sajma, Novi Sad Srbija, 13 i 14. oktobar 2016. godine.</h5></div> -->
+                         <!-- <div class="hour-box">
+                            <div class="hour">09:30-17:00 <p><span style="position: relative; top: -6px; left: 3px">SALA 5 i 6</span></p></div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>VI Međunarodno savetovanje „U susret humanom gradu“:</h6><h3>INTELIGENTNA MOBILNOST - SINERGIJA IZMEĐU ODRŽIVE MOBILNOSTI I NOVIH TEHNOLOGIJA</h3><br><h5>Kongresni centar Master Novosadskog sajma, Novi Sad, petak, 27. oktobar 2017. godine.</h5></div>
                             <div class="content-box">
+                                <div class="row professional clearfix">
+                                    <div class="col-md-12 col-sm-12 col-xs-12 text-right">
+                                        <a href="../en/docs/prog/Preliminary_conference_programme_TAHC-2017.pdf" target="_blank" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Pogledajte detaljan program</a>
+                                    </div>    
+                                </div>
                                 <div class="content">
-                                    <!-- <p>Simpozijum <strong>Prevencija saobraćajnih nezgoda na putevima 2016</strong> je trinaesti simpozijum u nizu posvećen pitanjima bezbednosti saobraćaja na putevima, a koji je prvi put organizovan 1990. godine.</p>
                                     <h5>Organizatori:</h5>
                                     <ul class="icons-list program-list">
-                                      <li><i class="fa fa-check-circle"></i>Fakultet tehničkih nauka Univerziteta u Novom Sadu;</li>
-                                      <li><i class="fa fa-check-circle"></i>Saobraćajni fakultet Univerziteta u Beogradu;</li>
-                                      <li><i class="fa fa-check-circle"></i>Fakultet za građevinu, saobraćajno inženjerstvo i arhitekturu Univerziteta u Mariboru, Slovenija;</li>
-                                      <li><i class="fa fa-check-circle"></i>Kriminalističko-policijska akademija, Zemun;</li>
-                                      <li><i class="fa fa-check-circle"></i>Visoka tehnička škola strukovnih studija, Niš;</li>
-                                      <li><i class="fa fa-check-circle"></i>Udruženje za bezbednost saobraćaja Srbije.</li>
+                                      <li><i class="fa fa-check-circle"></i>Univerzitet u Novom Sadu, Fakultet tehničkih nauka, Departman za saobraćaj;</li>
+                                      <li><i class="fa fa-check-circle"></i>Pokrajinski sekretarijat za energetiku, građevinarstvo i saobraćaj;</li>
+                                      <li><i class="fa fa-check-circle"></i>Udruženje „Humani grad“ Novi Sad.</li>
                                     </ul>
                                     <div class="hr1" style="margin-bottom:10px;"></div>
                                     <h5>Ciljevi:</h5>
                                     <ul class="icons-list program-list">
-                                      <li><i class="fa fa-check-circle"></i>Osposobljavanje i jačanje aktivnosti zaštitnog sistema bezbednosti saobraćaja;</li>
-                                      <li><i class="fa fa-check-circle"></i>Analiza i vrednovanje aktuelnih problema, trendova, etiologije i fenomenologije saobraćajnih nezgoda, iskustva, znanja i istraživanja u oblasti bezbednosti saobraćaja;</li>
-                                      <li><i class="fa fa-check-circle"></i>Razvoj odgovarajuće strategije bezbednosti saobraćaja i sistema prevencije saobraćajnih nezgoda u odnosu na data znanja i iskustva.</li>
+                                      <li>
+                                        Ovogodišnjim savetovanjem imamo za cilj da podstaknemo nova suočavanja sa savremenim izazovima i pokrenemo zajedničke inicijative koje će voditi ka novoj dimenziji planiranja i bržoj afirmaciji “pametne mobilnosti” u gradovima jugoistočne Evrope.</br>
+                                        Primena savremenih tehnoloških inovacija je u protekloj deceniji ekspandirala upravo u oblasti saobraćaja menjajući zahteve za putovanjima i mere upravljanja sistemom saobraćaja. Cilj nam je da na ovogodišnjem savetovanju zajedno pokušamo da nađemo odgovore na pitanja: Na koji način prilagoditi lokalnim uslovima, opravdati, ubrzati i institucionalizovati uvođenje pojedinih tehnoloških inovacija, regulativnih i ekonomskih mera? Koje su njihove prednosti i kakvi su im nedostaci? Kako sistem obrazovanja prilagoditi intezivnim promenama? Kako podstaći razvoj i konkurentnost ekonomije u ovoj oblasti u gradovima jugoistočne Evrope?</br>
+                                        Ovog puta želimo da pokažemo da “pametan grad” podrazumeva “inteligentnu mobilnost” sa svim aspektima održivosti. Ona je preuslov ekonomskog prosperiteta, socijalne ravnopravnosti i kvaliteta životne sredine.
+                                      </li>
                                     </ul>
                                     <div class="hr1" style="margin-bottom:10px;"></div>
                                     <h5>Tematske oblasti:</h5>
                                     <ul class="icons-list program-list">
-                                      <li><i class="fa fa-check-circle"></i>Upravljanje bezbednošću saobraćaja;</li>
-                                      <li><i class="fa fa-check-circle"></i>Bezbedniji učesnici u saobraćaju;</li>
-                                      <li><i class="fa fa-check-circle"></i>Bezbedniji putevi i kretanje;</li>
-                                      <li><i class="fa fa-check-circle"></i>Bezbednija vozila;</li>
-                                      <li><i class="fa fa-check-circle"></i>Aktivnosti nakon nezgode.</li>
+                                      <li><i class="fa fa-check-circle"></i>Institucionalizacija i upravljanje pametnom i održivom mobilnošću</li>
+                                      <li><i class="fa fa-check-circle"></i>Novi oblici prevoza</li>
+                                      <li><i class="fa fa-check-circle"></i>Prednosti i nedostaci vozila bez vozača</li>
+                                      <li><i class="fa fa-check-circle"></i>Budućnost prikupljanja podataka i modelovanja saobraćajne potražnje</li>
+                                      <li><i class="fa fa-check-circle"></i>Efekti uvođenja ITS-a</li>
+                                      <li><i class="fa fa-check-circle"></i>Organizacija javnog prevoza</li>
+                                      <li><i class="fa fa-check-circle"></i>Prevoz robe u urbanim sredinama – nove perspektive</li>
+                                      <li><i class="fa fa-check-circle"></i>Korišćenje zemljišta u funkciji održive urbane mobilnosti</li>
+                                      <li><i class="fa fa-check-circle"></i>Novi oblici ekonomskih mera</li>
+                                      <li><i class="fa fa-check-circle"></i>Uloga pešačenja i vožnje bicikla u smanjenju zagušenja</li>
+                                      <li><i class="fa fa-check-circle"></i>Procena uticaja saobraćaja na životnu sredinu.</li>
                                     </ul>
                                     <div class="hr1" style="margin-bottom:10px;"></div>
                                     <h5>Važni datumi:</h5>
@@ -1200,62 +1417,65 @@
                                     <div class="hr1" style="margin-bottom:10px;"></div>
                                     <h5>Kontakti:</h5>
                                     <ul class="icons-list program-list">
-                                      <li><i class="fa fa-check-circle"></i><a href="http://www.yubs.rs/" target="_blank">Udruženje za bezbednost saobraćaja Srbije</a><p style="margin: 0px 0px 0px 30px;">Boško Matović, MSc<br>Tel: (+381) 21 485 2494<br>boskom@uns.ac.rs</p></li>
-                                      <li><i class="fa fa-check-circle"></i><a href="http://balkanija.rs/">Balkanija d.o.o. Novi Sad</a><p style="margin: 0px 0px 0px 30px;">Robert Antičević<br>Tel: (+381) 21 301 45 90<br>info@balkanija.rs</p></li>
-                                    </ul> -->
+                                      <li>Prof. dr Vuk Bogdanović, predsednik Programskog odbora, vuk@uns.ac.rs</br></li>
+                                      <li>Prof. dr Valentina Basarić, predsednik Organizacionog odbora, plast@uns.ac.rs</br></li>
+                                      <li>Doc. dr Jelena Mitrović Simić, tehnički sekretar Savetovanja, mjelena@uns.ac.rs</br></li>
+                                      <li><a href="http://www.humanecityns.org" target="_blank">www.humanecityns.org</a></li>
+                                      
+                                    </ul>
                                 </div>
                                 <br>
                                 <div class="row professional clearfix">
-                                    <!-- <div class="col-md-6 col-sm-6 col-xs-12 info">
+                                    <div class="col-md-6 col-sm-6 col-xs-12 info">
                                         <figure class="img-circle image"><img class="img-circle" src="images/resource/testi-thumb-1.jpg" alt=""></figure>
                                         <h5 class="prof-title">Ime i prezime</h5>
                                         <h6 class="prof-occup">Uloga</h6>
-                                    </div> -->
-                                    <!-- <div class="col-md-6 col-sm-6 col-xs-12 text-right">
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12 text-right">
                                         
                                         <a href="#" class="theme-btn btn-style-one hvr-bounce-to-right dull">Vreme 1 - Vreme 2</a>
                                         <a href="single-event.html" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Detalji događaja</a>
-                                    </div> -->
+                                    </div>
                                     <div class="col-md-12 col-sm-12 col-xs-12 text-right">
                                         <a href="../en/docs/prog/Call_for_papers.pdf" target="_blank" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Preuzmite flajer</a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         
-                        <div class="hour-box">
-                            <!-- <div class="hour">> > > ></div> -->
-                            <!-- <div class="img-circle circle"><span></span></div> -->
-                            <!-- <div class="toggle-btn"><h3>Konferencija: SMART CITY I CITY LOGISTIKA</h3><br><h5>Kongresni centar Master Novosadskog sajma, Novi Sad Srbija,  14. oktobar 2016. godine.</h5></div> -->
+                        <!-- <div class="hour-box">
+                            <div class="hour">10:00-11:00 <p><span style="position: relative; top: -6px; left: 3px">SALA 4</span></p></div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>Panel diskusija:</h6><h3>NOVI SAD – SMART CITY</h3><br><h5>Kongresni centar Master Novosadskog sajma, Novi Sad, petak, 27. oktobar 2017. godine.</h5></div>
                             <div class="content-box">
                                 <div class="content">
-                                    <!-- <h5>Organizator:</h5>
+                                    <h5>Organizator:</h5>
                                     <ul class="icons-list program-list">
-                                      <li><i class="fa fa-check-circle"></i>Privredna komora Beograda,</li>
-                                      <li><i class="fa fa-check-circle"></i>Udruženje saobraćaja, telekomunikacija i informatičke delatnosti</li>
+                                      <li><i class="fa fa-check-circle"></i>Gradska Uprava za saobraćaj i puteve</li>
+                                      <li><i class="fa fa-check-circle"></i>Savet za koordinaciju poslova bezbednosti saobraćaja na putevima na teritoriji Grada Novog Sada</li>
                                     </ul>
                                     <div class="hr1" style="margin-bottom:10px;"></div>
-                                    <h5>Ciljevi:</h5>
+                                    <h5>Cilj:</h5>
                                     <ul class="icons-list program-list">
-                                      <li><i class="fa fa-check-circle"></i>Promocija inovativnih rešenja i inicijativa u cilju poboljšanja kvaliteta života u gradovima</li>
+                                      <li>Povećanje informisanosti stručne i šire javnosti o različitim pravcima razvoja saobraćaja u Novom Sadu.</li>
                                       <li><i class="fa fa-check-circle"></i>Povećanje svesti o važnosti novih tehnoloških, organizacionih i logističkih rešenja u cilju održivog razvoja urbanih sredina</li>
                                     </ul>
                                     <div class="hr1" style="margin-bottom:10px;"></div>
                                     <h5>Tematske oblasti:</h5>
                                     <ul class="icons-list program-list">
-                                      <li><i class="fa fa-check-circle"></i>Smart city</li>
-                                      <li><i class="fa fa-check-circle"></i>City logistika</li>
+                                      <li><i class="fa fa-check-circle"></i>Planiranje održive mobilnosti u saobraćaju;</li>
+                                      <li><i class="fa fa-check-circle"></i>Unapređenje bezbednosti saobraćaja;</li>
+                                      <li><i class="fa fa-check-circle"></i>Edukacija najmlađih učesnika u saobraćaju;</li>
+                                      <li><i class="fa fa-check-circle"></i>Bisiklistički saobraćaj.</li>
                                     </ul>
                                     <div class="hr1" style="margin-bottom:10px;"></div>
                                     <h5>Kontakt:</h5>
                                     <ul class="icons-list program-list">
-                                      <li><i class="fa fa-check-circle"></i><a href="http://www.kombeg.org.rs/" target="_blank">Privredna komora Beograda</a></li>
-                                      <li><i class="fa fa-check-circle"></i><a href="http://www.kombeg.org.rs/Komora/udruzenja/InformatickaDelatnost.aspx?veza=1800">Udruženje saobraćaja, telekomunikacija i informatičke delatnosti</a></li>
-                                      <p>Tel: (+381) 21 301 45 90<br>Više informacija na: <a href="http://www.kombeg.org.rs/">www.kombeg.org.rs</a></p>
-                                    </ul> -->
+                                      <li><span style="font-weight:700;">Basarić Đorđe</span>, v.d. načelnika uprave za saobraćaj i puteve Grada Novog Sada;<br>Žarka Zrenjanina 2, 21000 Novi Sad<br>Tel: 021/529-721, 4882-835, 064/87-26-444<br><a href="http://www.sbsns.rs" target="_blank">www.sbsns.rs</a></li>
+                                    </ul>
                                 </div>
                                 <br>
-                                <!-- <div class="row professional clearfix">
+                                <div class="row professional clearfix">
                                     <div class="col-md-6 col-sm-6 col-xs-12 info">
                                         <figure class="img-circle image"><img class="img-circle" src="images/resource/testi-thumb-1.jpg" alt=""></figure>
                                         <h5 class="prof-title">Ime i prezime</h5>
@@ -1266,9 +1486,159 @@
                                         <a href="#" class="theme-btn btn-style-one hvr-bounce-to-right dull"->Vreme 2 - Vreme 3</a>
                                         <a href="single-event.html" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Detalji događaja</a>
                                     </div>
-                                </div> -->
+                                    
+                                </div>
                             </div>
-                        </div>
+                        </div> -->
+
+
+                        <!-- <div class="hour-box">
+                            <div class="hour">11:00-13:00 <p><span style="position: relative; top: -6px; left: 3px">SALA 4</span></p></div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>Konferencija:</h6><h3>Sajam saobraćaja - TRAFFIC SOLUTIONS EXPO <br>Saobraćajno-obrazovni čas "Pažljivkova pravila u saobraćaju"</h3><br><h5>Kongresni centar Master Novosadskog sajma, Novi Sad, petak 27. oktobar 2017. godine.</h5></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <h5>Organizator:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Agencija za bezbednost saobraćaja – organizuje saobraćajno-obrazovni čas "Pažljivkova pravila u saobraćaju"</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Cilj:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li>Upoznavanje dece sa osnovnim pravilima u saobraćaju, radi sticanja neophodnih znanja za bezbedno učestvovanje u saobraćaju. Saobraćajno-obrazovni čas je zamišljen tako, da deca kroz pesmu i igru sa Pažljivkom uče kako treba da se bezbedno ponašaju u soaobraćaju, a to je najprihvatljiviji način učenja za decu uzrasta do 9 godina.</li>
+                                      <li><i class="fa fa-check-circle"></i>Povećanje svesti o važnosti novih tehnoloških, organizacionih i logističkih rešenja u cilju održivog razvoja urbanih sredina</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Tematske oblasti:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Saobraćajno obrazovanje i vaspitanje</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Kontakt:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><span style="font-weight:700;">Duško Pešić 064/8428009</span>, 064/8428009</li>
+                                    </ul>
+                                </div>
+                                <br>
+                                <div class="row professional clearfix">
+                                    <div class="col-md-6 col-sm-6 col-xs-12 info">
+                                        <figure class="img-circle image"><img class="img-circle" src="images/resource/testi-thumb-1.jpg" alt=""></figure>
+                                        <h5 class="prof-title">Ime i prezime</h5>
+                                        <h6 class="prof-occup">Uloga</h6>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12 text-right">
+                                        
+                                        <a href="#" class="theme-btn btn-style-one hvr-bounce-to-right dull"->Vreme 2 - Vreme 3</a>
+                                        <a href="single-event.html" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Detalji događaja</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <!-- <div class="hour-box">
+                            <div class="hour">13:00-14:00 <p><span style="position: relative; top: -6px; left: 3px">SALA 4</span></p></div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>Konferencija:</h6><h3>BEZBEDNE I PAMETNE SAOBRAĆAJNICE – SMART & SAFE TRAFFIC</h3><br><h5>Kongresni centar Master Novosadskog sajma, Novi Sad, petak 27. oktobar 2017. godine.</h5></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <h5>Organizator:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>SELMA doo, IPWAY doo i Razvojno – Edukativni Centar</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Cilj:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li>Cilj projekta “Bezbedne i pametne saobraćajnice” je da napravi prekretnicu na polju praćenja i  analize bezbednosti u saobraćaju. To praktično znači da se uvodi automatizacija procesa preduzimanja mera i akcija u cilju povećanja bezbednosti u saobraćaju a na osnovu ponašanja učesnika u saobraćaju. Ovim projektom se definiše identifikovanje mogućih uzroka saobraćajnih nezgoda i preventivno delovanje na uzročnike koji predstavljaju najveću i najčešću opasnost.</li>
+                                      <li><i class="fa fa-check-circle"></i>Povećanje svesti o važnosti novih tehnoloških, organizacionih i logističkih rešenja u cilju održivog razvoja urbanih sredina</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Tematske oblasti:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li>Sistemi bezbednosti i zaštite u Projektu “Bezbedne i pametne saobraćajnice” imaju zadatak da umanje i/ili onemoguće prekršajna i krivična dela a ujedno olakšaju primenu mera protiv onih koji se ne pridržavaju zakonom propisanih normi, merama zaštite. Osnovne karakteristike sistema bazirani su na detekciji i indetifikaciji vozila a okvirno mogu se podeliti u:</li>
+                                      <li><i class="fa fa-check-circle"></i>Prepoznavanje tablica sa prednje ili zadnje strane vozila;</li>
+                                      <li><i class="fa fa-check-circle"></i>Broj tablice;-Nacionalnost; (Atributi);</li>
+                                      <li><i class="fa fa-check-circle"></i>Brzinu vozila;</li>
+                                      <li><i class="fa fa-check-circle"></i>Vožnju u suprotnom smjeru;</li>
+                                      <li><i class="fa fa-check-circle"></i>Detekciju prevoza opasnih materija;</li>
+                                      <li><i class="fa fa-check-circle"></i>Klasifikacija opasnih materija;</li>
+                                      <li><i class="fa fa-check-circle"></i>Klasa vozila (kamion/putničko vozilo).</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Kontakt:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><span style="font-weight:700;">Silvija Paloš –SELMA</span>, silvija@selma.rs</li>
+                                      <li><span style="font-weight:700;">Vladimir Kos –IPWAY</span>, vladimir.kos@ipway.rs</li>
+                                      <li><span style="font-weight:700;">Zoran Kanazir- REC</span>, zoran.kanazir@rec.edu.org</li>
+                                    </ul>
+                                </div>
+                                <br>
+                                <div class="row professional clearfix">
+                                    <div class="col-md-6 col-sm-6 col-xs-12 info">
+                                        <figure class="img-circle image"><img class="img-circle" src="images/resource/testi-thumb-1.jpg" alt=""></figure>
+                                        <h5 class="prof-title">Ime i prezime</h5>
+                                        <h6 class="prof-occup">Uloga</h6>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12 text-right">
+                                        
+                                        <a href="#" class="theme-btn btn-style-one hvr-bounce-to-right dull"->Vreme 2 - Vreme 3</a>
+                                        <a href="single-event.html" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Detalji događaja</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <!-- <div class="hour-box">
+                            <div class="hour">10:00-17:00 <p><span style="position: relative; top: -6px; left: 3px">Na svakih 2 sata <br>Dvorište sajma</span></p></div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>Prezentacija:</h6><h3>SIMULACIJA ČEONOG SUDARA I BOČNOG PREVRTANJA AUTOMOBILA. <br> ZNAČAJ SIGURNOSNOG POJASA, VAZDUŠNIH JASTUKA I UPOTREBE DEČIJIH SEDIŠTA</h3><br><h5>Kongresni centar Master Novosadskog sajma, Novi Sad, Srbija, petak, 27. oktobar 2017. godine.</h5></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <h5>Organizator:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Nacionalna vozačka akademija (NAVAK) d.o.o. Beograd</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Cilj:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Informisanje i upoznavanje stručne i ostale javnosti kroz prezentaciju aktivnosti u okviru projekata HORIZON 2020 koje vodi ili u kojima učestvuje Saobraćajni fakultet Univerziteta u Beogradu.</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Tematske oblasti:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Međunarodna akademska i naučna saradnja</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Prezentatori:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Docent dr Vladislav Maraš - v.maras@sf.bg.ac.rs</li>
+                                      <li><i class="fa fa-check-circle"></i>Istraživač-saradnik Emir Ganić e.ganic@sf.bg.ac.rs</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Kontakt:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><span style="font-weight:700;">Draško Tankosić</span>, - dtankosic@ukt.rs , br.tel.: 060 3777 343</li>
+                                    </ul>
+                                </div>
+                                <br>
+                                <div class="row professional clearfix">
+                                    <div class="col-md-6 col-sm-6 col-xs-12 info">
+                                        <figure class="img-circle image"><img class="img-circle" src="images/resource/testi-thumb-1.jpg" alt=""></figure>
+                                        <h5 class="prof-title">Ime i prezime</h5>
+                                        <h6 class="prof-occup">Uloga</h6>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12 text-right">
+                                        
+                                        <a href="#" class="theme-btn btn-style-one hvr-bounce-to-right dull">Vreme 1 - Vreme 2</a>
+                                        <a href="single-event.html" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Detalji događaja</a>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 col-xs-12 text-right">
+                                        <a href="../en/docs/prog/Call_for_papers.pdf" target="_blank" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Preuzmite flajer</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
                         
                         <!-- <div class="hour-box">
                             <div class="hour">Vreme 3</div>
@@ -1341,39 +1711,35 @@
                     <!--Tab / Saturday-->
                     <div class="tab" id="saturday">
                         
-                         <div class="hour-box">
-                           <!--  <div class="hour">> > > ></div> -->
-                           <!--  <div class="img-circle circle"><span></span></div> -->
-                            <!-- <div class="toggle-btn"><h4>Radionice biciklističkog zagovaranja</h4><h3>SAOBRAĆAJNE POLITIKE ZA BICIKLISTE: PRAVILA I PRAKSE</h3><br><h5>Kongresni centar „Master“ Novosadski sajam, Novi Sad, Srbija, 15. oktobar 2016. godine</h5></div> -->
+                         <!-- <div class="hour-box">
+                            <div class="hour">11:00-12:00 <p><span style="position: relative; top: -6px; left: 3px">SALA 4</span></p></div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>Konferencija:</h6><h3>Bezbednost saobraćaja na putevima - Predložene izmene u Zakonu o bezbednosti saobraćaja na putevima</h3><br><h5>Kongresni centar Master Novosadskog sajma, Novi Sad, subota 28. oktobar 2017. godine.</h5></div>
                             <div class="content-box">
                                 <div class="content">
-                                  <!-- <p>Radionice biciklističkog zagovaranja <strong>„POLITIKE ZA BICIKLISTE: PRAVILA I PRAKSE“</strong> je serija prezentacija i diskusija o saobraćajnim politikama u pogledu biciklista. Dve prepoznatljive biciklističke zagovaračke organizacije će predstaviti primere dobre i loše prakse i česte zablude u politikama za bicikliste.</p>
-                                  <h5>Organizatori:</h5>
-                                  <ul class="icons-list program-list">
-                                    <li><i class="fa fa-check-circle"></i>Novosadska biciklistička inicijativa, Novi Sad</li>
-                                    <li><i class="fa fa-check-circle"></i>Ulice za bicikliste, Beograd</li>
-                                  </ul>
-                                  <div class="hr1" style="margin-bottom:10px;"></div>
-                                  <h5>Ciljevi:</h5>
-                                  <ul class="icons-list program-list">
-                                    <li><i class="fa fa-check-circle"></i>Informisanje javnosti o dobrim i lošim primerima biciklističkih politika i praksi i motivisanje aktera da usvoje najbolje primere u svojoj praksi.</li>
-                                  </ul>
-                                  <div class="hr1" style="margin-bottom:10px;"></div>
-                                  <h5>Teme i oblasti:</h5>
-                                  <ul class="icons-list program-list">
-                                    <li><i class="fa fa-check-circle"></i>Praksa: priručnici i mediji</li>
-                                    <li><i class="fa fa-check-circle"></i>Efekti saobraćajne politike na bicikliste</li>
-                                    <li><i class="fa fa-check-circle"></i>Biciklističke politike u Srbiji</li>
-                                  </ul>
-                                  <div class="hr1" style="margin-bottom:10px;"></div>
-                                  <h5>Kontakt:</h5>
-                                  <ul class="icons-list program-list">
-                                    <li><i class="fa fa-check-circle"></i><a href="http://www.nsbi.org.rs/" target="_blank">Novosadska biciklistička inicijativa, Novi Sad</a><p style="margin: 0px 0px 0px 30px;">Marko Trifković<br>Tel: (+381) 64 426 68 39<br>office@nsbi.org.rs</p></li>
-                                    <li><i class="fa fa-check-circle"></i><a href="http://www.uzb.rs/">Ulice za bicikliste, Beograd</a><p style="margin: 0px 0px 0px 30px;">Zoran Bukvić<br>Tel: (+381) 61 671 03 64<br>info@balkanija.rs</p></li>
-                                  </ul> -->
+                                    <h5>Organizator:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Nacionalna Vozačka Akademija - NAVAK; Beograd.<br><span style="padding-left: 17px;">Izlagači: mr Blagoje Milinić, dip.inž. i Pavle Kovačević, master pravnik.</span></li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Cilj:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li>Informisanje posetilaca o predloženim značajnijim izmenama u Zakonu o bezbednosti saobraćaja na putevima.</li>
+                                      <li><i class="fa fa-check-circle"></i>Povećanje svesti o važnosti novih tehnoloških, organizacionih i logističkih rešenja u cilju održivog razvoja urbanih sredina</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Tematske oblasti:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Bezbednost saobraćaja.</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Kontakt:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><span style="font-weight:700;">Blagoje Milinić</span>, bmilinic@yahoo.com, 064/113-25-34</li>
+                                    </ul>
                                 </div>
                                 <br>
-                                <!-- <div class="row professional clearfix">
+                                <div class="row professional clearfix">
                                     <div class="col-md-6 col-sm-6 col-xs-12 info">
                                         <figure class="img-circle image"><img class="img-circle" src="images/resource/testi-thumb-1.jpg" alt=""></figure>
                                         <h5 class="prof-title">Ime i prezime</h5>
@@ -1384,9 +1750,67 @@
                                         <a href="#" class="theme-btn btn-style-one hvr-bounce-to-right dull"->Vreme 2 - Vreme 3</a>
                                         <a href="single-event.html" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Detalji događaja</a>
                                     </div>
-                                </div> -->
+                                    
+                                </div>
                             </div>
-                        </div>
+                        </div> -->
+
+                        <!-- <div class="hour-box">
+                            <div class="hour">12:00-13:00<p><span style="position: relative; top: -6px; left: 3px">VIP salon</span></p></div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div> <h3>Radni sastanak izlagača, učesnika i organizatora, brainstorming, koktel</h3><h5>Kongresni centar Master Novosadskog sajma, Novi Sad, subota, 28. oktobar 2017. godine.</h5></div>                            
+                        </div> -->
+
+                        <!-- <div class="hour-box">
+                            <div class="hour">10:00-17:00 <p><span style="position: relative; top: -6px; left: 3px">Na svakih 2 sata <br>Dvorište sajma</span></p></div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>Prezentacija:</h6><h3>SIMULACIJA ČEONOG SUDARA I BOČNOG PREVRTANJA AUTOMOBILA. <br> ZNAČAJ SIGURNOSNOG POJASA, VAZDUŠNIH JASTUKA I UPOTREBE DEČIJIH SEDIŠTA</h3><br><h5>Kongresni centar Master Novosadskog sajma, Novi Sad, Srbija, subota, 28. oktobar 2017. godine.</h5></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <h5>Organizator:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Nacionalna vozačka akademija (NAVAK) d.o.o. Beograd</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Cilj:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Informisanje i upoznavanje stručne i ostale javnosti kroz prezentaciju aktivnosti u okviru projekata HORIZON 2020 koje vodi ili u kojima učestvuje Saobraćajni fakultet Univerziteta u Beogradu.</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Tematske oblasti:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Međunarodna akademska i naučna saradnja</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Prezentatori:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Docent dr Vladislav Maraš - v.maras@sf.bg.ac.rs</li>
+                                      <li><i class="fa fa-check-circle"></i>Istraživač-saradnik Emir Ganić e.ganic@sf.bg.ac.rs</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                    <h5>Kontakt:</h5>
+                                    <ul class="icons-list program-list">
+                                      <li><span style="font-weight:700;">Draško Tankosić</span>, - dtankosic@ukt.rs , br.tel.: 060 3777 343</li>
+                                    </ul>
+                                </div>
+                                <br>
+                                <div class="row professional clearfix">
+                                    <div class="col-md-6 col-sm-6 col-xs-12 info">
+                                        <figure class="img-circle image"><img class="img-circle" src="images/resource/testi-thumb-1.jpg" alt=""></figure>
+                                        <h5 class="prof-title">Ime i prezime</h5>
+                                        <h6 class="prof-occup">Uloga</h6>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12 text-right">
+                                        
+                                        <a href="#" class="theme-btn btn-style-one hvr-bounce-to-right dull">Vreme 1 - Vreme 2</a>
+                                        <a href="single-event.html" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Detalji događaja</a>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 col-xs-12 text-right">
+                                        <a href="../en/docs/prog/Call_for_papers.pdf" target="_blank" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Preuzmite flajer</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
                         
                         <!-- <div class="hour-box">
                             <div class="hour">Vreme 2</div>
@@ -1485,9 +1909,8 @@
             <!--Schedule Box End-->
             <br>
             <div class="text-right">
-                <a href="docs/prog/2018/Program Traffic solutions expo 2018.pdf" target="_blank" class="download-btn theme-btn"><span class="fa fa-file-pdf-o"></span>.PDF PROGRAM</a>
+                <a href="../en/docs/prog/2018/Program Traffic solutions expo 2018.pdf" target="_blank" class="download-btn theme-btn"><span class="fa fa-file-pdf-o"></span>PROGRAM</a>
             </div>
-        
         </div>
     </section>
 
@@ -1514,82 +1937,9 @@
 
 
     <!-- Start Footer -->
-    <footer>
-      <div class="container">
-        <div class="row footer-widgets">
-
-          <!-- Start Subscribe & Social Links Widget -->
-          <div class="col-md-6">
-            <div class="footer-widget mail-subscribe-widget">
-              <h4>Get in touch<span class="head-line"></span></h4>
-              <p>Join our mailing list and be informed!</p>
-              <form class="subscribe" action="http://adomne.us9.list-manage.com/subscribe/post" method="POST">
-                <input type="hidden" name="u" value="463fc7d46e4f471e9f5d8312a">
-                <input type="hidden" name="id" value="511d158f34">
-                <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" placeholder="mail@example.com">
-                <input type="submit" class="btn-system" name="submit" value="Send">
-              </form>
-            </div>
-            <div class="footer-widget social-widget">
-              <h4>Follow Us<span class="head-line"></span></h4>
-              <ul class="social-icons">
-                <li>
-                  <a class="facebook" target="_blank" href="https://www.facebook.com/Traffic-Solutions-Expo-2017-327245394274282/"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a class="twitter" href="https://twitter.com/ts_expo_ns" target="_blank"><i class="fa fa-twitter"></i></a>
-                </li>
-                <!-- <li>
-                  <a class="google" href="#"><i class="fa fa-google-plus"></i></a>
-                </li>
-                <li>
-                  <a class="skype" href="#"><i class="fa fa-skype"></i></a>
-                </li> -->
-              </ul>
-            </div>
-          </div>
-          <!-- .col-md-3 -->
-          <!-- End Subscribe & Social Links Widget -->
-
-         
-          <!-- Start Contact Widget -->
-          <div class="col-md-6">
-            <div class="footer-widget contact-widget">
-              <h4><img src="images/tslogo_w.png" class="img-responsive" alt="Footer Logo" /></h4>
-              <p>Contact us:</p>
-              <ul>
-                <li><span>Phone Number:</span> +381 (0) 64 12 49 757; +381 (0) 63 417 555</li>
-                <li><span>Email:</span> office@ts-expo.rs</li>
-                <li><span>Website:</span> www.ts-expo.rs</li>
-              </ul>
-            </div>
-          </div>
-          <!-- .col-md-3 -->
-          <!-- End Contact Widget -->
-
-
-        </div>
-        <!-- .row -->
-
-        <!-- Start Copyright -->
-        <div class="copyright-section">
-          <div class="row">
-            <div class="col-md-6">
-              <p>&copy; 2018 ts-expo.rs - All Rights Reserved</p>
-            </div>
-            <div class="col-md-6">
-              <ul class="footer-nav">
-                <li><a href="#">Sitemap</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="location.html">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- End Copyright -->
-
-      </div>
-    </footer>
+    <?php 
+      include 'footer.php';
+    ?>
     <!-- End Footer -->
 
   </div>
@@ -1699,7 +2049,7 @@
     </ul>
   </div>-->
 
-  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="../en/js/script.js"></script>
 
   <!-- Modal -->
   <div class="modal fade" id="myModalHorizontal" tabindex="-1" role="dialog" 

@@ -1,12 +1,17 @@
+<?php 
+$page = 'izlaganje';
+$englink = 'tlocrt';
+?>
+
 <!doctype html>
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><html lang="en" class="no-js"> <![endif]-->
-<html lang="en">
+<html lang="sr">
 
 <head>
 
   <!-- Basic -->
-  <title>GENERAL TERMS | TRAFFIC SOLUTIONS EXPO</title>
+  <title>TLOCRT | TRAFFIC SOLUTIONS EXPO</title>
 
   <!-- Define Charset -->
   <meta charset="utf-8">
@@ -18,56 +23,60 @@
   <meta name="description" content="Traffic Solutions Expo, Novi Sad Fair, City of Novi Sad, Serbia">
   <meta name="author" content="ASajfar">
 
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+  <link href="/android-192x192.png" rel="icon" sizes="192x192" />
+
   <!-- Bootstrap CSS  -->
-  <link rel="stylesheet" href="asset/css/bootstrap.min.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="../en/asset/css/bootstrap.min.css" type="text/css" media="screen">
 
   <!-- Font Awesome CSS -->
-  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="../en/css/font-awesome.min.css" type="text/css" media="screen">
 
   <!-- Slicknav - responsive Mobile menu -->
-  <link rel="stylesheet" type="text/css" href="css/slicknav.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="../en/css/slicknav.css" media="screen">
 
   <!-- Site CSS Styles  -->
-  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="../en/css/style.css" media="screen">
 
   <!-- Responsive CSS Styles  -->
-  <link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="../en/css/responsive.css" media="screen">
 
   <!-- Css3 Transitions Styles  -->
-  <link rel="stylesheet" type="text/css" href="css/animate.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="../en/css/animate.css" media="screen">
+
 
   <!-- Color CSS Styles  -->
-  <link rel="stylesheet" type="text/css" href="css/colors/red.css" title="red" media="screen" />
-  <link rel="stylesheet" type="text/css" href="css/colors/jade.css" title="jade" media="screen" />
-  <link rel="stylesheet" type="text/css" href="css/colors/green.css" title="green" media="screen" />
-  <link rel="stylesheet" type="text/css" href="css/colors/blue.css" title="blue" media="screen" />
-  <link rel="stylesheet" type="text/css" href="css/colors/beige.css" title="beige" media="screen" />
-  <link rel="stylesheet" type="text/css" href="css/colors/cyan.css" title="cyan" media="screen" />
-  <link rel="stylesheet" type="text/css" href="css/colors/orange.css" title="orange" media="screen" />
-  <link rel="stylesheet" type="text/css" href="css/colors/peach.css" title="peach" media="screen" />
-  <link rel="stylesheet" type="text/css" href="css/colors/pink.css" title="pink" media="screen" />
-  <link rel="stylesheet" type="text/css" href="css/colors/purple.css" title="purple" media="screen" />
-  <link rel="stylesheet" type="text/css" href="css/colors/sky-blue.css" title="sky-blue" media="screen" />
-  <link rel="stylesheet" type="text/css" href="css/colors/yellow.css" title="yellow" media="screen" />
+  <link rel="stylesheet" type="text/css" href="../en/css/colors/red.css" title="red" media="screen" />
+  <link rel="stylesheet" type="text/css" href="../en/css/colors/jade.css" title="jade" media="screen" />
+  <link rel="stylesheet" type="text/css" href="../en/css/colors/green.css" title="green" media="screen" />
+  <link rel="stylesheet" type="text/css" href="../en/css/colors/blue.css" title="blue" media="screen" />
+  <link rel="stylesheet" type="text/css" href="../en/css/colors/beige.css" title="beige" media="screen" />
+  <link rel="stylesheet" type="text/css" href="../en/css/colors/cyan.css" title="cyan" media="screen" />
+  <link rel="stylesheet" type="text/css" href="../en/css/colors/orange.css" title="orange" media="screen" />
+  <link rel="stylesheet" type="text/css" href="../en/css/colors/peach.css" title="peach" media="screen" />
+  <link rel="stylesheet" type="text/css" href="../en/css/colors/pink.css" title="pink" media="screen" />
+  <link rel="stylesheet" type="text/css" href="../en/css/colors/purple.css" title="purple" media="screen" />
+  <link rel="stylesheet" type="text/css" href="../en/css/colors/sky-blue.css" title="sky-blue" media="screen" />
+  <link rel="stylesheet" type="text/css" href="../en/css/colors/yellow.css" title="yellow" media="screen" />
 
   <!-- Site JS  -->
-  <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-  <script type="text/javascript" src="js/jquery.migrate.js"></script>
-  <script type="text/javascript" src="js/modernizrr.js"></script>
-  <script type="text/javascript" src="asset/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/jquery.fitvids.js"></script>
-  <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-  <script type="text/javascript" src="js/nivo-lightbox.min.js"></script>
-  <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-  <script type="text/javascript" src="js/jquery.appear.js"></script>
-  <script type="text/javascript" src="js/count-to.js"></script>
-  <script type="text/javascript" src="js/jquery.textillate.js"></script>
-  <script type="text/javascript" src="js/jquery.lettering.js"></script>
-  <script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
-  <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
-  <script type="text/javascript" src="js/jquery.parallax.js"></script>
-  <script type="text/javascript" src="js/mediaelement-and-player.js"></script>
-  <script type="text/javascript" src="js/jquery.slicknav.js"></script>
+  <script type="text/javascript" src="../en/js/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="../en/js/jquery.migrate.js"></script>
+  <script type="text/javascript" src="../en/js/modernizrr.js"></script>
+  <script type="text/javascript" src="../en/asset/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../en/js/jquery.fitvids.js"></script>
+  <script type="text/javascript" src="../en/js/owl.carousel.min.js"></script>
+  <script type="text/javascript" src="../en/js/nivo-lightbox.min.js"></script>
+  <script type="text/javascript" src="../en/js/jquery.isotope.min.js"></script>
+  <script type="text/javascript" src="../en/js/jquery.appear.js"></script>
+  <script type="text/javascript" src="../en/js/count-to.js"></script>
+  <script type="text/javascript" src="../en/js/jquery.textillate.js"></script>
+  <script type="text/javascript" src="../en/js/jquery.lettering.js"></script>
+  <script type="text/javascript" src="../en/js/jquery.easypiechart.min.js"></script>
+  <script type="text/javascript" src="../en/js/jquery.nicescroll.min.js"></script>
+  <script type="text/javascript" src="../en/js/jquery.parallax.js"></script>
+  <script type="text/javascript" src="../en/js/mediaelement-and-player.js"></script>
+  <script type="text/javascript" src="../en/js/jquery.slicknav.js"></script>
   
 
   <!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -94,194 +103,24 @@
 
 
     <!-- Start Header Section -->
-    <div class="hidden-header"></div>
-    <header class="clearfix">
-
-      <!-- Start Top Bar -->
-      <div class="top-bar">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-7">
-              <!-- Start Contact Info -->
-              <ul class="contact-details">
-                <li><a href="#"><i class="fa fa-map-marker"></i> Novi Sad Fair, City of Novi Sad, Serbia</a>
-                </li>
-                <li><a href="#"><i class="fa fa-envelope-o"></i> office@ts-expo.rs</a>
-                </li>
-                <li><a href="#"><i class="fa fa-phone"></i> +381 (0) 64 12 49 757</a>
-                </li>
-              </ul>
-              <!-- End Contact Info -->
-            </div>
-            <!-- .col-md-6 -->
-            <div class="col-md-5">
-              <!-- Start Social Links -->
-              <ul class="social-list">
-                <!--<li>
-                  <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a class="google itl-tooltip" data-placement="bottom" title="Google Plus" href="#"><i class="fa fa-google-plus"></i></a>
-                </li>
-                
-                <li>
-                  <a class="dribbble itl-tooltip" data-placement="bottom" title="Dribble" href="#"><i class="fa fa-dribbble"></i></a>
-                </li>
-                <li>
-                  <a class="linkdin itl-tooltip" data-placement="bottom" title="Linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-                </li>
-                <li>
-                  <a class="flickr itl-tooltip" data-placement="bottom" title="Flickr" href="#"><i class="fa fa-flickr"></i></a>
-                </li>
-                <li>
-                  <a class="tumblr itl-tooltip" data-placement="bottom" title="Tumblr" href="#"><i class="fa fa-tumblr"></i></a>
-                </li>
-                <li>
-                  <a class="instgram itl-tooltip" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
-                </li>
-                <li>
-                  <a class="vimeo itl-tooltip" data-placement="bottom" title="vimeo" href="#"><i class="fa fa-vimeo-square"></i></a>
-                </li>
-                <li>
-                  <a class="skype itl-tooltip" data-placement="bottom" title="Skype" href="callto://+***********"><i class="fa fa-skype"></i></a>
-                </li>-->
-                <li>
-                  <a class="language-choose active" href="#"><i>EN</i></a>
-                </li>
-                <li>
-                  <a class="language-choose" href="../sr/uslovi-izlaganja.html"><i>SR</i></a>
-                </li>
-              </ul>
-              <!-- End Social Links -->
-            </div>
-            <!-- .col-md-6 -->
-          </div>
-          <!-- .row -->
-        </div>
-        <!-- .container -->
-      </div>
-      <!-- .top-bar -->
-      <!-- End Top Bar -->
-
-
-      <!-- Start  Logo & Naviagtion  -->
-      <div class="navbar navbar-default navbar-top">
-        <div class="container">
-          <div class="navbar-header">
-            <!-- Stat Toggle Nav Link For Mobiles -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <i class="fa fa-bars"></i>
-            </button>
-            <!-- End Toggle Nav Link For Mobiles -->
-            <a class="navbar-brand" href="index.html">
-              <img alt="" src="images/tslogo.png" class="logo-full">
-              <img alt="" src="images/tslogo2.png" class="logo-mobile">              
-            </a>
-          </div>
-          <div class="navbar-collapse collapse">
-            <!-- Stat Search -->
-            <div class="search-side">
-              <a class="show-search"><i class="fa fa-search"></i></a>
-              <div class="search-form">
-                <form autocomplete="off" role="search" method="get" class="searchform" action="#">
-                  <input type="text" value="" name="s" id="s" placeholder="Search the site...">
-                </form>
-              </div>
-            </div>
-            <!--End Search -->
-            <!-- Start Navigation List -->
-            <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a href="index.html">Home</a>
-              </li>
-              <li class="drop">
-                <a class="active not-link" href="#">EXHIBITORS</a>
-                <ul class="dropdown">
-                  <li><a href="exhibitors-profile.html">PROFILE OF EXHIBITORS</a>
-                  </li>
-                  <li><a href="exhibitors-terms.html">GENERAL TERMS</a>
-                  </li>
-                  <li><a href="ground-plan.html">GROUND PLAN</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="visitors.html">VISITORS</a>
-              </li>
-              <li>
-                <a href="program_en.html">PROGRAM</a>
-              </li>
-              <li>
-                <a href="location.html">Contact</a>
-                <ul class="dropdown">
-                  <li><a href="accommodation.html">ACCOMMODATION</a></li>
-                </ul>
-              </li>
-              <li>
-            <a href="ts-expo-en-2017.html" style="color: #29aae2; font-weight: 600;">TS-EXPO 2017</a>
-            <ul class="dropdown">
-              <li><a href="virtual-tour.html">VRTUAL TOUR 360°</a></li>
-            </ul>
-          </li> 
-            </ul>
-            <!-- End Navigation List -->
-          </div>
-        </div>
-
-        <!-- Mobile Menu Start -->
-        <ul class="wpb-mobile-menu">
-          <li>
-            <a href="index.html">HOME</a>
-          </li>
-          <li>
-            <a class="active" href="#">EXHIBITORS</a>
-            <ul class="dropdown">
-              <li><a href="exhibitors-profile.html">PROFILE OF EXHIBITORS</a>
-              </li>
-              <li><a href="exhibitors-terms.html">GENERAL TERMS</a>
-              </li>
-              </li>
-              <li><a href="ground-plan.html">GROUND PLAN</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="visitors.html">VISITORS</a>
-          </li>
-          <li>
-            <a href="program_en.html">PROGRAM</a>
-          </li>
-          <li>
-            <a href="location.html">CONTACT</a>
-          </li>
-          <li>
-            <a href="ts-expo-en-2017.html" style="color: #29aae2; font-weight: 600;">TS-EXPO 2017</a>
-          </li>
-        </ul>
-        <!-- Mobile Menu End -->
-
-      </div>
-      <!-- End Header Logo & Naviagtion -->
-
-    </header>
+    <?php 
+      include 'header.php';
+    ?>
     <!-- End Header Section -->
 
 
     <!-- Start Page Banner -->
-    <div class="page-banner" style="padding:40px 0; background: url(images/bg1.jpg) center;">
+    <div class="page-banner" style="padding:40px 0; background: url(../en/images/bg1.jpg) center;">
       <div class="slika-effect1"></div>
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h2>GENERAL TERMS AND CONDITIONS FOR EXHIBITING</h2>
+            <h2>TLOCRT</h2>
             <!-- <p>Traffic Solutions Expo</p> -->
           </div>
           <div class="col-md-6">
             <ul class="breadcrumbs">
-              <!-- <li><a href="index.html">Home</a></li>
+              <!-- <li><a href="index.html">Naslovna</a></li>
               <li>TS-EXPO</li> -->
             </ul>
           </div>
@@ -296,187 +135,23 @@
       <div class="container">
         <div class="page-content">
 
-
           <div class="row">
-
-            <div class="col-md-6">
-
-
+            <div class="col-md-12">
               <!-- Classic Heading -->
-              <h4 class="classic-title"><span>PRICE LIST</span></h4>
-
-              <!-- Price Table Begin -->
-              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-left-padding">
-                <div class="db-wrapper">
-                    <div class="db-pricing-seven">
-                        <ul>
-                            <li class="price">These prices are valid <span style="color:#000; font-weight:500;">until Jun 1st, 2018</span></li>
-
-                            <li class="price_header">TYPE<br>OF SERVICE:</li>
-                            <li class="price_header kolona">PRICES IN RSD*</li>
-                            <li><span style="font-weight: bold">Space without stand construction</span> (Price is expressed per m²):</li>
-                            <li class="kolona">2.400,00</li>
-                            <li><span style="font-weight: bold">Stand - Type I-52m²</span> (space, stand design, table with chairs, electricity, graphics)</li>
-                            <li class="kolona" style="line-height: 3em;">408.000,00</li>
-                            <li><span style="font-weight: bold">Stand - Type II-24m²</span> (space, stand design, table with chairs, electricity, graphics)</li>
-                            <li class="kolona" style="line-height: 3em;">192.000,00</li>
-                            <li><span style="font-weight: bold">Stand - Type III-12m²</span> (space, stand design, table with chairs, electricity, graphics)</li>
-                            <li class="kolona" style="line-height: 3em;">108.000,00</li>
-                            <li><span style="font-weight: bold">Counter</span> (two chairs and electricity consumption)</li>
-                            <li class="kolona">27.000,00</li>
-                            <li><span style="font-weight: bold">Conference room</span> (Price is expressed per 100 seats /1h):</li>
-                            <li class="kolona">14.400,00</li>
-                        </ul>
-                        <!-- <div class="pricing-footer">
-                          * Za izlagače iz R.Srbije cena se iskazuje u dinarskoj protivvrednosti po kursu NBS na dan uplate.
-                        </div> -->
-                    </div>
-                    <div class="table_reg"><a href="docs/reg/Registration_form_2018.pdf" target="_blank"><button class="register-button-izv"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> REGISTRATION FORM</button></a></div>
-                    <div class="pricing-footer">
-                      * All prices are in RSD without VAT. VAT falls at the expense of the exhibitors. For exhibitors from abroad, the price will be expressed in EUR, at the NBS exchange rate on the day of payment.
-                    </div>
-                </div>
-              </div>  
-            
-            <!-- Price Table End -->
-
-            <!-- Price Table Begin -->
-              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-left-padding">
-                <div class="db-wrapper">
-                    <div class="db-pricing-seven">
-                        <ul>
-                            <li class="price">These prices are valid <span style="color:#000; font-weight:500;">until September 1st, 2018</span></li>
-
-                            <li class="price_header">TYPE<br>OF SERVICE:</li>
-                            <li class="price_header kolona">PRICES IN RSD*</li>
-                            <li><span style="font-weight: bold">Space without stand construction</span> (Price is expressed per m²):</li>
-                            <li class="kolona">3.000,00</li>
-                            <li><span style="font-weight: bold">Stand - Type I-52m²</span> (space, stand design, table with chairs, electricity, graphics)</li>
-                            <li class="kolona" style="line-height: 3em;">450.000,00</li>
-                            <li><span style="font-weight: bold">Stand - Type II-24m²</span> (space, stand design, table with chairs, electricity, graphics)</li>
-                            <li class="kolona" style="line-height: 3em;">213.600,00</li>
-                            <li><span style="font-weight: bold">Stand - Type III-12m²</span> (space, stand design, table with chairs, electricity, graphics)</li>
-                            <li class="kolona" style="line-height: 3em;">120.000,00</li>
-                            <li><span style="font-weight: bold">Counter</span> (two chairs and electricity consumption)</li>
-                            <li class="kolona">30.000,00</li>
-                            <li><span style="font-weight: bold">Conference room</span> (Price is expressed per 100 seats /1h):</li>
-                            <li class="kolona">16.800,00</li>
-                        </ul>
-                        <!-- <div class="pricing-footer">
-                          * Za izlagače iz R.Srbije cena se iskazuje u dinarskoj protivvrednosti po kursu NBS na dan uplate.
-                        </div> -->
-                    </div>
-                    <div class="table_reg"><a href="docs/reg/Registration_form_2018.pdf" target="_blank"><button class="register-button-izv"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> REGISTRATION FORM</button></a></div>
-                    <div class="pricing-footer">
-                      * All prices are in RSD without VAT. VAT falls at the expense of the exhibitors. For exhibitors from abroad, the price will be expressed in EUR, at the NBS exchange rate on the day of payment.
-                    </div>
-                </div>
-              </div>  
-          
-              <!-- Price Table End -->
-
-              <!-- Price Table Begin -->
-              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-left-padding">
-                <div class="db-wrapper">
-                    <div class="db-pricing-seven">
-                        <ul>
-                            <li class="price">These prices are valid <span style="color:#000; font-weight:500;">until October 10th, 2018</span></li>
-
-                            <li class="price_header">TYPE<br>OF SERVICE:</li>
-                            <li class="price_header kolona">PRICES IN RSD*</li>
-                            <li><span style="font-weight: bold">Space without stand construction</span> (Price is expressed per m²):</li>
-                            <li class="kolona">3.600,00</li>
-                            <li><span style="font-weight: bold">Stand - Type I-52m²</span> (space, stand design, table with chairs, electricity, graphics)</li>
-                            <li class="kolona" style="line-height: 3em;">517.800,00</li>
-                            <li><span style="font-weight: bold">Stand - Type II-24m²</span> (space, stand design, table with chairs, electricity, graphics)</li>
-                            <li class="kolona" style="line-height: 3em;">246.000,00</li>
-                            <li><span style="font-weight: bold">Stand - Type III-12m²</span> (space, stand design, table with chairs, electricity, graphics)</li>
-                            <li class="kolona" style="line-height: 3em;">138.000,00</li>
-                            <li><span style="font-weight: bold">Counter</span> (two chairs and electricity consumption)</li>
-                            <li class="kolona">34.800,00</li>
-                            <li><span style="font-weight: bold">Conference room</span> (Price is expressed per 100 seats /1h):</li>
-                            <li class="kolona">19.200,00</li>
-                        </ul>
-                        <!-- <div class="pricing-footer">
-                          * Za izlagače iz R.Srbije cena se iskazuje u dinarskoj protivvrednosti po kursu NBS na dan uplate.
-                        </div> -->
-                    </div>
-                    <div class="table_reg"><a href="docs/reg/Registration_form_2018.pdf" target="_blank"><button class="register-button-izv"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> REGISTRATION FORM</button></a></div>
-                    <div class="pricing-footer">
-                      * All prices are in RSD without VAT. VAT falls at the expense of the exhibitors. For exhibitors from abroad, the price will be expressed in EUR, at the NBS exchange rate on the day of payment.
-                    </div>
-                </div>
-              </div>  
-          
-              <!-- Price Table End -->
-
-              <!-- <div class="registration">
-                <a href="docs/reg/General_terms_and_conditions_for_exhibiting.pdf" target="_blank"><button class="register-button-izv2"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>General terms and conditions for exhibiting</button></a>
-               </div> -->
-          </div>
-
-
-            <div class="col-md-6">
-
-              <!-- Classic Heading -->
-              <h4 class="classic-title"><span>STAND CONSTRUCTION</span></h4>
-
-              <!-- Some Text -->
-              <p>Ordered stands will have the following fittings, furnishings and connections:</p>
-              <ul class="icons-list">
-                <li><i class="fa fa-check-circle"></i>1 table brochure display</li>
-                <li><i class="fa fa-check-circle"></i>1 table</li>
-                <li><i class="fa fa-check-circle"></i>3 chairs</li>
-                <li><i class="fa fa-check-circle"></i>1 counter and stool</li>
-                <li><i class="fa fa-check-circle"></i>1 lockable storage of 1 sq. m.</li>
-                <li><i class="fa fa-check-circle"></i>partition walls (white), with a height of 250 cm</li>
-                <li><i class="fa fa-check-circle"></i>carpet tiles</li>
-                <li><i class="fa fa-check-circle"></i>fascia board (white) with company name and stand number</li>
-                <li><i class="fa fa-check-circle"></i>2 spotlights per 5 sq. m.</li>
-                <li><i class="fa fa-check-circle"></i>1 220-volt socket</li>
-                <li><i class="fa fa-check-circle"></i>1 electricity connection (day-time power) and consumption for standard 220-volt socket and standard spotlights</li>
-              </ul>
-
-              <div class="hr1" style="margin-bottom:50px;"></div>
-
-              <h4 class="classic-title"><span>THE APPEARANCE OF THE STAND</span></h4>
-
-              <!-- Start image gallery -->
-                <div class="flickr-widget">
-                  <ul class="flickr-list">
-                    <li>
-                      <a href="images/exhibition/stand1.jpg" class="lightbox">
-                        <img alt="" src="../en/images/exhibition/stand1.jpg">
-                      </a>
-                    </li>
-                    <li>
-                      <a href="images/exhibition/stand2.jpg" class="lightbox">
-                        <img alt="" src="../en/images/exhibition/stand2.jpg">
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              <!-- End Touch Slider -->
-
-              <!-- Start Touch Slider -->
-                <div class="touch-slider" data-slider-navigation="true" data-slider-pagination="true">
-                  <a href="../en/images/exhibition/st-1.jpg" class="lightbox" data-lightbox-gallery="standovi""><div class="item"><img alt="" src="../en/images/exhibition/st-1.jpg"></div></a>
-                  <a href="../en/images/exhibition/st-2.jpg" class="lightbox" data-lightbox-gallery="standovi""><div class="item"><img alt="" src="../en/images/exhibition/st-2.jpg"></div></a>
-                  <a href="../en/images/exhibition/st-3.jpg" class="lightbox" data-lightbox-gallery="standovi""><div class="item"><img alt="" src="../en/images/exhibition/st-3.jpg"></div></a>
-                  <a href="../en/images/exhibition/st-4.jpg" class="lightbox" data-lightbox-gallery="standovi""><div class="item"><img alt="" src="../en/images/exhibition/st-4.jpg"></div></a>
-                  <a href="../en/images/exhibition/st-5.jpg" class="lightbox" data-lightbox-gallery="standovi""><div class="item"><img alt="" src="../en/images/exhibition/st-5.jpg"></div></a>
-                  <a href="../en/images/exhibition/st-6.jpg" class="lightbox" data-lightbox-gallery="standovi""><div class="item"><img alt="" src="../en/images/exhibition/st-6.jpg"></div></a>
-                  <a href="../en/images/exhibition/st-7.jpg" class="lightbox" data-lightbox-gallery="standovi""><div class="item"><img alt="" src="../en/images/exhibition/st-7.jpg"></div></a>
-                  <a href="../en/images/exhibition/st-8.jpg" class="lightbox" data-lightbox-gallery="standovi""><div class="item"><img alt="" src="../en/images/exhibition/st-8.jpg"></div></a>
-                  <a href="../en/images/exhibition/st-9.jpg" class="lightbox" data-lightbox-gallery="standovi""><div class="item"><img alt="" src="../en/images/exhibition/st-9.jpg"></div></a>
-                </div>
-              <!-- End Touch Slider -->
-
-
+              <h4 class="classic-title"><span>TLOCRT</span></h4>
             </div>
-
-          <!-- Divider -->
+            <!-- Divider -->
           <div class="hr1" style="margin-bottom:50px;"></div>
+        </div>
+        <div class="row tlocrt">
+          <div class="col-md-12">
+            <img src="../en/images/tlocrt/SajamSaobracaja2018-lokacija-tlocrt-1.jpg" alt="tlocrt 1">
+          </div>
+        </div>
+        <div class="row tlocrt">
+          <div class="col-md-12">
+            <img src="../en/images/tlocrt/SajamSaobracaja2018-TipskiStandovi-tlocrt-2.jpg" alt="tlocrt 1">
+          </div>
         </div>
       </div>
     </div>
@@ -485,82 +160,9 @@
 
 
     <!-- Start Footer -->
-    <footer>
-      <div class="container">
-        <div class="row footer-widgets">
-
-          <!-- Start Subscribe & Social Links Widget -->
-          <div class="col-md-6">
-            <div class="footer-widget mail-subscribe-widget">
-              <h4>Get in touch<span class="head-line"></span></h4>
-              <p>Join our mailing list and be informed!</p>
-              <form class="subscribe" action="http://adomne.us9.list-manage.com/subscribe/post" method="POST">
-                <input type="hidden" name="u" value="463fc7d46e4f471e9f5d8312a">
-                <input type="hidden" name="id" value="511d158f34">
-                <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" placeholder="mail@example.com">
-                <input type="submit" class="btn-system" name="submit" value="Send">
-              </form>
-            </div>
-            <div class="footer-widget social-widget">
-              <h4>Follow Us<span class="head-line"></span></h4>
-              <ul class="social-icons">
-                <li>
-                  <a class="facebook" target="_blank" href="https://www.facebook.com/Traffic-Solutions-Expo-2017-327245394274282/"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a class="twitter" href="https://twitter.com/ts_expo_ns" target="_blank"><i class="fa fa-twitter"></i></a>
-                </li>
-                <!-- <li>
-                  <a class="google" href="#"><i class="fa fa-google-plus"></i></a>
-                </li>
-                <li>
-                  <a class="skype" href="#"><i class="fa fa-skype"></i></a>
-                </li> -->
-              </ul>
-            </div>
-          </div>
-          <!-- .col-md-3 -->
-          <!-- End Subscribe & Social Links Widget -->
-
-         
-          <!-- Start Contact Widget -->
-          <div class="col-md-6">
-            <div class="footer-widget contact-widget">
-              <h4><img src="images/tslogo_w.png" class="img-responsive" alt="Footer Logo" /></h4>
-              <p>Contact us:</p>
-              <ul>
-                <li><span>Phone Number:</span> +381 (0) 64 12 49 757; +381 (0) 63 417 555</li>
-                <li><span>Email:</span> office@ts-expo.rs</li>
-                <li><span>Website:</span> www.ts-expo.rs</li>
-              </ul>
-            </div>
-          </div>
-          <!-- .col-md-3 -->
-          <!-- End Contact Widget -->
-
-
-        </div>
-        <!-- .row -->
-
-        <!-- Start Copyright -->
-        <div class="copyright-section">
-          <div class="row">
-            <div class="col-md-6">
-              <p>&copy; 2018 ts-expo.rs - All Rights Reserved</p>
-            </div>
-            <div class="col-md-6">
-              <ul class="footer-nav">
-                <li><a href="#">Sitemap</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="location.html">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- End Copyright -->
-
-      </div>
-    </footer>
+    <?php 
+      include 'footer.php';
+    ?>
     <!-- End Footer -->
 
   </div>
@@ -670,7 +272,15 @@
     </ul>
   </div>-->
 
-  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="../en/js/script.js"></script>
+
+  <!-- Sktipta ya aktiviranje lightbox-a -->
+  <script>
+    $(document).ready(function(){
+      $('a.lightbox').nivoLightbox();
+    });
+  </script>
+  
 
   <!-- Modal -->
   <div class="modal fade" id="myModalHorizontal" tabindex="-1" role="dialog" 
@@ -685,61 +295,61 @@
                          <span class="sr-only">Close</span>
                   </button>
                   <h4 class="modal-title" id="myModalLabel">
-                      Application form
+                      Prijava
                   </h4>
               </div>
               
               <!-- Modal Body -->
               <div class="modal-body">
                   
-                  <form class="form-horizontal" role="form" action="php/registration.php" method="POST">
+                  <form class="form-horizontal" role="form" action="../en/php/registration.php" method="POST">
                     <div class="form-group required">
                       <label  class="col-sm-2 control-label"
-                                for="firstname">First name</label>
+                                for="firstname">Ime</label>
                       <div class="col-sm-10">
                           <input type="text" name="firstname" class="form-control" 
-                          id="firstname" placeholder="First name" required/>
+                          id="firstname" placeholder="Ime" required/>
                       </div>
                     </div>
                     <div class="form-group required">
                       <label  class="col-sm-2 control-label"
-                                for="lastname">Last name</label>
+                                for="lastname">Prezime</label>
                       <div class="col-sm-10">
                           <input type="text" name="lastname" class="form-control" 
-                          id="lastname" placeholder="Last name" required/>
+                          id="lastname" placeholder="Prezime" required/>
                       </div>
                     </div>
                     <div class="form-group required">
                       <label  class="col-sm-2 control-label"
-                                for="gender">Gender</label>
+                                for="gender">Pol</label>
                       <div class="col-sm-10">
-                        <label class="radio-inline" style="font-family: 'Roboto'; font-weight:300;"><input type="radio" name="gender" value="Male">Male</label>
-                        <label class="radio-inline" style="font-family: 'Roboto'; font-weight:300;"><input type="radio" name="gender" value="Female">Female</label>
+                        <label class="radio-inline" style="font-family: 'Roboto'; font-weight:300;"><input type="radio" name="gender" value="Male">Muški</label>
+                        <label class="radio-inline" style="font-family: 'Roboto'; font-weight:300;"><input type="radio" name="gender" value="Female">Ženski</label>
                       </div>
                     </div>
                     <div class="form-group">
                       <label  class="col-sm-2 control-label"
-                                for="company">Company</label>
+                                for="company">Kompanija</label>
                       <div class="col-sm-10">
                           <input type="text" name="company" class="form-control" 
-                          id="company" placeholder="Company"/>
+                          id="company" placeholder="Kompanija"/>
                       </div>
                     </div>
                     <div class="form-group">
                       <label  class="col-sm-2 control-label"
-                                for="work-position">Work position</label>
+                                for="work-position">Pozicija na poslu</label>
                       <div class="col-sm-10">
                           <input type="text" name="work-position" class="form-control" 
-                          id="work-position" placeholder="Work position"/>
+                          id="work-position" placeholder="Pozicija na poslu"/>
                       </div>
                     </div>     
                     <div class="form-group required">
                       <label  class="col-sm-2 control-label"
-                                for="country">Country</label>
+                                for="country">Država</label>
                       <div class="col-sm-10">
                           <select name="country" class="form-control" 
                           id="country" placeholder="Country" required/>
-                            <option value="">Country...</option>
+                            <option value="">Država...</option>
                             <option value="Afganistan">Afghanistan</option>
                             <option value="Albania">Albania</option>
                             <option value="Algeria">Algeria</option>
@@ -992,38 +602,38 @@
                     </div>
                     <div class="form-group">
                       <label  class="col-sm-2 control-label"
-                                for="city">City</label>
+                                for="city">Grad</label>
                       <div class="col-sm-10">
                           <input type="text" name="city" class="form-control" 
-                          id="city" placeholder="City"/>
+                          id="city" placeholder="Grad"/>
                       </div>
                     </div>
                     <div class="form-group">
                       <label  class="col-sm-2 control-label"
-                                for="phone">Phone number</label>
+                                for="phone">Broj telefona</label>
                       <div class="col-sm-10">
                           <input type="text" name="phone" class="form-control" 
-                          id="phone" placeholder="Phone number"/>
+                          id="phone" placeholder="Broj telefona"/>
                       </div>
                     </div>
                     <div class="form-group">
                       <label  class="col-sm-2 control-label"
-                                for="web-site">Web site</label>
+                                for="web-site">Veb-sajt</label>
                       <div class="col-sm-10">
                           <input type="text" name="web-site" class="form-control" 
-                          id="web-site" placeholder="Web site"/>
+                          id="web-site" placeholder="Veb-sajt"/>
                       </div>
                     </div>
                     <div class="form-group">
                       <label  class="col-sm-2 control-label"
-                                for="status">You are...</label>
+                                for="status">Vi ste...</label>
                       <div class="col-sm-10">
                           <select name="status" class="form-control" id="status" placeholder="Status">
-                            <option value="">You are...</option>
-                            <option value="Visitor">Visitor</option>
-                            <option value="Exhibitor">Exhibitor</option>
-                            <option value="Press">Press</option>
-                            <option value="Conference participant">Conference participant</option>
+                            <option value="">Vi ste...</option>
+                            <option value="Visitor">Posetilac</option>
+                            <option value="Exhibitor">Izlagač</option>
+                            <option value="Press">Novinar</option>
+                            <option value="Conference participant">Učesnik konferencije</option>
                           </select>  
                       </div>
                     </div>
@@ -1032,10 +642,10 @@
                     </div>  
                     <div class="form-group required">
                       <label  class="col-sm-2 control-label"
-                                for="username">User name</label>
+                                for="username">Korisničko ime</label>
                       <div class="col-sm-10">
                           <input type="text" name="username" class="form-control" 
-                          id="username" placeholder="User name" required/>
+                          id="username" placeholder="Korisničko ime" required/>
                       </div>
                     </div>    
                     <div class="form-group required">
@@ -1048,10 +658,10 @@
                     </div>
                     <div class="form-group required">
                       <label class="col-sm-2 control-label"
-                            for="password">Password</label>
+                            for="password">Lozinka</label>
                       <div class="col-sm-10">
                           <input type="password" name="password" class="form-control"
-                              id="password" placeholder="Password" required/>
+                              id="password" placeholder="Lozinka" required/>
                       </div>
                     </div>
                     <div>
@@ -1059,15 +669,15 @@
                     </div>
                     <div class="form-group">
                       <label  class="col-sm-2 control-label"
-                                for="question">Question</label>
+                                for="question">Pitanje</label>
                       <div class="col-sm-10">
                           <textarea name="question" class="form-control" 
-                          id="question" placeholder="Question..."></textarea>
+                          id="question" placeholder="Pitanje..."></textarea>
                       </div>
                     </div>  
                     <div class="form-group">
                       <div class="col-sm-offset-2 col-sm-10">
-                        <button type="submit" name="submit" class="btn btn-default">Sign in</button>
+                        <button type="submit" name="submit" class="btn btn-default">Prijava</button>
                       </div>
                     </div>
                   </form>                 
@@ -1077,7 +687,7 @@
               <div class="modal-footer">
                   <button type="button" class="btn btn-default"
                           data-dismiss="modal">
-                              Close
+                              Zatvori
                   </button>
               </div>
           </div>

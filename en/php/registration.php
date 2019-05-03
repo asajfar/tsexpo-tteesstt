@@ -4,7 +4,16 @@ $conn->query("SET NAMES 'utf8'");
  // If form submitted, insert values into the database.
  if (isset($_POST['submit'])){
 
- 	function strip($data) {
+ 	if(isset($_POST['email2']) && !empty($_POST['email2'])) {
+
+ 		//IT IS A SPAM
+ 		exit;
+
+ 	}
+
+ 	else{
+
+ 		function strip($data) {
 	  $data = trim($data);
 	  $data = stripslashes($data);
 	  $data = htmlspecialchars($data);
@@ -95,10 +104,15 @@ $conn->query("SET NAMES 'utf8'");
 	 if($result){
 	 	header("Location: ../successreg.html"); // redirektovati na successreg.php gde ce biti obavestenje o tome i dalji linkovi ka pocetnoj strani ili logovanju
 	 	exit();
- 	}
- }else{
- 	echo "<div class='form'><h3>You are not registered, try again.</h3><br/>Click here to <a href='../index.html'>register again</a></div>";
- }
+ 	 }else{
+	 	echo "<div class='form'><h3>You are not registered, try again.</h3><br/>Click here to <a href='../index.html'>register again</a></div>";
+	 }
+
+	}
+}
+
+
+ 	
 ?>
 
 

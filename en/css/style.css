@@ -6162,6 +6162,10 @@ ul.footer-nav li a:hover {
    color:red;
 }
 
+#email2 {
+	display: none;
+}
+
 
 /* Exhibition page */
 
