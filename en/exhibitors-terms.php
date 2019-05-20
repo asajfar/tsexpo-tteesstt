@@ -1,3 +1,8 @@
+<?php 
+  $page = 'exhibitions';
+  $srplink = 'exhibitors-terms';
+?>
+
 <!doctype html>
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><html lang="en" class="no-js"> <![endif]-->
@@ -94,179 +99,9 @@
 
 
     <!-- Start Header Section -->
-    <div class="hidden-header"></div>
-    <header class="clearfix">
-
-      <!-- Start Top Bar -->
-      <div class="top-bar">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-7">
-              <!-- Start Contact Info -->
-              <ul class="contact-details">
-                <li><a href="#"><i class="fa fa-map-marker"></i> Novi Sad Fair, City of Novi Sad, Serbia</a>
-                </li>
-                <li><a href="#"><i class="fa fa-envelope-o"></i> office@ts-expo.rs</a>
-                </li>
-                <li><a href="#"><i class="fa fa-phone"></i> +381 (0) 64 12 49 757</a>
-                </li>
-              </ul>
-              <!-- End Contact Info -->
-            </div>
-            <!-- .col-md-6 -->
-            <div class="col-md-5">
-              <!-- Start Social Links -->
-              <ul class="social-list">
-                <!--<li>
-                  <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a class="google itl-tooltip" data-placement="bottom" title="Google Plus" href="#"><i class="fa fa-google-plus"></i></a>
-                </li>
-                
-                <li>
-                  <a class="dribbble itl-tooltip" data-placement="bottom" title="Dribble" href="#"><i class="fa fa-dribbble"></i></a>
-                </li>
-                <li>
-                  <a class="linkdin itl-tooltip" data-placement="bottom" title="Linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-                </li>
-                <li>
-                  <a class="flickr itl-tooltip" data-placement="bottom" title="Flickr" href="#"><i class="fa fa-flickr"></i></a>
-                </li>
-                <li>
-                  <a class="tumblr itl-tooltip" data-placement="bottom" title="Tumblr" href="#"><i class="fa fa-tumblr"></i></a>
-                </li>
-                <li>
-                  <a class="instgram itl-tooltip" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
-                </li>
-                <li>
-                  <a class="vimeo itl-tooltip" data-placement="bottom" title="vimeo" href="#"><i class="fa fa-vimeo-square"></i></a>
-                </li>
-                <li>
-                  <a class="skype itl-tooltip" data-placement="bottom" title="Skype" href="callto://+***********"><i class="fa fa-skype"></i></a>
-                </li>-->
-                <li>
-                  <a class="language-choose active" href="#"><i>EN</i></a>
-                </li>
-                <li>
-                  <a class="language-choose" href="../sr/uslovi-izlaganja.html"><i>SR</i></a>
-                </li>
-              </ul>
-              <!-- End Social Links -->
-            </div>
-            <!-- .col-md-6 -->
-          </div>
-          <!-- .row -->
-        </div>
-        <!-- .container -->
-      </div>
-      <!-- .top-bar -->
-      <!-- End Top Bar -->
-
-
-      <!-- Start  Logo & Naviagtion  -->
-      <div class="navbar navbar-default navbar-top">
-        <div class="container">
-          <div class="navbar-header">
-            <!-- Stat Toggle Nav Link For Mobiles -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <i class="fa fa-bars"></i>
-            </button>
-            <!-- End Toggle Nav Link For Mobiles -->
-            <a class="navbar-brand" href="index.html">
-              <img alt="" src="images/tslogo.png" class="logo-full">
-              <img alt="" src="images/tslogo2.png" class="logo-mobile">              
-            </a>
-          </div>
-          <div class="navbar-collapse collapse">
-            <!-- Stat Search -->
-            <div class="search-side">
-              <a class="show-search"><i class="fa fa-search"></i></a>
-              <div class="search-form">
-                <form autocomplete="off" role="search" method="get" class="searchform" action="#">
-                  <input type="text" value="" name="s" id="s" placeholder="Search the site...">
-                </form>
-              </div>
-            </div>
-            <!--End Search -->
-            <!-- Start Navigation List -->
-            <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a href="index.html">Home</a>
-              </li>
-              <li class="drop">
-                <a class="active not-link" href="#">EXHIBITORS</a>
-                <ul class="dropdown">
-                  <li><a href="exhibitors-profile.html">PROFILE OF EXHIBITORS</a>
-                  </li>
-                  <li><a href="exhibitors-terms.html">GENERAL TERMS</a>
-                  </li>
-                  <li><a href="ground-plan.html">GROUND PLAN</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="visitors.html">VISITORS</a>
-              </li>
-              <li>
-                <a href="program_en.html">PROGRAM</a>
-              </li>
-              <li>
-                <a href="location.html">Contact</a>
-                <ul class="dropdown">
-                  <li><a href="accommodation.html">ACCOMMODATION</a></li>
-                </ul>
-              </li>
-              <li>
-            <a href="ts-expo-en-2017.html" style="color: #29aae2; font-weight: 600;">TS-EXPO 2017</a>
-            <ul class="dropdown">
-              <li><a href="virtual-tour.html">VRTUAL TOUR 360°</a></li>
-            </ul>
-          </li> 
-            </ul>
-            <!-- End Navigation List -->
-          </div>
-        </div>
-
-        <!-- Mobile Menu Start -->
-        <ul class="wpb-mobile-menu">
-          <li>
-            <a href="index.html">HOME</a>
-          </li>
-          <li>
-            <a class="active" href="#">EXHIBITORS</a>
-            <ul class="dropdown">
-              <li><a href="exhibitors-profile.html">PROFILE OF EXHIBITORS</a>
-              </li>
-              <li><a href="exhibitors-terms.html">GENERAL TERMS</a>
-              </li>
-              </li>
-              <li><a href="ground-plan.html">GROUND PLAN</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="visitors.html">VISITORS</a>
-          </li>
-          <li>
-            <a href="program_en.html">PROGRAM</a>
-          </li>
-          <li>
-            <a href="location.html">CONTACT</a>
-          </li>
-          <li>
-            <a href="ts-expo-en-2017.html" style="color: #29aae2; font-weight: 600;">TS-EXPO 2017</a>
-          </li>
-        </ul>
-        <!-- Mobile Menu End -->
-
-      </div>
-      <!-- End Header Logo & Naviagtion -->
-
-    </header>
+    <?php 
+      include 'header-en.php';
+    ?>
     <!-- End Header Section -->
 
 
@@ -485,82 +320,9 @@
 
 
     <!-- Start Footer -->
-    <footer>
-      <div class="container">
-        <div class="row footer-widgets">
-
-          <!-- Start Subscribe & Social Links Widget -->
-          <div class="col-md-6">
-            <div class="footer-widget mail-subscribe-widget">
-              <h4>Get in touch<span class="head-line"></span></h4>
-              <p>Join our mailing list and be informed!</p>
-              <form class="subscribe" action="http://adomne.us9.list-manage.com/subscribe/post" method="POST">
-                <input type="hidden" name="u" value="463fc7d46e4f471e9f5d8312a">
-                <input type="hidden" name="id" value="511d158f34">
-                <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" placeholder="mail@example.com">
-                <input type="submit" class="btn-system" name="submit" value="Send">
-              </form>
-            </div>
-            <div class="footer-widget social-widget">
-              <h4>Follow Us<span class="head-line"></span></h4>
-              <ul class="social-icons">
-                <li>
-                  <a class="facebook" target="_blank" href="https://www.facebook.com/Traffic-Solutions-Expo-2017-327245394274282/"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a class="twitter" href="https://twitter.com/ts_expo_ns" target="_blank"><i class="fa fa-twitter"></i></a>
-                </li>
-                <!-- <li>
-                  <a class="google" href="#"><i class="fa fa-google-plus"></i></a>
-                </li>
-                <li>
-                  <a class="skype" href="#"><i class="fa fa-skype"></i></a>
-                </li> -->
-              </ul>
-            </div>
-          </div>
-          <!-- .col-md-3 -->
-          <!-- End Subscribe & Social Links Widget -->
-
-         
-          <!-- Start Contact Widget -->
-          <div class="col-md-6">
-            <div class="footer-widget contact-widget">
-              <h4><img src="images/tslogo_w.png" class="img-responsive" alt="Footer Logo" /></h4>
-              <p>Contact us:</p>
-              <ul>
-                <li><span>Phone Number:</span> +381 (0) 64 12 49 757; +381 (0) 63 417 555</li>
-                <li><span>Email:</span> office@ts-expo.rs</li>
-                <li><span>Website:</span> www.ts-expo.rs</li>
-              </ul>
-            </div>
-          </div>
-          <!-- .col-md-3 -->
-          <!-- End Contact Widget -->
-
-
-        </div>
-        <!-- .row -->
-
-        <!-- Start Copyright -->
-        <div class="copyright-section">
-          <div class="row">
-            <div class="col-md-6">
-              <p>&copy; 2018 ts-expo.rs - All Rights Reserved</p>
-            </div>
-            <div class="col-md-6">
-              <ul class="footer-nav">
-                <li><a href="#">Sitemap</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="location.html">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- End Copyright -->
-
-      </div>
-    </footer>
+    <?php 
+      include 'footer-en.php';
+    ?>
     <!-- End Footer -->
 
   </div>

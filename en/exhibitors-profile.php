@@ -1,3 +1,8 @@
+<?php 
+  $page = 'exhibitions';
+  $srplink = 'exhibitors-profile';
+?>
+
 <!doctype html>
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><html lang="en" class="no-js"> <![endif]-->
@@ -6,7 +11,7 @@
 <head>
 
   <!-- Basic -->
-  <title>VIRTUAL TOUR | TRAFFIC SOLUTIONS EXPO</title>
+  <title>PROFILE OF EXHIBITORS | TRAFFIC SOLUTIONS EXPO</title>
 
   <!-- Define Charset -->
   <meta charset="utf-8">
@@ -18,60 +23,56 @@
   <meta name="description" content="Traffic Solutions Expo, Novi Sad Fair, City of Novi Sad, Serbia">
   <meta name="author" content="ASajfar">
 
-  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-  <link href="/android-192x192.png" rel="icon" sizes="192x192" />
-
   <!-- Bootstrap CSS  -->
-  <link rel="stylesheet" href="../en/asset/css/bootstrap.min.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="asset/css/bootstrap.min.css" type="text/css" media="screen">
 
   <!-- Font Awesome CSS -->
-  <link rel="stylesheet" href="../en/css/font-awesome.min.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
 
   <!-- Slicknav - responsive Mobile menu -->
-  <link rel="stylesheet" type="text/css" href="../en/css/slicknav.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="css/slicknav.css" media="screen">
 
   <!-- Site CSS Styles  -->
-  <link rel="stylesheet" type="text/css" href="../en/css/style.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
 
   <!-- Responsive CSS Styles  -->
-  <link rel="stylesheet" type="text/css" href="../en/css/responsive.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen">
 
   <!-- Css3 Transitions Styles  -->
-  <link rel="stylesheet" type="text/css" href="../en/css/animate.css" media="screen">
-
+  <link rel="stylesheet" type="text/css" href="css/animate.css" media="screen">
 
   <!-- Color CSS Styles  -->
-  <link rel="stylesheet" type="text/css" href="../en/css/colors/red.css" title="red" media="screen" />
-  <link rel="stylesheet" type="text/css" href="../en/css/colors/jade.css" title="jade" media="screen" />
-  <link rel="stylesheet" type="text/css" href="../en/css/colors/green.css" title="green" media="screen" />
-  <link rel="stylesheet" type="text/css" href="../en/css/colors/blue.css" title="blue" media="screen" />
-  <link rel="stylesheet" type="text/css" href="../en/css/colors/beige.css" title="beige" media="screen" />
-  <link rel="stylesheet" type="text/css" href="../en/css/colors/cyan.css" title="cyan" media="screen" />
-  <link rel="stylesheet" type="text/css" href="../en/css/colors/orange.css" title="orange" media="screen" />
-  <link rel="stylesheet" type="text/css" href="../en/css/colors/peach.css" title="peach" media="screen" />
-  <link rel="stylesheet" type="text/css" href="../en/css/colors/pink.css" title="pink" media="screen" />
-  <link rel="stylesheet" type="text/css" href="../en/css/colors/purple.css" title="purple" media="screen" />
-  <link rel="stylesheet" type="text/css" href="../en/css/colors/sky-blue.css" title="sky-blue" media="screen" />
-  <link rel="stylesheet" type="text/css" href="../en/css/colors/yellow.css" title="yellow" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/colors/red.css" title="red" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/colors/jade.css" title="jade" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/colors/green.css" title="green" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/colors/blue.css" title="blue" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/colors/beige.css" title="beige" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/colors/cyan.css" title="cyan" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/colors/orange.css" title="orange" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/colors/peach.css" title="peach" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/colors/pink.css" title="pink" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/colors/purple.css" title="purple" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/colors/sky-blue.css" title="sky-blue" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/colors/yellow.css" title="yellow" media="screen" />
 
   <!-- Site JS  -->
-  <script type="text/javascript" src="../en/js/jquery-2.1.4.min.js"></script>
-  <script type="text/javascript" src="../en/js/jquery.migrate.js"></script>
-  <script type="text/javascript" src="../en/js/modernizrr.js"></script>
-  <script type="text/javascript" src="../en/asset/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="../en/js/jquery.fitvids.js"></script>
-  <script type="text/javascript" src="../en/js/owl.carousel.min.js"></script>
-  <script type="text/javascript" src="../en/js/nivo-lightbox.min.js"></script>
-  <script type="text/javascript" src="../en/js/jquery.isotope.min.js"></script>
-  <script type="text/javascript" src="../en/js/jquery.appear.js"></script>
-  <script type="text/javascript" src="../en/js/count-to.js"></script>
-  <script type="text/javascript" src="../en/js/jquery.textillate.js"></script>
-  <script type="text/javascript" src="../en/js/jquery.lettering.js"></script>
-  <script type="text/javascript" src="../en/js/jquery.easypiechart.min.js"></script>
-  <script type="text/javascript" src="../en/js/jquery.nicescroll.min.js"></script>
-  <script type="text/javascript" src="../en/js/jquery.parallax.js"></script>
-  <script type="text/javascript" src="../en/js/mediaelement-and-player.js"></script>
-  <script type="text/javascript" src="../en/js/jquery.slicknav.js"></script>
+  <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="js/jquery.migrate.js"></script>
+  <script type="text/javascript" src="js/modernizrr.js"></script>
+  <script type="text/javascript" src="asset/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+  <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+  <script type="text/javascript" src="js/nivo-lightbox.min.js"></script>
+  <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+  <script type="text/javascript" src="js/jquery.appear.js"></script>
+  <script type="text/javascript" src="js/count-to.js"></script>
+  <script type="text/javascript" src="js/jquery.textillate.js"></script>
+  <script type="text/javascript" src="js/jquery.lettering.js"></script>
+  <script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
+  <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+  <script type="text/javascript" src="js/jquery.parallax.js"></script>
+  <script type="text/javascript" src="js/mediaelement-and-player.js"></script>
+  <script type="text/javascript" src="js/jquery.slicknav.js"></script>
   
 
   <!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -98,194 +99,24 @@
 
 
     <!-- Start Header Section -->
-    <div class="hidden-header"></div>
-    <header class="clearfix">
-
-      <!-- Start Top Bar -->
-      <div class="top-bar">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-7">
-              <!-- Start Contact Info -->
-              <ul class="contact-details">
-                <li><a href="#"><i class="fa fa-map-marker"></i> Novi Sad Fair, City of Novi Sad, Serbia</a>
-                </li>
-                <li><a href="#"><i class="fa fa-envelope-o"></i> office@ts-expo.rs</a>
-                </li>
-                <li><a href="#"><i class="fa fa-phone"></i> +381 (0) 64 12 49 757</a>
-                </li>
-              </ul>
-              <!-- End Contact Info -->
-            </div>
-            <!-- .col-md-6 -->
-            <div class="col-md-5">
-              <!-- Start Social Links -->
-              <ul class="social-list">
-                <!--<li>
-                  <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a class="google itl-tooltip" data-placement="bottom" title="Google Plus" href="#"><i class="fa fa-google-plus"></i></a>
-                </li>
-                
-                <li>
-                  <a class="dribbble itl-tooltip" data-placement="bottom" title="Dribble" href="#"><i class="fa fa-dribbble"></i></a>
-                </li>
-                <li>
-                  <a class="linkdin itl-tooltip" data-placement="bottom" title="Linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-                </li>
-                <li>
-                  <a class="flickr itl-tooltip" data-placement="bottom" title="Flickr" href="#"><i class="fa fa-flickr"></i></a>
-                </li>
-                <li>
-                  <a class="tumblr itl-tooltip" data-placement="bottom" title="Tumblr" href="#"><i class="fa fa-tumblr"></i></a>
-                </li>
-                <li>
-                  <a class="instgram itl-tooltip" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
-                </li>
-                <li>
-                  <a class="vimeo itl-tooltip" data-placement="bottom" title="vimeo" href="#"><i class="fa fa-vimeo-square"></i></a>
-                </li>
-                <li>
-                  <a class="skype itl-tooltip" data-placement="bottom" title="Skype" href="callto://+***********"><i class="fa fa-skype"></i></a>
-                </li>-->
-                <li>
-                  <a class="language-choose active" href="#"><i>EN</i></a>
-                </li>
-                <li>
-                  <a class="language-choose" href="../sr/virtual-tour.html"><i>SR</i></a>
-                </li>
-              </ul>
-              <!-- End Social Links -->
-            </div>
-            <!-- .col-md-6 -->
-          </div>
-          <!-- .row -->
-        </div>
-        <!-- .container -->
-      </div>
-      <!-- .top-bar -->
-      <!-- End Top Bar -->
-
-
-      <!-- Start  Logo & Naviagtion  -->
-      <div class="navbar navbar-default navbar-top">
-        <div class="container">
-          <div class="navbar-header">
-            <!-- Stat Toggle Nav Link For Mobiles -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <i class="fa fa-bars"></i>
-            </button>
-            <!-- End Toggle Nav Link For Mobiles -->
-            <a class="navbar-brand" href="index.html">
-              <img alt="" src="../en/images/tslogo.png" class="logo-full">
-              <img alt="" src="../en/images/tslogo2.png" class="logo-mobile">
-            </a>
-          </div>
-          <div class="navbar-collapse collapse">
-            <!-- Stat Search -->
-            <div class="search-side">
-              <a class="show-search"><i class="fa fa-search"></i></a>
-              <div class="search-form">
-                <form autocomplete="off" role="search" method="get" class="searchform" action="#">
-                  <input type="text" value="" name="s" id="s" placeholder="Search the site...">
-                </form>
-              </div>
-            </div>
-            <!--End Search -->
-            <!-- Start Navigation List -->
-            <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a href="index.html">Home</a>
-              </li>
-              <li class="drop">
-                <a class="active not-link" href="#">EXHIBITORS</a>
-                <ul class="dropdown">
-                  <li><a href="exhibitors-profile.html">PROFILE OF EXHIBITORS</a>
-                  </li>
-                  <li><a href="exhibitors-terms.html">GENERAL TERMS</a>
-                  </li>
-                  <li><a href="ground-plan.html">GROUND PLAN</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="visitors.html">VISITORS</a>
-              </li>
-              <li>
-                <a href="program_en.html">PROGRAM</a>
-              </li>
-              <li>
-                <a href="location.html">Contact</a>
-                <ul class="dropdown">
-                  <li><a href="accommodation.html">ACCOMMODATION</a></li>
-                </ul>
-              </li>
-              <li>
-            <a href="ts-expo-en-2017.html" style="color: #29aae2; font-weight: 600;">TS-EXPO 2017</a>
-            <ul class="dropdown">
-              <li><a href="virtual-tour.html">VRTUAL TOUR 360°</a></li>
-            </ul>
-          </li> 
-            </ul>
-            <!-- End Navigation List -->
-          </div>
-        </div>
-
-        <!-- Mobile Menu Start -->
-        <ul class="wpb-mobile-menu">
-          <li>
-            <a href="index.html">HOME</a>
-          </li>
-          <li>
-            <a class="active" href="#">EXHIBITORS</a>
-            <ul class="dropdown">
-              <li><a href="exhibitors-profile.html">PROFILE OF EXHIBITORS</a>
-              </li>
-              <li><a href="exhibitors-terms.html">GENERAL TERMS</a>
-              </li>
-              </li>
-              <li><a href="ground-plan.html">GROUND PLAN</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="visitors.html">VISITORS</a>
-          </li>
-          <li>
-            <a href="program_en.html">PROGRAM</a>
-          </li>
-          <li>
-            <a href="location.html">CONTACT</a>
-          </li>
-          <li>
-            <a href="ts-expo-en-2017.html" style="color: #29aae2; font-weight: 600;">TS-EXPO 2017</a>
-          </li>
-        </ul>
-        <!-- Mobile Menu End -->
-
-      </div>
-      <!-- End Header Logo & Naviagtion -->
-
-    </header>
+    <?php 
+      include 'header-en.php';
+    ?>
     <!-- End Header Section -->
 
 
     <!-- Start Page Banner -->
-    <div class="page-banner" style="padding:40px 0; background: url(../en/images/bg1.jpg) center;">
+    <div class="page-banner" style="padding:40px 0; background: url(images/bg1.jpg) center;">
       <div class="slika-effect1"></div>
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h2>VIRTUAL TOUR 360°</h2>
-            <!-- <p>Traffic Solutions Expo</p> -->
+            <!-- <h2>TS-EXPO</h2>
+            <p>Traffic Solutions Expo</p> -->
           </div>
           <div class="col-md-6">
             <ul class="breadcrumbs">
-              <!-- <li><a href="index.html">Naslovna</a></li>
+              <!-- <li><a href="index.html">Home</a></li>
               <li>TS-EXPO</li> -->
             </ul>
           </div>
@@ -296,17 +127,54 @@
 
 
     <!-- Start Content -->
-    <div id="content-tour">
-      <div class="container-tour">
+    <div id="content">
+      <div class="container">
         <div class="page-content">
 
+
           <div class="row">
+
             <div class="col-md-12">
+
               <!-- Classic Heading -->
-              <div class="tour-image">
-                  <a href="../Sajam.html" target="_blank"></a>
-              </div>
+              <h4 class="classic-title"><span>EXHIBITORS PROFILE</span></h4>
+
+              <!-- Some Text -->
+              <p>Exhibitors at TRAFFIC SOLUTIONS EXPO are manufacturers, importers of products and / or providers of various services in all types of traffic (road, rail, water, air and post traffic).</p>
+              <p>Exhibiting areas are:</p>
+              <ul class="icons-list">
+                <li><i class="fa fa-check-circle"></i> Politics, strategies and development plans in traffic</li>
+                <li><i class="fa fa-check-circle"></i> Traffic engineering - planning and design of objects in traffic, supervision and consulting</li>
+                <li><i class="fa fa-check-circle"></i> Systems and equipment (hardware and software) for designing, managing, measuring, monitoring and controlling traffic</li>
+                <li><i class="fa fa-check-circle"></i> Importing and maintenance of the traffic infrastructure</li>
+                <li><i class="fa fa-check-circle"></i> Mechanization and equipment for the construction and maintenance of the traffic infrastructure</li>
+                <li><i class="fa fa-check-circle"></i> Signalization and equipment in traffic</li>
+                <li><i class="fa fa-check-circle"></i> Transport of passengers - planning and organization of transport, vehicles and related equipment</li>
+                <li><i class="fa fa-check-circle"></i> Logistics, transport and services in transport - packaging, transshipment, storage of goods and freight forwarding</li>
+                <li><i class="fa fa-check-circle"></i> Mechanization and equipment for packaging, transport, transshipment and storage of goods</li>
+                <li><i class="fa fa-check-circle"></i> Services in Post traffic - postal items, telecommunications and connections</li>
+                <li><i class="fa fa-check-circle"></i> Training courses, professional education and education of participants in traffic</li>
+                <li><i class="fa fa-check-circle"></i> Service safety - insurance of passengers, goods, vehicles and equipment</li>
+                <li><i class="fa fa-check-circle"></i> Crediting businesses and businesses in the field of traffic</li>
+                <li><i class="fa fa-check-circle"></i> Media and publishing in the field of traffic</li>
+                <li><i class="fa fa-check-circle"></i> Other traffic services - fuel supplies, technical inspections, vehicle or equipment maintenance, roadside assistance, etc.</li>
+              </ul>
+
+
             </div>
+
+            <!-- <div class="col-md-5"> -->
+
+              <!-- Start Touch Slider -->
+              <!-- <div class="touch-slider" data-slider-navigation="true" data-slider-pagination="true">
+                <div class="item"><img alt="" src="images/ts-expo/pic1.jpg"></div>
+                <div class="item"><img alt="" src="images/ts-expo/pic2.jpg"></div>
+                <div class="item"><img alt="" src="images/ts-expo/pic3.jpg"></div>
+              </div> -->
+              <!-- End Touch Slider -->
+
+            <!-- </div> -->
+
           </div>
         </div>
       </div>
@@ -315,82 +183,9 @@
 
 
     <!-- Start Footer -->
-    <footer>
-      <div class="container">
-        <div class="row footer-widgets">
-
-          <!-- Start Subscribe & Social Links Widget -->
-          <div class="col-md-6">
-            <div class="footer-widget mail-subscribe-widget">
-              <h4>Get in touch<span class="head-line"></span></h4>
-              <p>Join our mailing list and be informed!</p>
-              <form class="subscribe" action="http://adomne.us9.list-manage.com/subscribe/post" method="POST">
-                <input type="hidden" name="u" value="463fc7d46e4f471e9f5d8312a">
-                <input type="hidden" name="id" value="511d158f34">
-                <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" placeholder="mail@example.com">
-                <input type="submit" class="btn-system" name="submit" value="Send">
-              </form>
-            </div>
-            <div class="footer-widget social-widget">
-              <h4>Follow Us<span class="head-line"></span></h4>
-              <ul class="social-icons">
-                <li>
-                  <a class="facebook" target="_blank" href="https://www.facebook.com/Traffic-Solutions-Expo-2017-327245394274282/"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a class="twitter" href="https://twitter.com/ts_expo_ns" target="_blank"><i class="fa fa-twitter"></i></a>
-                </li>
-                <!-- <li>
-                  <a class="google" href="#"><i class="fa fa-google-plus"></i></a>
-                </li>
-                <li>
-                  <a class="skype" href="#"><i class="fa fa-skype"></i></a>
-                </li> -->
-              </ul>
-            </div>
-          </div>
-          <!-- .col-md-3 -->
-          <!-- End Subscribe & Social Links Widget -->
-
-         
-          <!-- Start Contact Widget -->
-          <div class="col-md-6">
-            <div class="footer-widget contact-widget">
-              <h4><img src="images/tslogo_w.png" class="img-responsive" alt="Footer Logo" /></h4>
-              <p>Contact us:</p>
-              <ul>
-                <li><span>Phone Number:</span> +381 (0) 64 12 49 757; +381 (0) 63 417 555</li>
-                <li><span>Email:</span> office@ts-expo.rs</li>
-                <li><span>Website:</span> www.ts-expo.rs</li>
-              </ul>
-            </div>
-          </div>
-          <!-- .col-md-3 -->
-          <!-- End Contact Widget -->
-
-
-        </div>
-        <!-- .row -->
-
-        <!-- Start Copyright -->
-        <div class="copyright-section">
-          <div class="row">
-            <div class="col-md-6">
-              <p>&copy; 2018 ts-expo.rs - All Rights Reserved</p>
-            </div>
-            <div class="col-md-6">
-              <ul class="footer-nav">
-                <li><a href="#">Sitemap</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="location.html">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- End Copyright -->
-
-      </div>
-    </footer>
+    <?php 
+      include 'footer-en.php';
+    ?>
     <!-- End Footer -->
 
   </div>
@@ -500,15 +295,7 @@
     </ul>
   </div>-->
 
-  <script type="text/javascript" src="../en/js/script.js"></script>
-
-  <!-- Sktipta ya aktiviranje lightbox-a -->
-  <script>
-    $(document).ready(function(){
-      $('a.lightbox').nivoLightbox();
-    });
-  </script>
-  
+  <script type="text/javascript" src="js/script.js"></script>
 
   <!-- Modal -->
   <div class="modal fade" id="myModalHorizontal" tabindex="-1" role="dialog" 
@@ -523,61 +310,61 @@
                          <span class="sr-only">Close</span>
                   </button>
                   <h4 class="modal-title" id="myModalLabel">
-                      Prijava
+                      Application form
                   </h4>
               </div>
               
               <!-- Modal Body -->
               <div class="modal-body">
                   
-                  <form class="form-horizontal" role="form" action="../en/php/registration.php" method="POST">
+                  <form class="form-horizontal" role="form" action="php/registration.php" method="POST">
                     <div class="form-group required">
                       <label  class="col-sm-2 control-label"
-                                for="firstname">Ime</label>
+                                for="firstname">First name</label>
                       <div class="col-sm-10">
                           <input type="text" name="firstname" class="form-control" 
-                          id="firstname" placeholder="Ime" required/>
+                          id="firstname" placeholder="First name" required/>
                       </div>
                     </div>
                     <div class="form-group required">
                       <label  class="col-sm-2 control-label"
-                                for="lastname">Prezime</label>
+                                for="lastname">Last name</label>
                       <div class="col-sm-10">
                           <input type="text" name="lastname" class="form-control" 
-                          id="lastname" placeholder="Prezime" required/>
+                          id="lastname" placeholder="Last name" required/>
                       </div>
                     </div>
                     <div class="form-group required">
                       <label  class="col-sm-2 control-label"
-                                for="gender">Pol</label>
+                                for="gender">Gender</label>
                       <div class="col-sm-10">
-                        <label class="radio-inline" style="font-family: 'Roboto'; font-weight:300;"><input type="radio" name="gender" value="Male">Muški</label>
-                        <label class="radio-inline" style="font-family: 'Roboto'; font-weight:300;"><input type="radio" name="gender" value="Female">Ženski</label>
+                        <label class="radio-inline" style="font-family: 'Roboto'; font-weight:300;"><input type="radio" name="gender" value="Male">Male</label>
+                        <label class="radio-inline" style="font-family: 'Roboto'; font-weight:300;"><input type="radio" name="gender" value="Female">Female</label>
                       </div>
                     </div>
                     <div class="form-group">
                       <label  class="col-sm-2 control-label"
-                                for="company">Kompanija</label>
+                                for="company">Company</label>
                       <div class="col-sm-10">
                           <input type="text" name="company" class="form-control" 
-                          id="company" placeholder="Kompanija"/>
+                          id="company" placeholder="Company"/>
                       </div>
                     </div>
                     <div class="form-group">
                       <label  class="col-sm-2 control-label"
-                                for="work-position">Pozicija na poslu</label>
+                                for="work-position">Work position</label>
                       <div class="col-sm-10">
                           <input type="text" name="work-position" class="form-control" 
-                          id="work-position" placeholder="Pozicija na poslu"/>
+                          id="work-position" placeholder="Work position"/>
                       </div>
                     </div>     
                     <div class="form-group required">
                       <label  class="col-sm-2 control-label"
-                                for="country">Država</label>
+                                for="country">Country</label>
                       <div class="col-sm-10">
                           <select name="country" class="form-control" 
                           id="country" placeholder="Country" required/>
-                            <option value="">Država...</option>
+                            <option value="">Country...</option>
                             <option value="Afganistan">Afghanistan</option>
                             <option value="Albania">Albania</option>
                             <option value="Algeria">Algeria</option>
@@ -830,38 +617,38 @@
                     </div>
                     <div class="form-group">
                       <label  class="col-sm-2 control-label"
-                                for="city">Grad</label>
+                                for="city">City</label>
                       <div class="col-sm-10">
                           <input type="text" name="city" class="form-control" 
-                          id="city" placeholder="Grad"/>
+                          id="city" placeholder="City"/>
                       </div>
                     </div>
                     <div class="form-group">
                       <label  class="col-sm-2 control-label"
-                                for="phone">Broj telefona</label>
+                                for="phone">Phone number</label>
                       <div class="col-sm-10">
                           <input type="text" name="phone" class="form-control" 
-                          id="phone" placeholder="Broj telefona"/>
+                          id="phone" placeholder="Phone number"/>
                       </div>
                     </div>
                     <div class="form-group">
                       <label  class="col-sm-2 control-label"
-                                for="web-site">Veb-sajt</label>
+                                for="web-site">Web site</label>
                       <div class="col-sm-10">
                           <input type="text" name="web-site" class="form-control" 
-                          id="web-site" placeholder="Veb-sajt"/>
+                          id="web-site" placeholder="Web site"/>
                       </div>
                     </div>
                     <div class="form-group">
                       <label  class="col-sm-2 control-label"
-                                for="status">Vi ste...</label>
+                                for="status">You are...</label>
                       <div class="col-sm-10">
                           <select name="status" class="form-control" id="status" placeholder="Status">
-                            <option value="">Vi ste...</option>
-                            <option value="Visitor">Posetilac</option>
-                            <option value="Exhibitor">Izlagač</option>
-                            <option value="Press">Novinar</option>
-                            <option value="Conference participant">Učesnik konferencije</option>
+                            <option value="">You are...</option>
+                            <option value="Visitor">Visitor</option>
+                            <option value="Exhibitor">Exhibitor</option>
+                            <option value="Press">Press</option>
+                            <option value="Conference participant">Conference participant</option>
                           </select>  
                       </div>
                     </div>
@@ -870,10 +657,10 @@
                     </div>  
                     <div class="form-group required">
                       <label  class="col-sm-2 control-label"
-                                for="username">Korisničko ime</label>
+                                for="username">User name</label>
                       <div class="col-sm-10">
                           <input type="text" name="username" class="form-control" 
-                          id="username" placeholder="Korisničko ime" required/>
+                          id="username" placeholder="User name" required/>
                       </div>
                     </div>    
                     <div class="form-group required">
@@ -886,10 +673,10 @@
                     </div>
                     <div class="form-group required">
                       <label class="col-sm-2 control-label"
-                            for="password">Lozinka</label>
+                            for="password">Password</label>
                       <div class="col-sm-10">
                           <input type="password" name="password" class="form-control"
-                              id="password" placeholder="Lozinka" required/>
+                              id="password" placeholder="Password" required/>
                       </div>
                     </div>
                     <div>
@@ -897,15 +684,15 @@
                     </div>
                     <div class="form-group">
                       <label  class="col-sm-2 control-label"
-                                for="question">Pitanje</label>
+                                for="question">Question</label>
                       <div class="col-sm-10">
                           <textarea name="question" class="form-control" 
-                          id="question" placeholder="Pitanje..."></textarea>
+                          id="question" placeholder="Question..."></textarea>
                       </div>
                     </div>  
                     <div class="form-group">
                       <div class="col-sm-offset-2 col-sm-10">
-                        <button type="submit" name="submit" class="btn btn-default">Prijava</button>
+                        <button type="submit" name="submit" class="btn btn-default">Sign in</button>
                       </div>
                     </div>
                   </form>                 
@@ -915,7 +702,7 @@
               <div class="modal-footer">
                   <button type="button" class="btn btn-default"
                           data-dismiss="modal">
-                              Zatvori
+                              Close
                   </button>
               </div>
           </div>

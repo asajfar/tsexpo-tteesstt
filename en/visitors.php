@@ -1,3 +1,8 @@
+<?php 
+  $page = 'visitors';
+  $srplink = 'visitors';
+?>
+
 <!doctype html>
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><html lang="en" class="no-js"> <![endif]-->
@@ -6,7 +11,7 @@
 <head>
 
   <!-- Basic -->
-  <title>TRAFFIC SOLUTIONS EXPO</title>
+  <title>VISITORS | TRAFFIC SOLUTIONS EXPO</title>
 
   <!-- Define Charset -->
   <meta charset="utf-8">
@@ -73,6 +78,18 @@
   <!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
+  <!-- Google Analytics Code -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-76465485-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+
 </head>
 
 <body>
@@ -82,153 +99,9 @@
 
 
     <!-- Start Header Section -->
-    <div class="hidden-header"></div>
-    <header class="clearfix">
-
-      <!-- Start Top Bar -->
-      <div class="top-bar">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-7">
-              <!-- Start Contact Info -->
-              <ul class="contact-details">
-                <li><a href="#"><i class="fa fa-map-marker"></i> Novi Sad Fair, City of Novi Sad, Serbia</a>
-                </li>
-                <li><a href="#"><i class="fa fa-envelope-o"></i> office@ts-expo.rs</a>
-                </li>
-                <li><a href="#"><i class="fa fa-phone"></i> +381 (0) 64 12 49 757</a>
-                </li>
-              </ul>
-              <!-- End Contact Info -->
-            </div>
-            <!-- .col-md-6 -->
-            <div class="col-md-5">
-              <!-- Start Social Links -->
-              <ul class="social-list">
-                <!--<li>
-                  <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a class="google itl-tooltip" data-placement="bottom" title="Google Plus" href="#"><i class="fa fa-google-plus"></i></a>
-                </li>
-                
-                <li>
-                  <a class="dribbble itl-tooltip" data-placement="bottom" title="Dribble" href="#"><i class="fa fa-dribbble"></i></a>
-                </li>
-                <li>
-                  <a class="linkdin itl-tooltip" data-placement="bottom" title="Linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-                </li>
-                <li>
-                  <a class="flickr itl-tooltip" data-placement="bottom" title="Flickr" href="#"><i class="fa fa-flickr"></i></a>
-                </li>
-                <li>
-                  <a class="tumblr itl-tooltip" data-placement="bottom" title="Tumblr" href="#"><i class="fa fa-tumblr"></i></a>
-                </li>
-                <li>
-                  <a class="instgram itl-tooltip" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
-                </li>
-                <li>
-                  <a class="vimeo itl-tooltip" data-placement="bottom" title="vimeo" href="#"><i class="fa fa-vimeo-square"></i></a>
-                </li>
-                <li>
-                  <a class="skype itl-tooltip" data-placement="bottom" title="Skype" href="callto://+***********"><i class="fa fa-skype"></i></a>
-                </li>-->
-                <li>
-                  <a class="language-choose active" href="#"><i>EN</i></a>
-                </li>
-                <li>
-                  <a class="language-choose" href="../sr/izlagaci.html"><i>SR</i></a>
-                </li>
-              </ul>
-              <!-- End Social Links -->
-            </div>
-            <!-- .col-md-6 -->
-          </div>
-          <!-- .row -->
-        </div>
-        <!-- .container -->
-      </div>
-      <!-- .top-bar -->
-      <!-- End Top Bar -->
-
-
-      <!-- Start  Logo & Naviagtion  -->
-      <div class="navbar navbar-default navbar-top">
-        <div class="container">
-          <div class="navbar-header">
-            <!-- Stat Toggle Nav Link For Mobiles -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <i class="fa fa-bars"></i>
-            </button>
-            <!-- End Toggle Nav Link For Mobiles -->
-            <a class="navbar-brand" href="index.html">
-              <img alt="" src="images/tslogo.png" class="logo-full">
-              <img alt="" src="images/tslogo2.png" class="logo-mobile">              
-            </a>
-          </div>
-          <div class="navbar-collapse collapse">
-            <!-- Stat Search -->
-            <div class="search-side">
-              <a class="show-search"><i class="fa fa-search"></i></a>
-              <div class="search-form">
-                <form autocomplete="off" role="search" method="get" class="searchform" action="#">
-                  <input type="text" value="" name="s" id="s" placeholder="Search the site...">
-                </form>
-              </div>
-            </div>
-            <!--End Search -->
-            <!-- Start Navigation List -->
-            <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a href="index.html">Home</a>
-              </li>
-              <li>
-                <a class="active" href="exhibitors.html">EXHIBITORS</a>
-              </li>
-              <li>
-                <a href="visitors.html">VISITORS</a>
-              </li>
-              <li>
-                <a href="program_en.html">PROGRAM</a>
-              </li>
-              <li>
-                <a href="location.html">Contact</a>
-                <ul class="dropdown">
-                  <li><a href="accommodation.html">ACCOMMODATION</a></li>
-                </ul>
-              </li>
-            </ul>
-            <!-- End Navigation List -->
-          </div>
-        </div>
-
-        <!-- Mobile Menu Start -->
-        <ul class="wpb-mobile-menu">
-          <li>
-            <a href="index.html">HOME</a>
-          </li>
-          <li>
-            <a class="active" href="exhibitors.html">EXHIBITORS</a>
-          </li>
-          <li>
-            <a href="visitors.html">VISITORS</a>
-          </li>
-          <li>
-            <a href="program_en.html">PROGRAM</a>
-          </li>
-          <li>
-            <a href="location.html">CONTACT</a>
-          </li>
-        </ul>
-        <!-- Mobile Menu End -->
-
-      </div>
-      <!-- End Header Logo & Naviagtion -->
-
-    </header>
+    <?php 
+      include 'header-en.php';
+    ?>
     <!-- End Header Section -->
 
 
@@ -264,29 +137,19 @@
             <div class="col-md-12">
 
               <!-- Classic Heading -->
-              <h4 class="classic-title"><span>EXHIBITORS</span></h4>
+              <h4 class="classic-title"><span>VISITORS</span></h4>
 
               <!-- Some Text -->
-              <p><strong>Profile of exhibitors:</strong></p>
-              <p>Exhibitors at TRAFFIC SOLUTIONS EXPO are producers, importers of the product and/or the providers of various services in the field of traffic and traffic infrastructure, with an emphasis on all types of traffic - road, rail, water, air and postal traffic:</p>
+              <p>Visitors of TRAFFIC SOLUTIONS EXPO are:</p>
               <ul class="icons-list">
-                <li><i class="fa fa-check-circle"></i> policies, strategies and development plans in the field of traffic</li>
-                <li><i class="fa fa-check-circle"></i> Traffic Engineering - Planning and design of objects in traffic, control and consulting</li>
-                <li><i class="fa fa-check-circle"></i> systems and equipment (hardware and software) for the design, management, measurement, monitoring and control of traffic</li>
-                <li><i class="fa fa-check-circle"></i> The construction and maintenance of traffic infrastructure</li>
-                <li><i class="fa fa-check-circle"></i> Mechanization and equipment for construction and maintenance of traffic infrastructure</li>
-                <li><i class="fa fa-check-circle"></i> Signalization and equipment in traffic</li>
-                <li><i class="fa fa-check-circle"></i> Passenger transport - planning and organization of transport, vehicles and equipment</li>
-                <li><i class="fa fa-check-circle"></i> Logistics, transport and services in transport - packing, handling, warehousing and freight forwarding operations</li>
-                <li><i class="fa fa-check-circle"></i> Mechanization and equipment for packaging, transport, handling and storage of goods</li>
-                <li><i class="fa fa-check-circle"></i> Services in postal consignments, telecommunications and communications</li>
-                <li><i class="fa fa-check-circle"></i> Training, professional education and training of traffic participants</li>
-                <li><i class="fa fa-check-circle"></i> Insurance for traffic - insurance of passengers, cargo, vehicles and equipment</li>
-                <li><i class="fa fa-check-circle"></i> Business credit for companies in the field of traffic</li>
-                <li><i class="fa fa-check-circle"></i> The media and publishing in the field of traffic</li>
-                <li><i class="fa fa-check-circle"></i> Other services in traffic - the fuel supply, technical inspections, maintenance of vehicles or equipment, roadside assistance, etc.</li>
+                <li><i class="fa fa-check-circle"></i>Decision-makers at the international, national, provincial and local level who work in the field of traffic</li>
+                <li><i class="fa fa-check-circle"></i>Representatives of international and local organizations, funds and entities to invest in the fields of traffic and traffic infrastructure</li>
+                <li><i class="fa fa-check-circle"></i>Representatives of national, regional and local public enterprises, authorities and institutes in the field of traffic</li>
+                <li><i class="fa fa-check-circle"></i>The contractors, equipment manufacturers and service providers in traffic</li>
+                <li><i class="fa fa-check-circle"></i>Representatives of educational institutions and professional organizations in the field of traffic</li>
+                <li><i class="fa fa-check-circle"></i>Representatives of the media</li>
+                <li><i class="fa fa-check-circle"></i>Wider public interested in the topic of traffic</li>
               </ul>
-
 
             </div>
 
@@ -304,62 +167,160 @@
 
           </div>
 
+          <div class="row poziv">
+            <div class="call-action call-action-boxed call-action-style1 no-descripton clearfix">
+              <!-- Call Action Button -->
+              <!--<div class="button-side"><a href="#" class="btn-system border-btn btn-medium">Purchase It Now</a></div>-->
+              <!-- Call Action Text -->
+              <h2 class="primary">Entrance to TRAFFIC SOLUTIONS EXPO 2018 is free for all visitors with obligatory registration.</h2>
+              <button class="register-button-pos" data-toggle="modal" data-target="#myModalHorizontal">APPLICATION FORM</button>
+            </div>
+          </div>
+
           <div class="hr1" style="margin-bottom:50px;"></div>
 
           <div class="row">
+            <div class="project">
+              <div class="container">
+                <!-- Start Recent Projects Carousel -->
+                <div class="recent-projects">
+                  <h4 class="title"><span>VISITORS</span></h4>
+                  <div class="projects-carousel touch-carousel">
 
-            <div class="col-md-6">
+                    <div class="portfolio-item item">
+                      <div class="portfolio-border">
+                        <div class="portfolio-thumb">
+                          <a class="lightbox" data-lightbox-gallery="posetioci" href="../en/images/posetioci/001_posetioci.jpg">
+                            <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
+                            <img alt="" src="../en/images/posetioci/001_posetioci.jpg" />
+                          </a>
+                        </div>
+                        <!-- <div class="portfolio-details">
+                          <a href="#">
+                            <h4>Lorem Ipsum Dolor</h4>
+                            <span>Logo</span>
+                            <span>Animation</span>
+                          </a>
+                        </div> -->
+                      </div>
+                    </div>
 
-              <!-- Classic Heading -->
-              <h4 class="classic-title"><span>STAND CONSTRUCTION</span></h4>
+                    <div class="portfolio-item item">
+                      <div class="portfolio-border">
+                        <div class="portfolio-thumb">
+                          <a class="lightbox" data-lightbox-gallery="posetioci" href="../en/images/posetioci/002_posetioci.jpg">
+                            <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
+                            <img alt="" src="../en/images/posetioci/002_posetioci.jpg" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
 
-              <!-- Some Text -->
-              <p>Ordered stands will have the following fittings, furnishings and connections:</p>
-              <ul class="icons-list">
-                <li><i class="fa fa-check-circle"></i>1 table brochure display</li>
-                <li><i class="fa fa-check-circle"></i>1 table</li>
-                <li><i class="fa fa-check-circle"></i>3 chairs</li>
-                <li><i class="fa fa-check-circle"></i>1 counter and stool</li>
-                <li><i class="fa fa-check-circle"></i>1 lockable storage of 1 sq. m.</li>
-                <li><i class="fa fa-check-circle"></i>partition walls (white), with a height of 250 cm</li>
-                <li><i class="fa fa-check-circle"></i>carpet tiles</li>
-                <li><i class="fa fa-check-circle"></i>fascia board (white) with company name and stand number</li>
-                <li><i class="fa fa-check-circle"></i>2 spotlights per 5 sq. m.</li>
-                <li><i class="fa fa-check-circle"></i>1 220-volt socket</li>
-                <li><i class="fa fa-check-circle"></i>1 electricity connection (day-time power) and consumption for standard 220-volt socket and standard spotlights</li>
-              </ul>
+                    <div class="portfolio-item item">
+                      <div class="portfolio-border">
+                        <div class="portfolio-thumb">
+                          <a class="lightbox" data-lightbox-gallery="posetioci" href="../en/images/posetioci/003_posetioci.jpg">
+                            <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
+                            <img alt="" src="../en/images/posetioci/003_posetioci.jpg" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
 
-              <div class="registration">
-                <a href="docs/reg/Registration_form.pdf" target="_blank"><button class="register-button-izv"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>REGISTRATION FORM</button></a>
-              </div>
-              <div class="registration">
-                <a href="docs/reg/General_terms_and_conditions_for_exhibiting.pdf" target="_blank"><button class="register-button-izv2"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>General terms and conditions for exhibiting</button></a>
-              </div>
+                    <div class="portfolio-item item">
+                      <div class="portfolio-border">
+                        <div class="portfolio-thumb">
+                          <a class="lightbox" data-lightbox-gallery="posetioci" href="../en/images/posetioci/004_posetioci.jpg">
+                            <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
+                            <img alt="" src="../en/images/posetioci/004_posetioci.jpg" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
 
-            </div>
+                    <div class="portfolio-item item">
+                      <div class="portfolio-border">
+                        <div class="portfolio-thumb">
+                          <a class="lightbox" data-lightbox-gallery="posetioci" href="../en/images/posetioci/005_posetioci.jpg">
+                            <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
+                            <img alt="" src="../en/images/posetioci/005_posetioci.jpg" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
 
-            <div class="col-md-6">
-              <h4 class="classic-title"><span>THE APPEARANCE OF THE STAND</span></h4>
+                    <div class="portfolio-item item">
+                      <div class="portfolio-border">
+                        <div class="portfolio-thumb">
+                          <a class="lightbox" data-lightbox-gallery="posetioci" href="../en/images/posetioci/006_posetioci.jpg">
+                            <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
+                            <img alt="" src="../en/images/posetioci/006_posetioci.jpg" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
 
-              <!-- Start image gallery -->
-                <div class="flickr-widget">
-                  <ul class="flickr-list">
-                    <li>
-                      <a href="images/exhibition/stand1.jpg" class="lightbox">
-                        <img alt="" src="../en/images/exhibition/stand1.jpg">
-                      </a>
-                    </li>
-                    <li>
-                      <a href="images/exhibition/stand2.jpg" class="lightbox">
-                        <img alt="" src="../en/images/exhibition/stand2.jpg">
-                      </a>
-                    </li>
-                  </ul>
+                    <div class="portfolio-item item">
+                      <div class="portfolio-border">
+                        <div class="portfolio-thumb">
+                          <a class="lightbox" data-lightbox-gallery="posetioci" href="../en/images/posetioci/007_posetioci.jpg">
+                            <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
+                            <img alt="" src="../en/images/posetioci/007_posetioci.jpg" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="portfolio-item item">
+                      <div class="portfolio-border">
+                        <div class="portfolio-thumb">
+                          <a class="lightbox" data-lightbox-gallery="posetioci" href="../en/images/posetioci/008_posetioci.jpg">
+                            <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
+                            <img alt="" src="../en/images/posetioci/008_posetioci.jpg" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="portfolio-item item">
+                      <div class="portfolio-border">
+                        <div class="portfolio-thumb">
+                          <a class="lightbox" data-lightbox-gallery="posetioci" href="../en/images/posetioci/009_posetioci.jpg">
+                            <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
+                            <img alt="" src="../en/images/posetioci/009_posetioci.jpg" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="portfolio-item item">
+                      <div class="portfolio-border">
+                        <div class="portfolio-thumb">
+                          <a class="lightbox" data-lightbox-gallery="posetioci" href="../en/images/posetioci/010_posetioci.jpg">
+                            <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
+                            <img alt="" src="../en/images/posetioci/010_posetioci.jpg" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="portfolio-item item">
+                      <div class="portfolio-border">
+                        <div class="portfolio-thumb">
+                          <a class="lightbox" data-lightbox-gallery="posetioci" href="../en/images/posetioci/011_posetioci.jpg">
+                            <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
+                            <img alt="" src="../en/images/posetioci/011_posetioci.jpg" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
                 </div>
-              <!-- End Touch Slider -->
-
+               <!-- End Recent Projects Carousel -->
+              </div>
+        <!-- .container -->
             </div>
-
           </div>
 
           <!-- Divider -->
@@ -371,82 +332,9 @@
 
 
     <!-- Start Footer -->
-    <footer>
-      <div class="container">
-        <div class="row footer-widgets">
-
-          <!-- Start Subscribe & Social Links Widget -->
-          <div class="col-md-6">
-            <div class="footer-widget mail-subscribe-widget">
-              <h4>Get in touch<span class="head-line"></span></h4>
-              <p>Join our mailing list and be informed!</p>
-              <form class="subscribe" action="http://adomne.us9.list-manage.com/subscribe/post" method="POST">
-                <input type="hidden" name="u" value="463fc7d46e4f471e9f5d8312a">
-                <input type="hidden" name="id" value="511d158f34">
-                <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" placeholder="mail@example.com">
-                <input type="submit" class="btn-system" name="submit" value="Send">
-              </form>
-            </div>
-            <div class="footer-widget social-widget">
-              <h4>Follow Us<span class="head-line"></span></h4>
-              <ul class="social-icons">
-                <li>
-                  <a class="facebook" target="_blank" href="https://www.facebook.com/Traffic-Solutions-Expo-2017-327245394274282/"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a class="twitter" href="https://twitter.com/ts_expo_ns" target="_blank"><i class="fa fa-twitter"></i></a>
-                </li>
-                <!-- <li>
-                  <a class="google" href="#"><i class="fa fa-google-plus"></i></a>
-                </li>
-                <li>
-                  <a class="skype" href="#"><i class="fa fa-skype"></i></a>
-                </li> -->
-              </ul>
-            </div>
-          </div>
-          <!-- .col-md-3 -->
-          <!-- End Subscribe & Social Links Widget -->
-
-         
-          <!-- Start Contact Widget -->
-          <div class="col-md-6">
-            <div class="footer-widget contact-widget">
-              <h4><img src="images/tslogo_w.png" class="img-responsive" alt="Footer Logo" /></h4>
-              <p>Contact us:</p>
-              <ul>
-                <li><span>Phone Number:</span> +381 (0) 64 12 49 757; +381 (0) 63 417 555</li>
-                <li><span>Email:</span> office@ts-expo.rs</li>
-                <li><span>Website:</span> www.ts-expo.rs</li>
-              </ul>
-            </div>
-          </div>
-          <!-- .col-md-3 -->
-          <!-- End Contact Widget -->
-
-
-        </div>
-        <!-- .row -->
-
-        <!-- Start Copyright -->
-        <div class="copyright-section">
-          <div class="row">
-            <div class="col-md-6">
-              <p>&copy; 2018 ts-expo.rs - All Rights Reserved</p>
-            </div>
-            <div class="col-md-6">
-              <ul class="footer-nav">
-                <li><a href="#">Sitemap</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="location.html">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- End Copyright -->
-
-      </div>
-    </footer>
+    <?php 
+      include 'footer-en.php';
+    ?>
     <!-- End Footer -->
 
   </div>
@@ -557,18 +445,6 @@
   </div>-->
 
   <script type="text/javascript" src="js/script.js"></script>
-
-  <!-- Google Analytics Code -->
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-76465485-1', 'auto');
-  ga('send', 'pageview');
-
-  </script>
 
   <!-- Modal -->
   <div class="modal fade" id="myModalHorizontal" tabindex="-1" role="dialog" 
@@ -942,6 +818,14 @@
                       <div class="col-sm-10">
                           <input type="email" name="email" class="form-control" 
                           id="email" placeholder="Email" required/>
+                      </div>
+                    </div>
+                    <div class="form-group required">
+                      <label  id="email2" class="col-sm-2 control-label"
+                                for="email2">Email</label>
+                      <div class="col-sm-10">
+                          <input type="email" name="email2" class="form-control" 
+                          id="email2" placeholder="Email address"/>
                       </div>
                     </div>
                     <div class="form-group required">

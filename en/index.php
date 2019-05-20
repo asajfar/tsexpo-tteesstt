@@ -1,12 +1,18 @@
+<?php 
+  $page = 'home';
+  $srplink = 'home';
+?>
+
+
 <!doctype html>
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><html lang="en" class="no-js"> <![endif]-->
-<html lang="sr">
+<html lang="en">
 
 <head>
 
   <!-- Basic -->
-  <title>POSETIOCI | TRAFFIC SOLUTIONS EXPO</title>
+  <title>HOME | TRAFFIC SOLUTIONS EXPO</title>
 
   <!-- Define Charset -->
   <meta charset="utf-8">
@@ -15,66 +21,89 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <!-- Page Description and Author -->
-  <meta name="description" content="Traffic Solutions Expo, Novi Sad Fair, City of Novi Sad, Serbia">
+  <meta name="description" content="Welcome to the traffic fair in Serbia, TRAFFIC SOLUTIONS EXPO, Novi Sad, Serbia. Find out more!">
   <meta name="author" content="ASajfar">
 
-  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-  <link href="/android-192x192.png" rel="icon" sizes="192x192" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
   <!-- Bootstrap CSS  -->
-  <link rel="stylesheet" href="../en/asset/css/bootstrap.min.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="asset/css/bootstrap.min.css" type="text/css" media="screen">
 
   <!-- Font Awesome CSS -->
-  <link rel="stylesheet" href="../en/css/font-awesome.min.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
 
   <!-- Slicknav - responsive Mobile menu -->
-  <link rel="stylesheet" type="text/css" href="../en/css/slicknav.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="css/slicknav.css" media="screen">
 
   <!-- Site CSS Styles  -->
-  <link rel="stylesheet" type="text/css" href="../en/css/style.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
 
   <!-- Responsive CSS Styles  -->
-  <link rel="stylesheet" type="text/css" href="../en/css/responsive.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen">
 
   <!-- Css3 Transitions Styles  -->
-  <link rel="stylesheet" type="text/css" href="../en/css/animate.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="css/animate.css" media="screen">
 
   <!-- Color CSS Styles  -->
-  <link rel="stylesheet" type="text/css" href="../en/css/colors/red.css" title="red" media="screen" />
-  <link rel="stylesheet" type="text/css" href="../en/css/colors/jade.css" title="jade" media="screen" />
-  <link rel="stylesheet" type="text/css" href="../en/css/colors/green.css" title="green" media="screen" />
-  <link rel="stylesheet" type="text/css" href="../en/css/colors/blue.css" title="blue" media="screen" />
-  <link rel="stylesheet" type="text/css" href="../en/css/colors/beige.css" title="beige" media="screen" />
-  <link rel="stylesheet" type="text/css" href="../en/css/colors/cyan.css" title="cyan" media="screen" />
-  <link rel="stylesheet" type="text/css" href="../en/css/colors/orange.css" title="orange" media="screen" />
-  <link rel="stylesheet" type="text/css" href="../en/css/colors/peach.css" title="peach" media="screen" />
-  <link rel="stylesheet" type="text/css" href="../en/css/colors/pink.css" title="pink" media="screen" />
-  <link rel="stylesheet" type="text/css" href="../en/css/colors/purple.css" title="purple" media="screen" />
-  <link rel="stylesheet" type="text/css" href="../en/css/colors/sky-blue.css" title="sky-blue" media="screen" />
-  <link rel="stylesheet" type="text/css" href="../en/css/colors/yellow.css" title="yellow" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/colors/red.css" title="red" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/colors/jade.css" title="jade" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/colors/green.css" title="green" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/colors/blue.css" title="blue" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/colors/beige.css" title="beige" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/colors/cyan.css" title="cyan" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/colors/orange.css" title="orange" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/colors/peach.css" title="peach" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/colors/pink.css" title="pink" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/colors/purple.css" title="purple" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/colors/sky-blue.css" title="sky-blue" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/colors/yellow.css" title="yellow" media="screen" />
 
   <!-- Site JS  -->
-  <script type="text/javascript" src="../en/js/jquery-2.1.4.min.js"></script>
-  <script type="text/javascript" src="../en/js/jquery.migrate.js"></script>
-  <script type="text/javascript" src="../en/js/modernizrr.js"></script>
-  <script type="text/javascript" src="../en/asset/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="../en/js/jquery.fitvids.js"></script>
-  <script type="text/javascript" src="../en/js/owl.carousel.min.js"></script>
-  <script type="text/javascript" src="../en/js/nivo-lightbox.min.js"></script>
-  <script type="text/javascript" src="../en/js/jquery.isotope.min.js"></script>
-  <script type="text/javascript" src="../en/js/jquery.appear.js"></script>
-  <script type="text/javascript" src="../en/js/count-to.js"></script>
-  <script type="text/javascript" src="../en/js/jquery.textillate.js"></script>
-  <script type="text/javascript" src="../en/js/jquery.lettering.js"></script>
-  <script type="text/javascript" src="../en/js/jquery.easypiechart.min.js"></script>
-  <script type="text/javascript" src="../en/js/jquery.nicescroll.min.js"></script>
-  <script type="text/javascript" src="../en/js/jquery.parallax.js"></script>
-  <script type="text/javascript" src="../en/js/mediaelement-and-player.js"></script>
-  <script type="text/javascript" src="../en/js/jquery.slicknav.js"></script>
+  <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="js/jquery.migrate.js"></script>
+  <script type="text/javascript" src="js/modernizrr.js"></script>
+  <script type="text/javascript" src="asset/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+  <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+  <script type="text/javascript" src="js/nivo-lightbox.min.js"></script>
+  <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+  <script type="text/javascript" src="js/jquery.appear.js"></script>
+  <script type="text/javascript" src="js/count-to.js"></script>
+  <script type="text/javascript" src="js/jquery.textillate.js"></script>
+  <script type="text/javascript" src="js/jquery.lettering.js"></script>
+  <script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
+  <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+  <script type="text/javascript" src="js/jquery.parallax.js"></script>
+  <script type="text/javascript" src="js/mediaelement-and-player.js"></script>
+  <script type="text/javascript" src="js/jquery.slicknav.js"></script>
   
 
   <!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <!-- JSON-LD markup generated by Google Structured Data Markup Helper. -->
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Event",
+  "name": "TRAFFIC SOLUTIONS EXPO 2018",
+  "description": "TRAFFIC SOLUTIONS EKSPO aims to contribute to the overall development of traffic, presenting various products and services, linking stakeholders and informing the professionals and the general public.",
+  "image": "http://ts-expo.rs/en/images/tslogo2.png",
+  "startDate": "2018-10-16T00:00",
+  "endDate": "2018-09-18T00:00",
+  "location": {
+    "@type": "Place",
+    "name": "Novi Sad Fair",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Hajduk Veljkova 11",
+      "addressLocality": "Novi Sad",
+      "postalCode": "21000",
+      "addressCountry": "RS"
+    }
+  }
+}
+</script>
 
   <!-- Google Analytics Code -->
   <script>
@@ -92,517 +121,175 @@
 
 <body>
 
+<!-- Popup window -->
+<!-- <div class="pop-up">
+    <div class="pop-box pop-small-6 large-centered">
+      <h3>Dear friends, colleagues and associates,</h3>
+      
+      <p>Thank you on your cooperation, registration and willingness to actively participate in the implementation of Traffic Solutions Expo 2016.</p>
+     <p> Unfortunately, due to the fact that such an event is planed for the first time in Serbia and that this was an election year in Serbia at all levels, every day we were faced with a lack of time for quality realization of this event. Because of that we were forced to make a decision to move the deadline of Traffic Solutions Expo on 2017.</p>
+      <p>Bearing in mind that in the current preparations for the Traffic Solutions Expo all instances the authorities, professional and general public have shown willingness and interest in active involvement in the organization of the event, we invite you to continue our current cooperation and prepare for the next year.</p>
+      <p>We believe that together with you, but also whit additional time that we have now, will succeed to organize an quality event and on satisfaction of all.</p>
+      <p>More information about <strong>TRAFFIC SOLUTION EXPO 2017</strong> will soon be available on our site www.ts-expo.rs.</p>
+      <p>For any additional questions or information, please do not hesitate to contact us.</p>
+      <p>Thank you in advance for your understanding of the situation.</p>
+      <p>TRAFFIC SOLUTIONS EXPO Team!</p>
+
+    </div>
+  </div> -->
+
   <!-- Full Body Container -->
+
+  <!-- Tab sa strane ciji link vodi ka B2B stranici  -->
+
+  <!-- <div id="side-tab">
+      <a class="b2b" onmouseover="changeb2b(this)" onmouseout="normalb2b(this)" target="_blank" href="http://trafficb2b2017.talkb2b.net/"></a>
+  </div> -->
+
+  <!-- kraja taba  -->
+
   <div id="container">
 
 
     <!-- Start Header Section -->
-    <div class="hidden-header"></div>
-    <header class="clearfix">
-
-      <!-- Start Top Bar -->
-      <div class="top-bar">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-7">
-              <!-- Start Contact Info -->
-              <ul class="contact-details">
-                <li><a href="#"><i class="fa fa-map-marker"></i> Novi Sad Fair, City of Novi Sad, Serbia</a>
-                </li>
-                <li><a href="#"><i class="fa fa-envelope-o"></i> office@ts-expo.rs</a>
-                </li>
-                <li><a href="#"><i class="fa fa-phone"></i> +381 (0) 64 12 49 757</a>
-                </li>
-              </ul>
-              <!-- End Contact Info -->
-            </div>
-            <!-- .col-md-6 -->
-            <div class="col-md-5">
-              <!-- Start Social Links -->
-              <ul class="social-list">
-                <!--<li>
-                  <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a class="google itl-tooltip" data-placement="bottom" title="Google Plus" href="#"><i class="fa fa-google-plus"></i></a>
-                </li>
-                
-                <li>
-                  <a class="dribbble itl-tooltip" data-placement="bottom" title="Dribble" href="#"><i class="fa fa-dribbble"></i></a>
-                </li>
-                <li>
-                  <a class="linkdin itl-tooltip" data-placement="bottom" title="Linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-                </li>
-                <li>
-                  <a class="flickr itl-tooltip" data-placement="bottom" title="Flickr" href="#"><i class="fa fa-flickr"></i></a>
-                </li>
-                <li>
-                  <a class="tumblr itl-tooltip" data-placement="bottom" title="Tumblr" href="#"><i class="fa fa-tumblr"></i></a>
-                </li>
-                <li>
-                  <a class="instgram itl-tooltip" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
-                </li>
-                <li>
-                  <a class="vimeo itl-tooltip" data-placement="bottom" title="vimeo" href="#"><i class="fa fa-vimeo-square"></i></a>
-                </li>
-                <li>
-                  <a class="skype itl-tooltip" data-placement="bottom" title="Skype" href="callto://+***********"><i class="fa fa-skype"></i></a>
-                </li>-->
-                <li>
-                  <a class="language-choose" href="../en/exhibitors-profile.html"><i>EN</i></a>
-                </li>
-                <li>
-                  <a class="language-choose active" href="#"><i>SR</i></a>
-                </li>
-              </ul>
-              <!-- End Social Links -->
-            </div>
-            <!-- .col-md-6 -->
-          </div>
-          <!-- .row -->
-        </div>
-        <!-- .container -->
-      </div>
-      <!-- .top-bar -->
-      <!-- End Top Bar -->
-
-
-      <!-- Start  Logo & Naviagtion  -->
-      <div class="navbar navbar-default navbar-top">
-        <div class="container">
-          <div class="navbar-header">
-            <!-- Stat Toggle Nav Link For Mobiles -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <i class="fa fa-bars"></i>
-            </button>
-            <!-- End Toggle Nav Link For Mobiles -->
-            <a class="navbar-brand" href="index.html">
-              <img alt="" src="../en/images/tslogo.png" class="logo-full">
-              <img alt="" src="../en/images/tslogo2.png" class="logo-mobile">
-            </a>
-          </div>
-          <div class="navbar-collapse collapse">
-            <!-- Stat Search -->
-            <div class="search-side">
-              <a class="show-search"><i class="fa fa-search"></i></a>
-              <div class="search-form">
-                <form autocomplete="off" role="search" method="get" class="searchform" action="#">
-                  <input type="text" value="" name="s" id="s" placeholder="Search the site...">
-                </form>
-              </div>
-            </div>
-            <!--End Search -->
-            <!-- Start Navigation List -->
-            <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a href="index.html">Naslovna</a>
-              </li>
-              <!-- <li>
-                <a href="ts-exposr.html">TS-EXPO</a>
-              </li> -->
-              <li class="drop">
-                <a class="active not-link" href="#">IZLAGAČI</a>
-                <ul class="dropdown">
-                  <!-- <li><a href="izlagaci-2018.html">SPISAK IZLAGAČA 2018</a> -->
-                  </li>
-                  <li><a href="profil-izlagaca.html">PROFILI IZLAGAČA</a>
-                  </li>
-                  <li><a href="uslovi-izlaganja.html">USLOVI ZA IZLAGANJE</a>
-                  </li>
-                  <li><a href="tlocrt.html">TLOCRT</a>
-                  </li> 
-                </ul>
-              </li>
-              <li>
-                <a href="posetioci.html">POSETIOCI</a>
-              </li>
-              <li>
-                <a href="program.html">PROGRAM</a>
-              </li>
-              <li>
-                <a href="lokacija.html">KONTAKT</a>
-                <ul class="dropdown">
-                  <li><a href="smestaj.html">SMEŠTAJ</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="ts-expo-2017.html" style="color: #29aae2; font-weight: 600;">TS-EXPO 2017</a>
-                <ul class="dropdown">
-                  <li><a href="virtual-tour.html">VIRTUALNA TURA 360°</a></li>
-                </ul>
-              </li>
-            </ul>
-            <!-- End Navigation List -->
-          </div>
-        </div>
-
-        <!-- Mobile Menu Start -->
-        <ul class="wpb-mobile-menu">
-          <li>
-            <a href="index.html">NASLOVNA</a>
-          </li>
-          <!-- <li>
-            <a href="ts-exposr.html">TS-EXPO</a>
-          </li> -->
-          <li>
-            <a class="active" href="#">IZLAGAČI</a>
-            <ul class="dropdown">
-              <!-- <li><a href="izlagaci-2018.html">SPISAK IZLAGAČA 2018</a> -->
-              </li>
-              <li><a href="profil-izlagaca.html">PROFILI IZLAGAČA</a>
-              </li>
-              <li><a href="uslovi-izlaganja.html">USLOVI ZA IZLAGANJE</a>
-              </li>
-              <li><a href="tlocrt.html">TLOCRT</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="posetioci.html">POSETIOCI</a>
-          </li>
-          <li>
-            <a href="program.html">PROGRAM</a>
-          </li>
-         <li>
-            <a href="lokacija.html">KONTAKT</a>
-            <ul class="dropdown">
-              <li><a href="smestaj.html">SMEŠTAJ</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="ts-expo-2017.html" style="color: #29aae2; font-weight: 600;">TS-EXPO 2017</a>
-            <ul class="dropdown">
-              <li><a href="virtual-tour.html">VIRTUALNA TURA 360°</a></li>
-            </ul>
-          </li>
-        </ul>
-        <!-- Mobile Menu End -->
-
-      </div>
-      <!-- End Header Logo & Naviagtion -->
-
-    </header>
+    <?php 
+      include 'header-en.php';
+    ?>
     <!-- End Header Section -->
 
 
     <!-- Start Page Banner -->
-    <div class="page-banner" style="padding:40px 0; background: url(../en/images/bg1.jpg) center;">
+    <div class="page-banner-naslovna">
+      <!-- <div class="slika"></div> -->
+      <div class="crossfade">
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+      </div>
       <div class="slika-effect1"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <!-- <h2>TS-EXPO</h2>
-            <p>Traffic Solutions Expo</p> -->
-          </div>
-          <div class="col-md-6">
-            <ul class="breadcrumbs">
-              <!-- <li><a href="index.html">Naslovna</a></li>
-              <li>TS-EXPO</li> -->
-            </ul>
-          </div>
+      <div class="slika-effect2"></div>
+      <div class="row-slide">
+        <div class="naslov1_sr">WELCOME TO</div>
+        <div class="naslov2_sr">TRAFFIC SOLUTIONS EXPO</div>
+        <div class="naslov3">16-18 OCTOBER 2018</div>
+        <div>
+          <a href="docs/reg/Registration_form_2018.pdf" target="_blank"><button class="register-button">Exhibitors registration form</button></a>
+          <a href="docs/reg/General_terms_and_conditions_for_exhibiting-2018.pdf" target="_blank"><button class="register-button">Exhibiting terms and conditions</button></a>
+          <button class="register-button" data-toggle="modal" data-target="#myModalHorizontal">Visitors registration form</button>
+        </div>
+      </div>
+      <div class="tekst-box">
+        <div class="tekst1 col-xs-12 col-md-4">
+          <h1>ORGANIZERS</h1>
+          <p>Public connection Ltd, Novi Sad</p>
+          <p><a class="link-naslovna" href="http://www.sajam.net/live/Congress+Centre" target="_blank">Novi Sad Fair joint- stock company, Novi Sad</a></p>
+          <p><a class="link-naslovna" href="http://www.navak.rs/" target="_blank">NAVAK - National Drivers Àcademy Ltd., Belgrade</a></p>
+          <!-- <p><a class="link-naslovna" href="http://www.ftn.uns.ac.rs/1742896254/departman-za-saobracaj" target="_blank">Faculty of Technical Sciences - Traffic Department, University of Novi Sad</a></p> -->
+          <!-- <p><a class="link-naslovna" href="http://www.sf.bg.ac.rs/index.php/en/" target="_blank">Faculty of Transport and Traffic Engineering, University of Belgrade</a></p>
+          <p><a class="link-naslovna" href="http://een.ec.europa.eu/" target="_blank">Enterprise Europe Network</a></p> -->
+        </div>
+        <div class="tekst1 col-xs-12 col-md-4">
+          <h1>SUPORTED BY</h1>
+          <p><a class="link-naslovna" href="http://www.mgsi.gov.rs/" target="_blank">The Ministry of Construction, Transport/Traffic and Infrastructure of the Republic of Serbia</a></p>
+           <p><a class="link-naslovna" href="http://www.psemr.vojvodina.gov.rs/" target="_blank">Autonomous Province of Vojvodina
+          - Provincial Secretariat for Energy and Mineral Resources</a></p>
+           <p><a class="link-naslovna" href="http://www.novisad.rs/eng" target="_blank">City of Novi Sad</a></p>
+          <!-- <p><a class="link-naslovna" href="http://een.ec.europa.eu/" target="_blank">Enterprise Europe network</a></p> -->
+          <p><a class="link-naslovna" href="http://www.buildplus.rs/" target="_blank">BUILD plus</a></p>
+          <!-- <p><a class="link-naslovna" href="http://www.pks.rs/Default.aspx?idjezik=3" target="_blank">Chamber of Commerce and Industry of Serbia</a></p> -->
+          <!-- <p><a class="link-naslovna" href="http://www.kombeg.org.rs/EIndex.aspx" target="_blank">Belgrade Chamber of Commerce</a></p> -->
+          <!-- <p><a class="link-naslovna" href="http://www.rtv.rs/sr_lat/about-us/" target="_blank">The Public Broadcasting Service of Vojvodina, RTV</a></p> -->
+        </div>
+        <div class="tekst1 col-xs-12 col-md-4">
+          <h1>DATE AND PLACE</h1>
+          <p style="font-size: 1.1em; color: white;">16-18 october 2018</p>
+          <p>Novi Sad Fair</p>
+          <p>Hajduk Veljkova 11, 21000 Novi Sad, Serbia</p>
+        </div>
+
+      </div>      
+      
+    </div>
+
+    <div class="logos">
+      <div class="row">
+        <div class="col-md-12" data-animation="fadeIn" data-animation-delay="01">
+          <ul>
+            <li><img style="cursor: pointer;" src="../en/images/logos/01-Public-Connection-doo-small-2.png" alt="logo" title="Public connection Ltd, Novi Sad"></li>
+            <li><a href="http://www.sajam.net/live/?languageId=1" target="_blank"><img src="../en/images/logos/02-Sajam_logo_small-2.png" alt="logo" title="Novi Sad Fair"></a></li>
+            <li><a href="http://www.navak.rs/" target="_blank"><img src="../en/images/logos/navakH_small-2.png" alt="logo" title="NAVAK - Nacionalna Vozačka Akademija"></a></li>
+            <!-- <li><a href="http://www.ftn.uns.ac.rs/n1386094394/faculty-of-technical-sciences" target="_blank"><img src="../en/images/logos/03-FTN_Logo-small.png" alt="logo" title="Faculty of Technical Sciences, University of Novi Sad"></a></li> -->
+            <!-- <li><a href="http://www.sf.bg.ac.rs/index.php/en/" target="_blank"><img src="../en/images/logos/04-SF-Beograd-small.png" alt="logo" title="Faculty of Transport and Traffic Engineering, University of Belgrade"></a></li> -->
+            <!-- <li><a href="http://een.ec.europa.eu/" target="_blank"><img src="../en/images/logos/05-EEN-small.png" alt="logo" title="Enterprise Europe Network"></a></li> -->
+            <li><a href="http://www.mgsi.gov.rs/lat" target="_blank"><img src="../en/images/logos/06-Ministarstvo_logo_small-2.png" alt="logo" title="The Ministry of Construction, Transport/Traffic and Infrastructure of the Republic of Serbia"></a></li>
+            <li><a href="http://www.psemr.vojvodina.gov.rs/" target="_blank"><img src="../en/images/logos/07-APV-grb_small-2.png" alt="logo" title="Autonomous Province of Vojvodina - Provincial Secretariat for Energy and Mineral Resources"></a></li>
+            <li><a href="http://www.novisad.rs/eng" target="_blank"><img src="../en/images/logos/08-Grad-Novi-Sad_small-2.png" alt="logo" title="City of Novi Sad"></a></li>
+            <!-- <li><a href="http://www.pks.rs/Default.aspx?idjezik=3" target="_blank"><img src="../en/images/logos/09-PKS_1-small.png" alt="logo" title="Chamber of Commerce and Industry of Serbia"></a></li> -->
+            <!-- <li><a href="http://www.kombeg.org.rs/EIndex.aspx" target="_blank"><img src="../en/images/logos/10-PKB_1-small.png" alt="logo" title="Belgrade Chamber of Commerce"></a></li> -->
+            <!-- <li><a href="http://www.rtv.rs/sr_lat/about-us" target="_blank"><img src="../en/images/logos/11-RTV-small.png" alt="logo" title="The Public Broadcasting Service of Vojvodina, RTV"></a></li> -->
+            <li><a href="http://www.buildplus.rs/" target="_blank"><img src="../en/images/logos/12-Build-plus_small-2.png" alt="logo" title="BUILD plus"></a></li>
+            <!-- <li><a href="http://en.abs.gov.rs/" target="_blank"><img src="../en/images/logos/13-ABS-small.png" alt="logo" title="Road Traffic Safety Agency, Republic of Serbia"></a></li> -->         
+          </ul>
+        </div>        
+      </div> 
+    </div>
+
+    <div class="container why">
+      <div class="row">
+        <div class="col-md-12" data-animation="fadeIn" data-animation-delay="01">
+          <h4 class="classic-title" id="why">
+            <span>WHY</span>
+          </h4>
+          <p>Every day our society faces increasing demands in terms of mobility and safety of participants, infrastructure construction, goods and passenger transport, environmental protection and better connections between different types of traffic.</p>
+          <p>Following these challenges, TRAFFIC SOLUTIONS EKSPO aims to contribute to the overall development of traffic, presenting various products and services, linking stakeholders and informing the professionals and the general public.</p>
+          <p>We expect more than 600 participants to visit TRAFFIC SOLUTIONS EXPO 2018 - professionals, decision makers in the field of transport and the wider public.</p>
         </div>
       </div>
     </div>
+
+    <!--
+    <div class="words-keys">
+      <div class="col-md-12" data-animation="fadeIn" data-animation-delay="01">
+        <div class="words-content">
+        
+             Traffic systems <span class="razdel">|</span> Traffic design <span class="razdel">|</span> Traffic Infrastructure <span class="razdel">|</span> Mechanization and equipment <span class="razdel">|</span> Traffic planning and Traffic Management <span class="razdel">|</span> Traffic Safety <span class="razdel">|</span> Traffic Signalization and equipment <span class="razdel">|</span> Transport and Logistics <span class="razdel">|</span> Urban Public Transport <span class="razdel">|</span> Urban Mobility <span class="razdel">|</span> Intelligent Transportation Systems (ITS) <span class="razdel">|</span> Accessibility <span class="razdel">|</span> Traffic Investments
+        
+        </div>          
+      </div>
+    </div>-->
     <!-- End Page Banner -->
 
 
-    <!-- Start Content -->
-    <div id="content">
-      <div class="container">
-        <div class="page-content">
+    <div class="hr1" style="margin-bottom:50px;"></div>
 
 
-          <div class="row">
 
-            <div class="col-md-12">
-
-              <!-- Classic Heading -->
-              <h4 class="classic-title"><span>POSETIOCI</span></h4>
-
-              <!-- Some Text -->
-              <p>Posetioci TRAFFIC SOLUTIONS EXPO su:</p>
-              <ul class="icons-list">
-                <li><i class="fa fa-check-circle"></i>Donosioci odluka na međunarodnom, nacionalnom, pokrajinskom i lokalnom nivou koji rade u oblasti saobraćaja</li>
-                <li><i class="fa fa-check-circle"></i>Predstavnici međunarodnih i domaćih organizacija, fondova i tela koji investiraju u oblast saobraćaja i saobraćajne infrastrukture</li>
-                <li><i class="fa fa-check-circle"></i>Predstavnici nacionalnih, pokrajinskih i lokalnih javnih preduzeća, direkcija i zavoda iz oblasti saobraćaja</li>
-                <li><i class="fa fa-check-circle"></i>Izvođači radova, proizvođači opreme ili davaoci usluga u saobraćaju</li>
-                <li><i class="fa fa-check-circle"></i>Predstavnici obrazovnih ustanova i strukovnih organizacija iz oblasti saobraćaja</li>
-                <li><i class="fa fa-check-circle"></i>Predstavnici medija</li>
-                <li><i class="fa fa-check-circle"></i>Šira društvena javnost zainteresovana za temu saobraćaja</li>
-              </ul>
-
-            </div>
-
-           <!--  <div class="col-md-5"> -->
-
-              <!-- Start Touch Slider -->
-              <!-- <div class="touch-slider" data-slider-navigation="true" data-slider-pagination="true">
-                <div class="item"><img alt="" src="../en/images/ts-expo/pic1.jpg"></div>
-                <div class="item"><img alt="" src="../en/images/ts-expo/pic2.jpg"></div>
-                <div class="item"><img alt="" src="../en/images/ts-expo/pic3.jpg"></div>
-              </div> -->
-              <!-- End Touch Slider -->
-
-            <!-- </div> -->
-
-          </div>
-
-          <div class="row poziv">
-            <div class="call-action call-action-boxed call-action-style1 no-descripton clearfix">
-              <!-- Call Action Button -->
-              <!--<div class="button-side"><a href="#" class="btn-system border-btn btn-medium">Purchase It Now</a></div>-->
-              <!-- Call Action Text -->
-              <h2 class="primary">Ulaz na TRAFFIC SOLUTIONS EXPO 2018 je besplatan za sve posetioce uz obaveznu registraciju.</h2>
-              <button class="register-button-pos" data-toggle="modal" data-target="#myModalHorizontal">PRIJAVA</button>
-            </div>
-          </div>
-          
-          <div class="hr1" style="margin-bottom:50px;"></div>
-
-          <div class="row">
-            <div class="project">
-              <div class="container">
-                <!-- Start Recent Projects Carousel -->
-                <div class="recent-projects">
-                  <h4 class="title"><span>POSETIOCI</span></h4>
-                  <div class="projects-carousel touch-carousel">
-
-                    <div class="portfolio-item item">
-                      <div class="portfolio-border">
-                        <div class="portfolio-thumb">
-                          <a class="lightbox" data-lightbox-gallery="posetioci" href="../en/images/posetioci/001_posetioci.jpg">
-                            <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                            <img alt="" src="../en/images/posetioci/001_posetioci.jpg" />
-                          </a>
-                        </div>
-                        <!-- <div class="portfolio-details">
-                          <a href="#">
-                            <h4>Lorem Ipsum Dolor</h4>
-                            <span>Logo</span>
-                            <span>Animation</span>
-                          </a>
-                        </div> -->
-                      </div>
-                    </div>
-
-                    <div class="portfolio-item item">
-                      <div class="portfolio-border">
-                        <div class="portfolio-thumb">
-                          <a class="lightbox" data-lightbox-gallery="posetioci" href="../en/images/posetioci/002_posetioci.jpg">
-                            <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                            <img alt="" src="../en/images/posetioci/002_posetioci.jpg" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="portfolio-item item">
-                      <div class="portfolio-border">
-                        <div class="portfolio-thumb">
-                          <a class="lightbox" data-lightbox-gallery="posetioci" href="../en/images/posetioci/003_posetioci.jpg">
-                            <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                            <img alt="" src="../en/images/posetioci/003_posetioci.jpg" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="portfolio-item item">
-                      <div class="portfolio-border">
-                        <div class="portfolio-thumb">
-                          <a class="lightbox" data-lightbox-gallery="posetioci" href="../en/images/posetioci/004_posetioci.jpg">
-                            <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                            <img alt="" src="../en/images/posetioci/004_posetioci.jpg" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="portfolio-item item">
-                      <div class="portfolio-border">
-                        <div class="portfolio-thumb">
-                          <a class="lightbox" data-lightbox-gallery="posetioci" href="../en/images/posetioci/005_posetioci.jpg">
-                            <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                            <img alt="" src="../en/images/posetioci/005_posetioci.jpg" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="portfolio-item item">
-                      <div class="portfolio-border">
-                        <div class="portfolio-thumb">
-                          <a class="lightbox" data-lightbox-gallery="posetioci" href="../en/images/posetioci/006_posetioci.jpg">
-                            <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                            <img alt="" src="../en/images/posetioci/006_posetioci.jpg" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="portfolio-item item">
-                      <div class="portfolio-border">
-                        <div class="portfolio-thumb">
-                          <a class="lightbox" data-lightbox-gallery="posetioci" href="../en/images/posetioci/007_posetioci.jpg">
-                            <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                            <img alt="" src="../en/images/posetioci/007_posetioci.jpg" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="portfolio-item item">
-                      <div class="portfolio-border">
-                        <div class="portfolio-thumb">
-                          <a class="lightbox" data-lightbox-gallery="posetioci" href="../en/images/posetioci/008_posetioci.jpg">
-                            <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                            <img alt="" src="../en/images/posetioci/008_posetioci.jpg" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="portfolio-item item">
-                      <div class="portfolio-border">
-                        <div class="portfolio-thumb">
-                          <a class="lightbox" data-lightbox-gallery="posetioci" href="../en/images/posetioci/009_posetioci.jpg">
-                            <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                            <img alt="" src="../en/images/posetioci/009_posetioci.jpg" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="portfolio-item item">
-                      <div class="portfolio-border">
-                        <div class="portfolio-thumb">
-                          <a class="lightbox" data-lightbox-gallery="posetioci" href="../en/images/posetioci/010_posetioci.jpg">
-                            <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                            <img alt="" src="../en/images/posetioci/010_posetioci.jpg" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="portfolio-item item">
-                      <div class="portfolio-border">
-                        <div class="portfolio-thumb">
-                          <a class="lightbox" data-lightbox-gallery="posetioci" href="../en/images/posetioci/011_posetioci.jpg">
-                            <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                            <img alt="" src="../en/images/posetioci/011_posetioci.jpg" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-               <!-- End Recent Projects Carousel -->
-              </div>
-        <!-- .container -->
-            </div>
-          </div>
-          
-
-
-          <!-- Divider -->
-          <div class="hr1" style="margin-bottom:50px;"></div>
-        </div>
-      </div>
-    </div>
-    <!-- End content -->
-
-
-    <!-- Start Footer -->
-    <footer>
-      <div class="container">
-        <div class="row footer-widgets">
-
-          <!-- Start Subscribe & Social Links Widget -->
-          <div class="col-md-6">
-            <div class="footer-widget mail-subscribe-widget">
-              <h4>Ostanimo u vezi<span class="head-line"></span></h4>
-              <p>Pridružite se našoj mail listi i budite informisani!</p>
-              <form class="subscribe" action="http://adomne.us9.list-manage.com/subscribe/post" method="POST">
-                <input type="hidden" name="u" value="463fc7d46e4f471e9f5d8312a">
-                <input type="hidden" name="id" value="511d158f34">
-                <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" placeholder="mail@example.com">
-                <input type="submit" class="btn-system" name="submit" value="Send">
-              </form>
-            </div>
-            <div class="footer-widget social-widget">
-              <h4>Pratite nas<span class="head-line"></span></h4>
-              <ul class="social-icons">
-                <li>
-                  <a class="facebook" target="_blank" href="https://www.facebook.com/TrafficSolutionsExpo/"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a class="twitter" target="_blank" href="https://twitter.com/ts_expo_ns"><i class="fa fa-twitter"></i></a>
-                </li>
-                <!-- <li>
-                  <a class="google" href="#"><i class="fa fa-google-plus"></i></a>
-                </li>
-                <li>
-                  <a class="skype" href="#"><i class="fa fa-skype"></i></a>
-                </li> -->
-              </ul>
-            </div>
-          </div>
-          <!-- .col-md-3 -->
-          <!-- End Subscribe & Social Links Widget -->
-
-         
-          <!-- Start Contact Widget -->
-          <div class="col-md-6">
-            <div class="footer-widget contact-widget">
-              <h4><img src="../en/images/tslogo_w.png" class="img-responsive" alt="Footer Logo" /></h4>
-              <p>Kontaktirajte nas:</p>
-              <ul>
-                <li><span>Broj telefona:</span> +381 (0)64 12 49 757; +381 (0)63 417 555</li>
-                <li><span>Email:</span> office@ts-expo.rs</li>
-                <li><span>Veb-sajt:</span> www.ts-expo.rs</li>
-              </ul>
-            </div>
-          </div>
-          <!-- .col-md-3 -->
-          <!-- End Contact Widget -->
-
-
-        </div>
-        <!-- .row -->
-
-        <!-- Start Copyright -->
-        <div class="copyright-section">
-          <div class="row">
-            <div class="col-md-6">
-              <p>&copy; 2018 ts-expo.rs - All Rights Reserved</p>
-            </div>
-            <div class="col-md-6">
-              <ul class="footer-nav">
-                <li><a href="#">Mapa Sajta</a></li>
-                <li><a href="#">Pravila o privatnosti</a></li>
-                <li><a href="contact.html">Kontakt</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- End Copyright -->
-
-      </div>
-    </footer>
-    <!-- End Footer -->
-
-  </div>
-  <!-- End Container -->
+  <!-- Start Footer -->
+    <?php 
+      include 'footer-en.php';
+    ?>
+  <!-- End Footer -->
 
   <!-- Go To Top Link -->
   <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
-  <!-- Style Switcher -->
-  <!--<div class="switcher-box">
+  <div id="loader">
+    <div class="spinner">
+      <div class="dot1"></div>
+      <div class="dot2"></div>
+    </div>
+  </div>
+
+  <!-- Style Switcher 
+  <div class="switcher-box">
     <a class="open-switcher show-switcher"><i class="fa fa-cog fa-2x"></i></a>
     <h4>Style Switcher</h4>
     <span>12 Predefined Color Skins</span>
@@ -702,7 +389,27 @@
     </ul>
   </div>-->
 
-  <script type="text/javascript" src="../en/js/script.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+
+  <!-- JavaScript za popup window -->
+  <!-- <script>
+    
+    $(function() {
+      $('.pop-up').hide();
+      $('.pop-up').fadeIn(700);
+      $('#container').addClass('blur-in');
+      
+          $('.close-button').click(function (e) { 
+
+          $('.pop-up').fadeOut(700);
+          $('#container').removeClass('blur-in');
+          $('#container').addClass('blur-out');
+          e.stopPropagation();
+            
+        });
+     });
+
+  </script> -->
 
   <!-- Modal -->
   <div class="modal fade" id="myModalHorizontal" tabindex="-1" role="dialog" 
@@ -717,61 +424,61 @@
                          <span class="sr-only">Close</span>
                   </button>
                   <h4 class="modal-title" id="myModalLabel">
-                      Prijava
+                      Application form
                   </h4>
               </div>
               
               <!-- Modal Body -->
               <div class="modal-body">
                   
-                  <form class="form-horizontal" role="form" action="../en/php/registration.php" method="POST">
+                  <form class="form-horizontal" role="form" action="php/registration.php" method="POST">
                     <div class="form-group required">
                       <label  class="col-sm-2 control-label"
-                                for="firstname">Ime</label>
+                                for="firstname">First name</label>
                       <div class="col-sm-10">
                           <input type="text" name="firstname" class="form-control" 
-                          id="firstname" placeholder="Ime" required/>
+                          id="firstname" placeholder="First name" required/>
                       </div>
                     </div>
                     <div class="form-group required">
                       <label  class="col-sm-2 control-label"
-                                for="lastname">Prezime</label>
+                                for="lastname">Last name</label>
                       <div class="col-sm-10">
                           <input type="text" name="lastname" class="form-control" 
-                          id="lastname" placeholder="Prezime" required/>
+                          id="lastname" placeholder="Last name" required/>
                       </div>
                     </div>
                     <div class="form-group required">
                       <label  class="col-sm-2 control-label"
-                                for="gender">Pol</label>
+                                for="gender">Gender</label>
                       <div class="col-sm-10">
-                        <label class="radio-inline" style="font-family: 'Roboto'; font-weight:300;"><input type="radio" name="gender" value="Male">Muški</label>
-                        <label class="radio-inline" style="font-family: 'Roboto'; font-weight:300;"><input type="radio" name="gender" value="Female">Ženski</label>
+                        <label class="radio-inline" style="font-family: 'Roboto'; font-weight:300;"><input type="radio" name="gender" value="Male">Male</label>
+                        <label class="radio-inline" style="font-family: 'Roboto'; font-weight:300;"><input type="radio" name="gender" value="Female">Female</label>
                       </div>
                     </div>
                     <div class="form-group">
                       <label  class="col-sm-2 control-label"
-                                for="company">Kompanija</label>
+                                for="company">Company</label>
                       <div class="col-sm-10">
                           <input type="text" name="company" class="form-control" 
-                          id="company" placeholder="Kompanija"/>
+                          id="company" placeholder="Company"/>
                       </div>
                     </div>
                     <div class="form-group">
                       <label  class="col-sm-2 control-label"
-                                for="work-position">Pozicija na poslu</label>
+                                for="work-position">Work position</label>
                       <div class="col-sm-10">
                           <input type="text" name="work-position" class="form-control" 
-                          id="work-position" placeholder="Pozicija na poslu"/>
+                          id="work-position" placeholder="Work position"/>
                       </div>
                     </div>     
                     <div class="form-group required">
                       <label  class="col-sm-2 control-label"
-                                for="country">Država</label>
+                                for="country">Country</label>
                       <div class="col-sm-10">
                           <select name="country" class="form-control" 
                           id="country" placeholder="Country" required/>
-                            <option value="">Država...</option>
+                            <option value="">Country...</option>
                             <option value="Afganistan">Afghanistan</option>
                             <option value="Albania">Albania</option>
                             <option value="Algeria">Algeria</option>
@@ -1024,38 +731,38 @@
                     </div>
                     <div class="form-group">
                       <label  class="col-sm-2 control-label"
-                                for="city">Grad</label>
+                                for="city">City</label>
                       <div class="col-sm-10">
                           <input type="text" name="city" class="form-control" 
-                          id="city" placeholder="Grad"/>
+                          id="city" placeholder="City"/>
                       </div>
                     </div>
                     <div class="form-group">
                       <label  class="col-sm-2 control-label"
-                                for="phone">Broj telefona</label>
+                                for="phone">Phone number</label>
                       <div class="col-sm-10">
                           <input type="text" name="phone" class="form-control" 
-                          id="phone" placeholder="Broj telefona"/>
+                          id="phone" placeholder="Phone number"/>
                       </div>
                     </div>
                     <div class="form-group">
                       <label  class="col-sm-2 control-label"
-                                for="web-site">Veb-sajt</label>
+                                for="web-site">Web site</label>
                       <div class="col-sm-10">
                           <input type="text" name="web-site" class="form-control" 
-                          id="web-site" placeholder="Veb-sajt"/>
+                          id="web-site" placeholder="Web site"/>
                       </div>
                     </div>
                     <div class="form-group">
                       <label  class="col-sm-2 control-label"
-                                for="status">Vi ste...</label>
+                                for="status">You are...</label>
                       <div class="col-sm-10">
                           <select name="status" class="form-control" id="status" placeholder="Status">
-                            <option value="">Vi ste...</option>
-                            <option value="Visitor">Posetilac</option>
-                            <option value="Exhibitor">Izlagač</option>
-                            <option value="Press">Novinar</option>
-                            <option value="Conference participant">Učesnik konferencije</option>
+                            <option value="">You are...</option>
+                            <option value="Visitor">Visitor</option>
+                            <option value="Exhibitor">Exhibitor</option>
+                            <option value="Press">Press</option>
+                            <option value="Conference participant">Conference participant</option>
                           </select>  
                       </div>
                     </div>
@@ -1064,10 +771,10 @@
                     </div>  
                     <div class="form-group required">
                       <label  class="col-sm-2 control-label"
-                                for="username">Korisničko ime</label>
+                                for="username">User name</label>
                       <div class="col-sm-10">
                           <input type="text" name="username" class="form-control" 
-                          id="username" placeholder="Korisničko ime" required/>
+                          id="username" placeholder="User name" required/>
                       </div>
                     </div>    
                     <div class="form-group required">
@@ -1088,10 +795,10 @@
                     </div>
                     <div class="form-group required">
                       <label class="col-sm-2 control-label"
-                            for="password">Lozinka</label>
+                            for="password">Password</label>
                       <div class="col-sm-10">
                           <input type="password" name="password" class="form-control"
-                              id="password" placeholder="Lozinka" required/>
+                              id="password" placeholder="Password" required/>
                       </div>
                     </div>
                     <div>
@@ -1099,15 +806,15 @@
                     </div>
                     <div class="form-group">
                       <label  class="col-sm-2 control-label"
-                                for="question">Pitanje</label>
+                                for="question">Question</label>
                       <div class="col-sm-10">
                           <textarea name="question" class="form-control" 
-                          id="question" placeholder="Pitanje..."></textarea>
+                          id="question" placeholder="Question..."></textarea>
                       </div>
                     </div>  
                     <div class="form-group">
                       <div class="col-sm-offset-2 col-sm-10">
-                        <button type="submit" name="submit" class="btn btn-default">Prijava</button>
+                        <button type="submit" name="submit" class="btn btn-default">Sign in</button>
                       </div>
                     </div>
                   </form>                 
@@ -1117,13 +824,34 @@
               <div class="modal-footer">
                   <button type="button" class="btn btn-default"
                           data-dismiss="modal">
-                              Zatvori
+                              Close
                   </button>
               </div>
           </div>
       </div>
   </div>
 
+  <!-- Skripta za onesposobljavanje linkova na stranici -->
+  <!-- <script type="text/javascript">
+    $(document).ready(function(){
+      $("a").css("cursor","arrow").click(false);
+      
+      $(":input").prop("disabled",true);
+    });
+  </script> -->
+
+
 </body>
+
+<!-- javascript za prikaz taba sa strane - mouseover povecava sirinu, a mouseout vraca sirinu na prvobitnu dimenziju-->
+<!-- <script>
+  function changeb2b(x) {
+    x.style.width = "560px";
+  }
+
+  function normalb2b(x) {
+    x.style.width = "70px";
+  }
+</script> -->
 
 </html>
