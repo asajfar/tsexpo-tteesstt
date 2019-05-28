@@ -175,7 +175,7 @@ $englink = 'posetioci';
               <!-- Call Action Button -->
               <!--<div class="button-side"><a href="#" class="btn-system border-btn btn-medium">Purchase It Now</a></div>-->
               <!-- Call Action Text -->
-              <h2 class="primary">Ulaz na TRAFFIC SOLUTIONS EXPO 2018 je besplatan za sve posetioce uz obaveznu registraciju.</h2>
+              <h2 class="primary">Ulaz na TRAFFIC SOLUTIONS EXPO 2019 je besplatan za sve posetioce uz obaveznu registraciju.</h2>
               <button class="register-button-pos" data-toggle="modal" data-target="#myModalHorizontal">PRIJAVA</button>
             </div>
           </div>
@@ -464,7 +464,7 @@ $englink = 'posetioci';
                          <span class="sr-only">Close</span>
                   </button>
                   <h4 class="modal-title" id="myModalLabel">
-                      Prijava
+                      PRIJAVA ZA POSETIOCE:
                   </h4>
               </div>
               

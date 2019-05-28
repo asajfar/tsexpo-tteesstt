@@ -27,6 +27,9 @@
     case "ts-expo-2017":
         $link = '../en/ts-expo-en-2017.php';
         break;
+    case "ts-expo-2018":
+        $link = '../en/ts-expo-en-2018.php';
+        break;
     case "virtual-tour":
         $link = '../en/virtual-tour.php';
         break;
@@ -137,23 +140,26 @@
             <ul class="nav navbar-nav navbar-right">
               <li><a <?php if($page == 'naslovna'): ?> class="active"<?php endif ?> href="index.php">NASLOVNA</a></li>
               <!-- <li><a href="ts-exposr.html">TS-EXPO</a></li> -->
-              <li class="drop"><a style="cursor: pointer; pointer-events: none;" <?php if($page == 'izlaganje'): ?> class="active"<?php endif ?> href="#">IZLAGAČI</a>
+              <li class="drop"><a style="cursor: pointer; pointer-events: auto;" <?php if($page == 'izlaganje'): ?> class="active"<?php endif ?> >IZLAGAČI</a>
               <ul class="dropdown">
               <!-- <li><a href="izlagaci-2018.html">SPISAK IZLAGAČA 2018</a></li> -->                  
                   <li><a href="profil-izlagaca.php">PROFILI IZLAGAČA</a></li>
                   <li><a href="uslovi-izlaganja.php">USLOVI ZA IZLAGANJE</a></li>
-                  <li><a href="tlocrt.php">TLOCRT</a></li> 
+                  <!-- <li><a href="tlocrt.php">TLOCRT</a></li> --> 
                 </ul>
               </li>
               <li><a <?php if($page == 'posetioci'): ?> class="active"<?php endif ?> href="posetioci.php">POSETIOCI</a></li>
               <li><a <?php if($page == 'program'): ?> class="active"<?php endif ?> href="program.php">PROGRAM</a></li>
-              <li><a <?php if($page == 'lokacija'): ?> class="active"<?php endif ?> href="lokacija.php">KONTAKT</a>
+              <li class="drop"><a style="cursor: pointer; pointer-events: auto;" <?php if($page == 'lokacija'): ?> class="active"<?php endif ?> >KONTAKT</a>
                 <ul class="dropdown">
+                  <li><a href="lokacija.php">KONTAKT</a></li>
                   <li><a href="smestaj.php">SMEŠTAJ</a></li>
                 </ul>
               </li>
-              <li><a <?php if($page == 'previous'): ?> class="active"<?php endif ?> href="ts-expo-2017.php" style="color: #29aae2; font-weight: 600;">TS-EXPO 2017</a>
+              <li class="drop"><a style="cursor: pointer; pointer-events: auto; color: #29aae2; font-weight: 600;" <?php if($page == 'previous'): ?> class="active"<?php endif ?> >ARHIVA</a>
                 <ul class="dropdown">
+                  <li><a href="ts-expo-2018.php">TS-EXPO 2018</a></li>
+                  <li><a href="ts-expo-2017.php">TS-EXPO 2017</a></li>
                   <li><a href="virtual-tour.php">VIRTUALNA TURA 360°</a></li>
                 </ul>
               </li>
@@ -176,13 +182,16 @@
           </li>
           <li><a <?php if($page == 'posetioci'): ?> class="active"<?php endif ?> href="posetioci.php">POSETIOCI</a></li>
           <li><a <?php if($page == 'program'): ?> class="active"<?php endif ?> href="program.php">PROGRAM</a></li>
-          <li><a <?php if($page == 'lokacija'): ?> class="active"<?php endif ?> href="lokacija.php">KONTAKT</a>
+          <li><a class="not-link" <?php if($page == 'lokacija'): ?> class="active"<?php endif ?> href="#">KONTAKT</a>
             <ul class="dropdown">
+              <li><a href="lokacija.php">KONTAKT</a></li>
               <li><a href="smestaj.php">SMEŠTAJ</a></li>
             </ul>
           </li>
-          <li><a <?php if($page == 'previous'): ?> class="active"<?php endif ?> href="ts-expo-2017.php" style="color: #29aae2; font-weight: 600;">TS-EXPO 2017</a>
+          <li><a <?php if($page == 'previous'): ?> class="active"<?php endif ?> href="#" style="color: #29aae2; font-weight: 600;">ARHIVA</a>
             <ul class="dropdown">
+              <li><a href="ts-expo-2018.php">TS-EXPO 2018</a></li>
+              <li><a href="ts-expo-2017.php">TS-EXPO 2017</a></li>
               <li><a href="virtual-tour.php">VIRTUALNA TURA 360°</a></li>
             </ul>
           </li>

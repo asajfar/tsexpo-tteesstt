@@ -145,7 +145,7 @@
                 <div class="db-wrapper">
                     <div class="db-pricing-seven">
                         <ul>
-                            <li class="price">These prices are valid <span style="color:#000; font-weight:500;">until Jun 1st, 2018</span></li>
+                            <li class="price">These prices are valid <span style="color:#000; font-weight:500;">until July 1st, 2019</span></li>
 
                             <li class="price_header">TYPE<br>OF SERVICE:</li>
                             <li class="price_header kolona">PRICES IN RSD*</li>
@@ -166,7 +166,8 @@
                           * Za izlagače iz R.Srbije cena se iskazuje u dinarskoj protivvrednosti po kursu NBS na dan uplate.
                         </div> -->
                     </div>
-                    <div class="table_reg"><a href="docs/reg/Registration_form_2018.pdf" target="_blank"><button class="register-button-izv"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> REGISTRATION FORM</button></a></div>
+                    <!-- <div class="table_reg"><a href="docs/reg/Registration_form_2019.pdf" target="_blank"><button class="register-button-izv"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> REGISTRATION FORM</button></a></div> -->
+                    <div class="table_reg"><button title="SOON!" class="register-button-izv" style="color: #2f90b9;" ><i class="fa fa-file-pdf-o" aria-hidden="true"></i> REGISTRATION FORM</button></div>
                     <div class="pricing-footer">
                       * All prices are in RSD without VAT. VAT falls at the expense of the exhibitors. For exhibitors from abroad, the price will be expressed in EUR, at the NBS exchange rate on the day of payment.
                     </div>
@@ -180,7 +181,7 @@
                 <div class="db-wrapper">
                     <div class="db-pricing-seven">
                         <ul>
-                            <li class="price">These prices are valid <span style="color:#000; font-weight:500;">until September 1st, 2018</span></li>
+                            <li class="price">These prices are valid <span style="color:#000; font-weight:500;">until September 1st, 2019</span></li>
 
                             <li class="price_header">TYPE<br>OF SERVICE:</li>
                             <li class="price_header kolona">PRICES IN RSD*</li>
@@ -201,7 +202,8 @@
                           * Za izlagače iz R.Srbije cena se iskazuje u dinarskoj protivvrednosti po kursu NBS na dan uplate.
                         </div> -->
                     </div>
-                    <div class="table_reg"><a href="docs/reg/Registration_form_2018.pdf" target="_blank"><button class="register-button-izv"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> REGISTRATION FORM</button></a></div>
+                    <!-- <div class="table_reg"><a href="docs/reg/Registration_form_2019.pdf" target="_blank"><button class="register-button-izv"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> REGISTRATION FORM</button></a></div> -->
+                    <div class="table_reg"><button title="SOON!" class="register-button-izv" style="color: #2f90b9;" ><i class="fa fa-file-pdf-o" aria-hidden="true"></i> REGISTRATION FORM</button></div>
                     <div class="pricing-footer">
                       * All prices are in RSD without VAT. VAT falls at the expense of the exhibitors. For exhibitors from abroad, the price will be expressed in EUR, at the NBS exchange rate on the day of payment.
                     </div>
@@ -215,7 +217,7 @@
                 <div class="db-wrapper">
                     <div class="db-pricing-seven">
                         <ul>
-                            <li class="price">These prices are valid <span style="color:#000; font-weight:500;">until October 10th, 2018</span></li>
+                            <li class="price">These prices are valid <span style="color:#000; font-weight:500;">until October 10th, 2019</span></li>
 
                             <li class="price_header">TYPE<br>OF SERVICE:</li>
                             <li class="price_header kolona">PRICES IN RSD*</li>
@@ -236,7 +238,8 @@
                           * Za izlagače iz R.Srbije cena se iskazuje u dinarskoj protivvrednosti po kursu NBS na dan uplate.
                         </div> -->
                     </div>
-                    <div class="table_reg"><a href="docs/reg/Registration_form_2018.pdf" target="_blank"><button class="register-button-izv"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> REGISTRATION FORM</button></a></div>
+                    <!-- <div class="table_reg"><a href="docs/reg/Registration_form_2019.pdf" target="_blank"><button class="register-button-izv"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> REGISTRATION FORM</button></a></div> -->
+                    <div class="table_reg"><button title="SOON!" class="register-button-izv" style="color: #2f90b9;" ><i class="fa fa-file-pdf-o" aria-hidden="true"></i> REGISTRATION FORM</button></div>
                     <div class="pricing-footer">
                       * All prices are in RSD without VAT. VAT falls at the expense of the exhibitors. For exhibitors from abroad, the price will be expressed in EUR, at the NBS exchange rate on the day of payment.
                     </div>

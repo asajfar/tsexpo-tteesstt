@@ -172,7 +172,7 @@
               <!-- Call Action Button -->
               <!--<div class="button-side"><a href="#" class="btn-system border-btn btn-medium">Purchase It Now</a></div>-->
               <!-- Call Action Text -->
-              <h2 class="primary">Entrance to TRAFFIC SOLUTIONS EXPO 2018 is free for all visitors with obligatory registration.</h2>
+              <h2 class="primary">Entrance to TRAFFIC SOLUTIONS EXPO 2019 is free for all visitors with obligatory registration.</h2>
               <button class="register-button-pos" data-toggle="modal" data-target="#myModalHorizontal">APPLICATION FORM</button>
             </div>
           </div>
@@ -459,7 +459,7 @@
                          <span class="sr-only">Close</span>
                   </button>
                   <h4 class="modal-title" id="myModalLabel">
-                      Application form
+                      APPLICATION FORM FOR VISITORS:
                   </h4>
               </div>
               

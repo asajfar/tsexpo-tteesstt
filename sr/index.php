@@ -86,11 +86,11 @@ $englink = 'naslovna';
 {
   "@context": "http://schema.org",
   "@type": "Event",
-  "name": "TRAFFIC SOLUTIONS EXPO 2018",
+  "name": "TRAFFIC SOLUTIONS EXPO 2019",
   "description": "TRAFFIC SOLUTIONS EXPO ima za cilj da doprinese opštem razvoju saobraćaja, prezentovanjem različitih proizvoda i usluga, povezivanjem interesnih subjekata i informisanjem stručne i društvene javnosti.",
   "image": "http://ts-expo.rs/en/images/tslogo2.png",
-  "startDate": "2018-10-16T00:00",
-  "endDate": "2018-09-18T00:00",
+  "startDate": "2019-10-16T00:00",
+  "endDate": "2019-09-18T00:00",
   "location": {
     "@type": "Place",
     "name": "Kongresni centar Master Novosadskog sajma",
@@ -180,11 +180,13 @@ $englink = 'naslovna';
         <div class="naslov1_sr">DOBRODOŠLI NA <span itemprop="description">SAJAM SAOBRAĆAJA</span></div>
         <div itemprop="name" class="naslov2_sr">TRAFFIC SOLUTIONS EXPO</div>
         <div class="naslov1_sr" style="font-size: 1.52em;">Kongresni centar Master Novosadskog sajma</div>
-        <div class="naslov3"><meta itemprop="startDate" content="2018-10-16">16-18.10.2018. <!-- <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+        <div class="naslov3"><meta itemprop="startDate" content="2019-10-16">16-18.10.2019. <!-- <span itemprop="location" itemscope itemtype="http://schema.org/Place">
 <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Novi Sad</span>, <span itemprop="addressCountry">Srbija</span></span></span> --></div>
         <div>        
-          <a itemprop="url" href="../en/docs/reg/Registracioni_formular_2018.pdf" target="_blank" title="Prijava za izlagače"><button class="register-button">PRIJAVA za izlagače</button></a>
-          <a itemprop="url" href="../en/docs/reg/Opsti_uslovi_izlaganja_2018.pdf" target="_blank"><button class="register-button" title="Opšti uslovi izlaganja">Uslovi za izlaganje</button></a>
+          <!-- <a itemprop="url" href="../en/docs/reg/Registracioni_formular_2019.pdf" target="_blank" title="Prijava za izlagače"><button class="register-button">PRIJAVA za izlagače</button></a> -->
+          <button title="USKORO!" style="color: grey;" class="register-button">PRIJAVA za izlagače</button>
+          <!-- <a itemprop="url" href="../en/docs/reg/Opsti_uslovi_izlaganja_2019.pdf" target="_blank"><button class="register-button" title="Opšti uslovi izlaganja">Uslovi za izlaganje</button></a> -->
+          <button title="USKORO!" style="color: grey;" class="register-button">Uslovi za izlaganje</button>
           <button class="register-button" data-toggle="modal" data-target="#myModalHorizontal">PRIJAVA za posetioce</button>
         </div>
       </div>
@@ -194,6 +196,7 @@ $englink = 'naslovna';
           <p>Public connection d.o.o. Novi Sad</p>
           <p><a class="link-naslovna" href="http://www.kongresnicentar.sajam.net/" target="_blank">Novosadski sajam - Kongresni centar Master</a></p>
           <p><a class="link-naslovna" href="http://www.navak.rs/" target="_blank">NAVAK – Nacionalna vozačka akademija d.o.o. Beograd</a></p>
+          <p><a class="link-naslovna" href="http://www.amss.org.rs/" target="_blank">AMSS - Auto-moto savez Srbije</a></p>
         </div>
         <div class="tekst1 col-xs-12 col-md-4">
           <h1>PODRŠKA</h1>
@@ -205,7 +208,7 @@ $englink = 'naslovna';
         </div>
         <div class="tekst1 col-xs-12 col-md-4">
           <h1>DATUM I MESTO</h1>
-          <p style="font-size: 1.1em; color: white;">16-18.10.2018. godine</p>
+          <p style="font-size: 1.1em; color: white;">16-18.10.2019. godine</p>
           <p>Kongresni centar Master Novosadskog sajma</p>
           <p>Hajduk Veljkova 11, 21000 Novi Sad, Srbija</p>
         </div>
@@ -221,6 +224,7 @@ $englink = 'naslovna';
           	<li><img style="cursor: pointer; width: 165px" src="../en/images/logos/01-Public-Connection-doo-small-2.png" alt="logo" title="Public Connection d.o.o. Novi Sad"></li>
             <li><a href="http://www.sajam.net/" target="_blank"><img style="cursor: pointer; width: 165px" src="../en/images/logos/02-Sajam_logo_small-2.png" alt="logo" title="Novosadski sajam"></a></li>
             <li><a href="http://www.navak.rs/" target="_blank"><img style="cursor: pointer; width: 240px" src="../en/images/logos/navakH_small-2.png" alt="logo" title="NAVAK - Nacionalna Vozačka Akademija"></a></li>
+            <li><a href="http://www.amss.org.rs/" target="_blank"><img style="cursor: pointer; width: 130px" src="../en/images/logos/amss-small-2.png" alt="logo" title="AMSS - Auto-moto savez Srbije"></a></li>
             <!-- <li><img style="cursor: pointer;" src="../en/images/logos/01-Public-Connection-doo-small.png" alt="logo" title="Public Connection d.o.o. Novi Sad"></li> -->
             <!-- <li><a href="http://www.ftn.uns.ac.rs/1742896254/departman-za-saobracaj" target="_blank"><img src="../en/images/logos/03-FTN_Logo-small.png" alt="logo" title="Fakultet tehničkih nauka, Novi Sad"></a></li> -->
             <!-- <li><a href="http://www.sf.bg.ac.rs/" target="_blank"><img src="../en/images/logos/04-SF-Beograd-small.png" alt="logo" title="Saobraćajni fakultet, Univerzitet u Beogradu"></a></li> -->
@@ -246,7 +250,7 @@ $englink = 'naslovna';
           </h4>
           <p>Naše društvo svakodnevno se suočava sa sve većim zahtevima u pogledu mobilnosti i bezbednosti učesnika, izgradnje infrastrukture, prevoza robe i putnika, zaštite životne sredine i boljih veza između različitih vidova saobraćaja.</p>
           <p>Prateći takve izazove, TRAFFIC SOLUTIONS EXPO ima za cilj da doprinese opštem razvoju saobraćaja, prezentovanjem različitih proizvoda i usluga, povezivanjem interesnih subjekata i informisanjem stručne i društvene javnosti.</p>
-          <p>Očekujemo da TRAFFIC SOLUTIONS EXPO 2018 poseti više od 600 učesnika - profesionalaca i donosilaca odluka iz oblasti saobraćaja i šire društvene javnosti.</p>
+          <p>Očekujemo da TRAFFIC SOLUTIONS EXPO 2019 poseti više od 600 učesnika - profesionalaca i donosilaca odluka iz oblasti saobraćaja i šire društvene javnosti.</p>
         </div>
       </div>
     </div>
@@ -422,7 +426,7 @@ $englink = 'naslovna';
                          <span class="sr-only">Close</span>
                   </button>
                   <h4 class="modal-title" id="myModalLabel">
-                      Prijava
+                      PRIJAVA ZA POSETIOCE:
                   </h4>
               </div>
               

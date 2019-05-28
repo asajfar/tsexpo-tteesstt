@@ -71,7 +71,7 @@
   <script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
   <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
   <script type="text/javascript" src="js/jquery.parallax.js"></script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuXfv3kkJPDC7ursHL4Dc-yUkjSrsJ4KA&callback=initMap" type="text/javascript"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuXfv3kkJPDC7ursHL4Dc-yUkjSrsJ4KA&callback=initMap" type="text/javascript"></script>
   <script type="text/javascript" src="js/jquery.slicknav.js"></script>
   
 

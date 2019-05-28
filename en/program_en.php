@@ -169,9 +169,10 @@
                    <!--  <li class="tab-btn active" data-id="#monday"><span class="day">Četvrtak</span><span class="date">13.10.2016.</span><span class="curve"></span></li>
                     <li class="tab-btn" data-id="#tuesday"><span class="day">Petak</span><span class="date">14.10.2016.</span><span class="curve"></span></li>
                     <li class="tab-btn" data-id="#wednesday"><span class="day">Subota</span><span class="date">15.10.2016.</span><span class="curve"></span></li> -->
-                    <li class="tab-btn active" data-id="#tuesday"><span class="day">Tuesday</span><span class="date">16 Oct 2018</span><span class="curve"></span></li>
-                    <li class="tab-btn" data-id="#wednesday"><span class="day">Wednesday</span><span class="date">17 Oct 2018</span><span class="curve"></span></li>
-                    <li class="tab-btn" data-id="#thursday"><span class="day">Thursday</span><span class="date">18 Oct 2018</span><span class="curve"></span></li>
+                    <!-- <li class="tab-btn active" data-id="#tuesday"><span class="day">Tuesday</span><span class="date">16 Oct 2018</span><span class="curve"></span></li> -->
+                    <li class="tab-btn active" data-id="#wednesday"><span class="day">Wednesday</span><span class="date">16 Oct 2019</span><span class="curve"></span></li>
+                    <li class="tab-btn" data-id="#thursday"><span class="day">Thursday</span><span class="date">17 Oct 2019</span><span class="curve"></span></li>
+                    <li class="tab-btn" data-id="#friday"><span class="day">Friday</span><span class="date">18 Oct 2018</span><span class="curve"></span></li>
                 </ul>
                 
                 <!--Tabs Box-->
@@ -293,16 +294,16 @@
                     </div>
                     
                     <!--Tab / Tuesday-->
-                    <div class="tab current" id="tuesday">
+                    <div class="tab" id="tuesday">
                       <!-- <div><p>SOON!</p></div> -->
                         
-                        <div class="hour-box">
+                        <!-- <div class="hour-box">
                             <div class="hour">10:00-11:00 <p><span style="position: relative; top: -6px; left: 3px"></span></p></div>
                             <div class="img-circle circle"><span></span></div>
                             <div class="1toggle-btn"><h3>OKUPLJANJE UČESNIKA I IZLAGAČA</h3></div>
-                        </div>
+                        </div> -->
 
-                        <div class="hour-box">
+                        <!-- <div class="hour-box">
                             <div class="hour">11:00-13:00 <p><span style="position: relative; top: -6px; left: 3px">SALA 5</span></p></div>
                             <div class="img-circle circle"><span></span></div>
                             <div class="toggle-btn"><h6>Panel diskusija tokom svečanog otvaranja</h6><h3>INVESTICIJE I UNAPREĐENJE BEZBEDNOSTI U SAOBRAĆAJU</h3></div>
@@ -317,7 +318,7 @@
                                     </ul>
                                 </div>
                                 <br>
-                                <!-- <div class="row professional clearfix">
+                                <div class="row professional clearfix">
                                     <div class="col-md-6 col-sm-6 col-xs-12 info">
                                         <figure class="img-circle image"><img class="img-circle" src="images/resource/testi-thumb-1.jpg" alt=""></figure>
                                         <h5 class="prof-title">Ime i prezime</h5>
@@ -331,17 +332,17 @@
                                     <div class="col-md-12 col-sm-12 col-xs-12 text-right">
                                         <a href="../en/docs/prog/Call_for_papers.pdf" target="_blank" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Preuzmite flajer</a>
                                     </div>
-                                </div> -->
+                                </div>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <div class="hour-box">
+                        <!-- <div class="hour-box">
                             <div class="hour">13:00-14:00 <p><span style="position: relative; top: -6px; left: 3px"></span></p></div>
                             <div class="img-circle circle"><span></span></div>
                             <div class="1toggle-btn"><h3>KOKTEL DOBRODOŠLICE</h3></div>
-                        </div>
+                        </div> -->
 
-                        <div class="hour-box">
+                        <!-- <div class="hour-box">
                             <div class="hour">14:00-16:00 <p><span style="position: relative; top: -6px; left: 3px">SALA 6</span></p></div>
                             <div class="img-circle circle"><span></span></div>
                             <div class="toggle-btn"><h6>Konferencija:</h6><h3>SAVETOVANJE INSPEKTORA IZ OBLASTI SAOBRAĆAJA NA TERITORIJI AUTONOMNE POKRAJINE VOJVODINE</h3><br><h5>Kongresni centar Master Novosadskog sajma, Novi Sad Srbija,  16. oktobar 2018. godine.</h5></div>
@@ -369,11 +370,11 @@
                                     <div class="hr1" style="margin-bottom:10px;"></div>
                                     <h5>Kontakt:</h5>
                                     <ul class="icons-list program-list">
-                                      <li><span style="font-weight:700;">Graovac Milorad</span>, načelnik pokrajinske inspekcije za saobraćaj i građevinu.<!-- <br>Bulevar Mihajla Pupina 16, 21000 Novi Sad<br>Broj tel: 063/263-658, milorad.graovac@vojvodina.gov.rs</li> -->
+                                      <li><span style="font-weight:700;">Graovac Milorad</span>, načelnik pokrajinske inspekcije za saobraćaj i građevinu.<br>Bulevar Mihajla Pupina 16, 21000 Novi Sad<br>Broj tel: 063/263-658, milorad.graovac@vojvodina.gov.rs</li>
                                     </ul>
                                 </div>
                                 <br>
-                                <!-- <div class="row professional clearfix">
+                                <div class="row professional clearfix">
                                     <div class="col-md-6 col-sm-6 col-xs-12 info">
                                         <figure class="img-circle image"><img class="img-circle" src="images/resource/testi-thumb-1.jpg" alt=""></figure>
                                         <h5 class="prof-title">Ime i prezime</h5>
@@ -387,15 +388,15 @@
                                     <div class="col-md-12 col-sm-12 col-xs-12 text-right">
                                         <a href="../en/docs/prog/Call_for_papers.pdf" target="_blank" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Preuzmite flajer</a>
                                     </div>
-                                </div> -->
+                                </div>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <div class="hour-box">
+                        <!-- <div class="hour-box">
                             <div class="hour">10:00-17:00 <p><span style="position: relative; top: -6px; left: 3px">Glavni ulaz</span></p></div>
                             <div class="img-circle circle"><span></span></div>
                             <div class="1toggle-btn"><h6>Nacionalna vozačka akademija (NAVAK) d.o.o. Beograd</h6><h3>SIMULACIJA ČEONOG SUDARA I BOČNOG PREVRTANJA AUTOMOBILA <br>ZNAČAJ SIGURNOSNOG POJASA, VAZDUŠNIH JASTUKA I UPOTREBE DEČIJIH SEDIŠTA</h3></div>
-                        </div>
+                        </div> -->
                         
                         <!-- <div class="hour-box">
                             <div class="hour">12:00 AM</div>
@@ -488,11 +489,11 @@
                     </div>
                 
                     <!--Tab / Wednesday-->
-                    <div class="tab" id="wednesday">
-                      <!-- <div><p>SOON!</p></div> -->
+                    <div class="tab current" id="wednesday">
+                      <div><p>SOON!</p></div>
                         
                         
-                         <div class="hour-box">
+                        <!--  <div class="hour-box">
                             <div class="hour">8:00-16:15 <p><span style="position: relative; top: -6px; left: 3px">Velika sala</span></p></div>
                             <div class="img-circle circle"><span></span></div>
                             <div class="toggle-btn"><h6>XIV međunarodni Simpozijum</h6><h3>“PREVENCIJA SAOBRAĆAJNIH NEZGODA NA PUTEVIMA 2018”</h3><br><h5>Kongresni centar Master, Novi Sad Srbija, 17 i 18. oktobar 2018. godine.</h5></div>
@@ -544,16 +545,16 @@
                                 </div>
                                 <br>
                                 <div class="row professional clearfix">
-                                    <!-- <div class="col-md-6 col-sm-6 col-xs-12 info">
+                                    <div class="col-md-6 col-sm-6 col-xs-12 info">
                                         <figure class="img-circle image"><img class="img-circle" src="images/resource/testi-thumb-1.jpg" alt=""></figure>
                                         <h5 class="prof-title">Ime i prezime</h5>
                                         <h6 class="prof-occup">Uloga</h6>
-                                    </div> -->
-                                   <!--  <div class="col-md-6 col-sm-6 col-xs-12 text-right">
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12 text-right">
                                         
                                         <a href="#" class="theme-btn btn-style-one hvr-bounce-to-right dull">Vreme 1 - Vreme 2</a>
                                         <a href="single-event.html" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Detalji događaja</a>
-                                    </div> -->
+                                    </div>
                                     <div class="col-md-12 col-sm-12 col-xs-12 text-right">
                                         <a href="../en/docs/prog/2018/Prevencija_SN_2018_Poziv_autorima.pdf" target="_blank" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Poziv autorima</a>
                                     </div>
@@ -562,9 +563,9 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <div class="hour-box">
+                        <!-- <div class="hour-box">
                             <div class="hour">11:30-14:30 <p><span style="position: relative; top: -6px; left: 3px">SALA 5</span></p></div>
                             <div class="img-circle circle"><span></span></div>
                             <div class="toggle-btn"><h6>Radionica</h6><h3>IZAZOVI U RADU TRANSPORTNIH PREDUZEĆA I NOVE MOGUĆNOSTI TEORISKIH I PRAKTIČNIH OBUKA </h3><br><h5>Kongresni centar Master Novosadskog sajma, Novi Sad Srbija,  17. oktobar 2018. godine.</h5></div>
@@ -607,7 +608,7 @@
                                     </ul>
                                 </div>
                                 <br>
-                                <!-- <div class="row professional clearfix">
+                                <div class="row professional clearfix">
                                     <div class="col-md-6 col-sm-6 col-xs-12 info">
                                         <figure class="img-circle image"><img class="img-circle" src="images/resource/testi-thumb-1.jpg" alt=""></figure>
                                         <h5 class="prof-title">Ime i prezime</h5>
@@ -624,17 +625,17 @@
                                     <div class="col-md-12 col-sm-12 col-xs-12 text-right">
                                         <a href="../en/docs/prog/2018/Road_Accidents_Prevention_2018_Call_for_papers.pdf" target="_blank" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Call for papers</a>
                                     </div>
-                                </div> -->
+                                </div>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <div class="hour-box">
+                        <!-- <div class="hour-box">
                             <div class="hour">14:00-15:00 <p><span style="position: relative; top: -6px; left: 3px">SALA 6</span></p></div>
                             <div class="img-circle circle"><span></span></div>
                             <div class="1toggle-btn"><h6>Pokrajinski sekretarijat za energetiku, građevinarstvo i saobraćaj</h6><h3>KONSTITUTIVNA SEDNICA SAVETA ZA KOORDINACIJU POSLOVA BEZBEDNOSTI SAOBRAĆAJA NA PUTEVIMA TERITORIJE AUTONOMNE POKRAJINE VOJVODINE</h3><br><h5>Kongresni centar Master Novosadskog sajma, Novi Sad Srbija,  17. oktobar 2018. godine.</h5></div>
-                        </div>
+                        </div> -->
 
-                        <div class="hour-box">
+                        <!-- <div class="hour-box">
                             <div class="hour">14:30-15:30 <p><span style="position: relative; top: -6px; left: 3px">SALA 5</span></p></div>
                             <div class="img-circle circle"><span></span></div>
                             <div class="toggle-btn"><h6>Prezentacija</h6><h3>PROGRAM ZA OČITAVANJE I ANALIZU PODATAKA SA VOZAČKIH KARTICA I TAHOGRAFA </h3><br><h5>Kongresni centar Master Novosadskog sajma, Novi Sad Srbija,  17. oktobar 2018. godine.</h5></div>
@@ -662,7 +663,7 @@
                                     </ul>
                                 </div>
                                 <br>
-                                <!-- <div class="row professional clearfix">
+                                <div class="row professional clearfix">
                                     <div class="col-md-6 col-sm-6 col-xs-12 info">
                                         <figure class="img-circle image"><img class="img-circle" src="images/resource/testi-thumb-1.jpg" alt=""></figure>
                                         <h5 class="prof-title">Ime i prezime</h5>
@@ -679,15 +680,15 @@
                                     <div class="col-md-12 col-sm-12 col-xs-12 text-right">
                                         <a href="../en/docs/prog/2018/Road_Accidents_Prevention_2018_Call_for_papers.pdf" target="_blank" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Call for papers</a>
                                     </div>
-                                </div> -->
+                                </div>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <div class="hour-box">
+                        <!-- <div class="hour-box">
                             <div class="hour">10:00-17:00 <p><span style="position: relative; top: -6px; left: 3px">Glavni ulaz</span></p></div>
                             <div class="img-circle circle"><span></span></div>
                             <div class="1toggle-btn"><h6>Nacionalna vozačka akademija (NAVAK) d.o.o. Beograd</h6><h3>SIMULACIJA ČEONOG SUDARA I BOČNOG PREVRTANJA AUTOMOBILA <br>ZNAČAJ SIGURNOSNOG POJASA, VAZDUŠNIH JASTUKA I UPOTREBE DEČIJIH SEDIŠTA</h3></div>
-                        </div>
+                        </div> -->
                         
                         <!-- <div class="hour-box">
                             <div class="hour">02:00 PM</div>
@@ -759,9 +760,9 @@
                 
                     <!--Tab / Thursday-->
                     <div class="tab" id="thursday">
-                      <!-- <div><p>SOON!</p></div> -->
+                      <div><p>SOON!</p></div>
                         
-                        <div class="hour-box">
+                        <!-- <div class="hour-box">
                             <div class="hour">9:00-16:00 <p><span style="position: relative; top: -6px; left: 3px">SALA 6</span></p></div>
                             <div class="img-circle circle"><span></span></div>
                             <div class="toggle-btn"><h6>XIV međunarodni Simpozijum</h6><h3>“PREVENCIJA SAOBRAĆAJNIH NEZGODA NA PUTEVIMA 2018”</h3><br><h5>Kongresni centar Master, Novi Sad Srbija, 17 i 18. oktobar 2018. godine.</h5></div>
@@ -813,16 +814,16 @@
                                 </div>
                                 <br>
                                 <div class="row professional clearfix">
-                                    <!-- <div class="col-md-6 col-sm-6 col-xs-12 info">
+                                    <div class="col-md-6 col-sm-6 col-xs-12 info">
                                         <figure class="img-circle image"><img class="img-circle" src="images/resource/testi-thumb-1.jpg" alt=""></figure>
                                         <h5 class="prof-title">Ime i prezime</h5>
                                         <h6 class="prof-occup">Uloga</h6>
-                                    </div> -->
-                                   <!--  <div class="col-md-6 col-sm-6 col-xs-12 text-right">
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12 text-right">
                                         
                                         <a href="#" class="theme-btn btn-style-one hvr-bounce-to-right dull">Vreme 1 - Vreme 2</a>
                                         <a href="single-event.html" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Detalji događaja</a>
-                                    </div> -->
+                                    </div>
                                     <div class="col-md-12 col-sm-12 col-xs-12 text-right">
                                         <a href="../en/docs/prog/2018/Prevencija_SN_2018_Poziv_autorima.pdf" target="_blank" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Poziv autorima</a>
                                     </div>
@@ -831,15 +832,15 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <div class="hour-box">
+                        <!-- <div class="hour-box">
                             <div class="hour">11:00-12:00 <p><span style="position: relative; top: -6px; left: 3px">SALA 4</span></p></div>
                             <div class="img-circle circle"><span></span></div>
                             <div class="toggle-btn"><h6>Radionica</h6><h3>PRIMENA PRAVILNIKA O TEHNIČKOM PREGLEDU VOZILA</h3><br><h5>Kongresni centar Master Novosadskog sajma, Novi Sad Srbija,  18.10.2018. od 11.00 do 12.00</h5></div>
                             <div class="content-box">
                                 <div class="content">
-                                    <!-- <p>Simpozijum <strong>Prevencija saobraćajnih nezgoda na putevima 2018</strong> je četrnaesti simpozijum u nizu posvećenih pitanjima bezbednosti saobraćaja na putevima, a koji je prvi put organizovan 1990. godine.</p> -->
+                                    <p>Simpozijum <strong>Prevencija saobraćajnih nezgoda na putevima 2018</strong> je četrnaesti simpozijum u nizu posvećenih pitanjima bezbednosti saobraćaja na putevima, a koji je prvi put organizovan 1990. godine.</p>
                                     <h5>ORGANIZATOR:</h5>
                                     <ul class="icons-list program-list">
                                       <li><i class="fa fa-check-circle"></i>NAVAK</li>
@@ -857,14 +858,14 @@
                                     <div class="hr1" style="margin-bottom:10px;"></div>
                                     <h5>KONTAKT:</h5>
                                     <ul style="margin-top: 10px;" class="icons-list program-list">
-                                      <!-- <p style="margin-bottom: 0px;"><strong>U vezi simpozijuma:</strong></p> -->
+                                      <p style="margin-bottom: 0px;"><strong>U vezi simpozijuma:</strong></p>
                                       <li style="padding-left: 10px; margin-bottom: 10px;"><span style="font-weight:700;">mr Blagoje Milinić</span><br>064/113-25-34 <br>e-mail: <a href="mailto:bmilinic@yahoo.com">bmilinic@yahoo.com</a></li>
-                                      <!-- <p style="margin-bottom: 0px;"><strong>U vezi smeštaja:</strong></p> -->
+                                      <p style="margin-bottom: 0px;"><strong>U vezi smeštaja:</strong></p>
                                       <li style="padding-left: 10px; margin-bottom: 10px;"><span style="font-weight:700;">master Pavle Kovačević, dip. pravnik</span><br>Tel: 064/993-53-31</li>
                                     </ul>
                                 </div>
                                 <br>
-                                <!-- <div class="row professional clearfix">
+                                <div class="row professional clearfix">
                                     <div class="col-md-6 col-sm-6 col-xs-12 info">
                                         <figure class="img-circle image"><img class="img-circle" src="images/resource/testi-thumb-1.jpg" alt=""></figure>
                                         <h5 class="prof-title">Ime i prezime</h5>
@@ -881,9 +882,9 @@
                                     <div class="col-md-12 col-sm-12 col-xs-12 text-right">
                                         <a href="../en/docs/prog/2018/Road_Accidents_Prevention_2018_Call_for_papers.pdf" target="_blank" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Call for papers</a>
                                     </div>
-                                </div> -->
+                                </div>
                             </div>
-                        </div>
+                        </div> -->
 
                         <!-- <div class="hour-box">
                             <div class="hour">11:00-13:00 <p><span style="position: relative; top: -6px; left: 3px">SALA 2</span></p></div>
@@ -891,11 +892,11 @@
                             <div class="1toggle-btn"><h6>Agencija za bezbednost saobraćaja Republike Srbije</h6><h3>SAOBRAĆAJNO-OBRAZOVNI ČAS "PAŽLJIVKOVA PRAVILA U SAOBRAĆAJU"</h3></div>
                         </div> -->
 
-                        <div class="hour-box">
+                        <!-- <div class="hour-box">
                             <div class="hour">10:00-17:00 <p><span style="position: relative; top: -6px; left: 3px">Glavni ulaz</span></p></div>
                             <div class="img-circle circle"><span></span></div>
                             <div class="1toggle-btn"><h6>Nacionalna vozačka akademija (NAVAK) d.o.o. Beograd</h6><h3>SIMULACIJA ČEONOG SUDARA I BOČNOG PREVRTANJA AUTOMOBILA <br>ZNAČAJ SIGURNOSNOG POJASA, VAZDUŠNIH JASTUKA I UPOTREBE DEČIJIH SEDIŠTA</h3></div>
-                        </div>
+                        </div> -->
                         
                         <!-- <div class="hour-box">
                             <div class="hour">Vreme 2</div>
@@ -989,14 +990,15 @@
                 
                     <!--Tab / Friday-->
                     <div class="tab" id="friday">
-                        
-                         <div class="hour-box">
-                            <!-- <div class="hour">> > > ></div> -->
-                            <!-- <div class="img-circle circle"><span></span></div> -->
-                            <!-- <div class="toggle-btn"><h3>PREVENCIJA SAOBRAĆAJNIH NEZGODA NA PUTEVIMA 2016</h3><br><h5>Kongresni centar Master Novosadskog sajma, Novi Sad Srbija, 13 i 14. oktobar 2016. godine.</h5></div> -->
+                        <div><p>SOON!</p></div>
+
+                        <!--  <div class="hour-box">
+                            <div class="hour">> > > ></div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h3>PREVENCIJA SAOBRAĆAJNIH NEZGODA NA PUTEVIMA 2016</h3><br><h5>Kongresni centar Master Novosadskog sajma, Novi Sad Srbija, 13 i 14. oktobar 2016. godine.</h5></div>
                             <div class="content-box">
                                 <div class="content">
-                                    <!-- <p>Simpozijum <strong>Prevencija saobraćajnih nezgoda na putevima 2016</strong> je trinaesti simpozijum u nizu posvećen pitanjima bezbednosti saobraćaja na putevima, a koji je prvi put organizovan 1990. godine.</p>
+                                    <p>Simpozijum <strong>Prevencija saobraćajnih nezgoda na putevima 2016</strong> je trinaesti simpozijum u nizu posvećen pitanjima bezbednosti saobraćaja na putevima, a koji je prvi put organizovan 1990. godine.</p>
                                     <h5>Organizatori:</h5>
                                     <ul class="icons-list program-list">
                                       <li><i class="fa fa-check-circle"></i>Fakultet tehničkih nauka Univerziteta u Novom Sadu;</li>
@@ -1037,34 +1039,34 @@
                                     <ul class="icons-list program-list">
                                       <li><i class="fa fa-check-circle"></i><a href="http://www.yubs.rs/" target="_blank">Udruženje za bezbednost saobraćaja Srbije</a><p style="margin: 0px 0px 0px 30px;">Boško Matović, MSc<br>Tel: (+381) 21 485 2494<br>boskom@uns.ac.rs</p></li>
                                       <li><i class="fa fa-check-circle"></i><a href="http://balkanija.rs/">Balkanija d.o.o. Novi Sad</a><p style="margin: 0px 0px 0px 30px;">Robert Antičević<br>Tel: (+381) 21 301 45 90<br>info@balkanija.rs</p></li>
-                                    </ul> -->
+                                    </ul>
                                 </div>
                                 <br>
                                 <div class="row professional clearfix">
-                                    <!-- <div class="col-md-6 col-sm-6 col-xs-12 info">
+                                    <div class="col-md-6 col-sm-6 col-xs-12 info">
                                         <figure class="img-circle image"><img class="img-circle" src="images/resource/testi-thumb-1.jpg" alt=""></figure>
                                         <h5 class="prof-title">Ime i prezime</h5>
                                         <h6 class="prof-occup">Uloga</h6>
-                                    </div> -->
-                                    <!-- <div class="col-md-6 col-sm-6 col-xs-12 text-right">
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12 text-right">
                                         
                                         <a href="#" class="theme-btn btn-style-one hvr-bounce-to-right dull">Vreme 1 - Vreme 2</a>
                                         <a href="single-event.html" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Detalji događaja</a>
-                                    </div> -->
+                                    </div>
                                     <div class="col-md-12 col-sm-12 col-xs-12 text-right">
                                         <a href="../en/docs/prog/Call_for_papers.pdf" target="_blank" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Preuzmite flajer</a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         
-                        <div class="hour-box">
-                            <!-- <div class="hour">> > > ></div> -->
-                            <!-- <div class="img-circle circle"><span></span></div> -->
-                            <!-- <div class="toggle-btn"><h3>Konferencija: SMART CITY I CITY LOGISTIKA</h3><br><h5>Kongresni centar Master Novosadskog sajma, Novi Sad Srbija,  14. oktobar 2016. godine.</h5></div> -->
+                       <!--  <div class="hour-box">
+                            <div class="hour">> > > ></div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h3>Konferencija: SMART CITY I CITY LOGISTIKA</h3><br><h5>Kongresni centar Master Novosadskog sajma, Novi Sad Srbija,  14. oktobar 2016. godine.</h5></div>
                             <div class="content-box">
                                 <div class="content">
-                                    <!-- <h5>Organizator:</h5>
+                                    <h5>Organizator:</h5>
                                     <ul class="icons-list program-list">
                                       <li><i class="fa fa-check-circle"></i>Privredna komora Beograda,</li>
                                       <li><i class="fa fa-check-circle"></i>Udruženje saobraćaja, telekomunikacija i informatičke delatnosti</li>
@@ -1087,10 +1089,10 @@
                                       <li><i class="fa fa-check-circle"></i><a href="http://www.kombeg.org.rs/" target="_blank">Privredna komora Beograda</a></li>
                                       <li><i class="fa fa-check-circle"></i><a href="http://www.kombeg.org.rs/Komora/udruzenja/InformatickaDelatnost.aspx?veza=1800">Udruženje saobraćaja, telekomunikacija i informatičke delatnosti</a></li>
                                       <p>Tel: (+381) 21 301 45 90<br>Više informacija na: <a href="http://www.kombeg.org.rs/">www.kombeg.org.rs</a></p>
-                                    </ul> -->
+                                    </ul>
                                 </div>
                                 <br>
-                                <!-- <div class="row professional clearfix">
+                                <div class="row professional clearfix">
                                     <div class="col-md-6 col-sm-6 col-xs-12 info">
                                         <figure class="img-circle image"><img class="img-circle" src="images/resource/testi-thumb-1.jpg" alt=""></figure>
                                         <h5 class="prof-title">Ime i prezime</h5>
@@ -1101,9 +1103,9 @@
                                         <a href="#" class="theme-btn btn-style-one hvr-bounce-to-right dull"->Vreme 2 - Vreme 3</a>
                                         <a href="single-event.html" class="theme-btn btn-style-one hvr-bounce-to-right"><span class="fa fa-play"></span>Detalji događaja</a>
                                     </div>
-                                </div> -->
+                                </div>
                             </div>
-                        </div>
+                        </div> -->
                         
                         <!-- <div class="hour-box">
                             <div class="hour">Vreme 3</div>
@@ -1320,7 +1322,8 @@
             <!--Schedule Box End-->
             <br>
             <div class="text-right">
-                <a href="docs/prog/2018/Program Traffic solutions expo 2018.pdf" target="_blank" class="download-btn theme-btn"><span class="fa fa-file-pdf-o"></span>.PDF PROGRAM</a>
+                <!-- <a href="docs/prog/2018/Program Traffic solutions expo 2018.pdf" target="_blank" class="download-btn theme-btn"><span class="fa fa-file-pdf-o"></span>.PDF PROGRAM</a> -->
+                <a class="not-link" class="download-btn theme-btn">DOWNLOAD .pdf PROGRAM SOON</a>
             </div>
         
         </div>

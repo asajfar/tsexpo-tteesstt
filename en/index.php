@@ -86,11 +86,11 @@
 {
   "@context": "http://schema.org",
   "@type": "Event",
-  "name": "TRAFFIC SOLUTIONS EXPO 2018",
+  "name": "TRAFFIC SOLUTIONS EXPO 2019",
   "description": "TRAFFIC SOLUTIONS EKSPO aims to contribute to the overall development of traffic, presenting various products and services, linking stakeholders and informing the professionals and the general public.",
   "image": "http://ts-expo.rs/en/images/tslogo2.png",
-  "startDate": "2018-10-16T00:00",
-  "endDate": "2018-09-18T00:00",
+  "startDate": "2019-10-16T00:00",
+  "endDate": "2019-09-18T00:00",
   "location": {
     "@type": "Place",
     "name": "Novi Sad Fair",
@@ -179,10 +179,12 @@
       <div class="row-slide">
         <div class="naslov1_sr">WELCOME TO</div>
         <div class="naslov2_sr">TRAFFIC SOLUTIONS EXPO</div>
-        <div class="naslov3">16-18 OCTOBER 2018</div>
+        <div class="naslov3">16-18 OCTOBER 2019</div>
         <div>
-          <a href="docs/reg/Registration_form_2018.pdf" target="_blank"><button class="register-button">Exhibitors registration form</button></a>
-          <a href="docs/reg/General_terms_and_conditions_for_exhibiting-2018.pdf" target="_blank"><button class="register-button">Exhibiting terms and conditions</button></a>
+          <!-- <a href="docs/reg/Registration_form_2019.pdf" target="_blank" title="Exhibitosr registration form"><button class="register-button">Exhibitors registration form</button></a> -->
+          <button title="SOON!" style="color: grey;" class="register-button">Exhibitors registration form</button>
+          <!-- <a href="docs/reg/General_terms_and_conditions_for_exhibiting-2019.pdf" target="_blank" title="Exhibiting terms and conditions"><button class="register-button">Exhibiting terms and conditions</button></a> -->
+          <button title="SOON!" style="color: grey;" class="register-button">Exhibiting terms and conditions</button>
           <button class="register-button" data-toggle="modal" data-target="#myModalHorizontal">Visitors registration form</button>
         </div>
       </div>
@@ -192,6 +194,7 @@
           <p>Public connection Ltd, Novi Sad</p>
           <p><a class="link-naslovna" href="http://www.sajam.net/live/Congress+Centre" target="_blank">Novi Sad Fair joint- stock company, Novi Sad</a></p>
           <p><a class="link-naslovna" href="http://www.navak.rs/" target="_blank">NAVAK - National Drivers Àcademy Ltd., Belgrade</a></p>
+          <p><a class="link-naslovna" href="http://www.amss.org.rs/" target="_blank">AMSS - Automobile and Motorcycle Association of Serbia</a></p>
           <!-- <p><a class="link-naslovna" href="http://www.ftn.uns.ac.rs/1742896254/departman-za-saobracaj" target="_blank">Faculty of Technical Sciences - Traffic Department, University of Novi Sad</a></p> -->
           <!-- <p><a class="link-naslovna" href="http://www.sf.bg.ac.rs/index.php/en/" target="_blank">Faculty of Transport and Traffic Engineering, University of Belgrade</a></p>
           <p><a class="link-naslovna" href="http://een.ec.europa.eu/" target="_blank">Enterprise Europe Network</a></p> -->
@@ -210,7 +213,7 @@
         </div>
         <div class="tekst1 col-xs-12 col-md-4">
           <h1>DATE AND PLACE</h1>
-          <p style="font-size: 1.1em; color: white;">16-18 october 2018</p>
+          <p style="font-size: 1.1em; color: white;">16-18 october 2019</p>
           <p>Novi Sad Fair</p>
           <p>Hajduk Veljkova 11, 21000 Novi Sad, Serbia</p>
         </div>
@@ -226,6 +229,7 @@
             <li><img style="cursor: pointer;" src="../en/images/logos/01-Public-Connection-doo-small-2.png" alt="logo" title="Public connection Ltd, Novi Sad"></li>
             <li><a href="http://www.sajam.net/live/?languageId=1" target="_blank"><img src="../en/images/logos/02-Sajam_logo_small-2.png" alt="logo" title="Novi Sad Fair"></a></li>
             <li><a href="http://www.navak.rs/" target="_blank"><img src="../en/images/logos/navakH_small-2.png" alt="logo" title="NAVAK - Nacionalna Vozačka Akademija"></a></li>
+            <li><a href="http://www.amss.org.rs/" target="_blank"><img style="cursor: pointer; width: 130px" src="../en/images/logos/amss-small-2.png" alt="logo" title="AMSS - Auto-moto savez Srbije"></a></li>
             <!-- <li><a href="http://www.ftn.uns.ac.rs/n1386094394/faculty-of-technical-sciences" target="_blank"><img src="../en/images/logos/03-FTN_Logo-small.png" alt="logo" title="Faculty of Technical Sciences, University of Novi Sad"></a></li> -->
             <!-- <li><a href="http://www.sf.bg.ac.rs/index.php/en/" target="_blank"><img src="../en/images/logos/04-SF-Beograd-small.png" alt="logo" title="Faculty of Transport and Traffic Engineering, University of Belgrade"></a></li> -->
             <!-- <li><a href="http://een.ec.europa.eu/" target="_blank"><img src="../en/images/logos/05-EEN-small.png" alt="logo" title="Enterprise Europe Network"></a></li> -->
@@ -250,7 +254,7 @@
           </h4>
           <p>Every day our society faces increasing demands in terms of mobility and safety of participants, infrastructure construction, goods and passenger transport, environmental protection and better connections between different types of traffic.</p>
           <p>Following these challenges, TRAFFIC SOLUTIONS EKSPO aims to contribute to the overall development of traffic, presenting various products and services, linking stakeholders and informing the professionals and the general public.</p>
-          <p>We expect more than 600 participants to visit TRAFFIC SOLUTIONS EXPO 2018 - professionals, decision makers in the field of transport and the wider public.</p>
+          <p>We expect more than 600 participants to visit TRAFFIC SOLUTIONS EXPO 2019 - professionals, decision makers in the field of transport and the wider public.</p>
         </div>
       </div>
     </div>

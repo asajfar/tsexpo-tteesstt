@@ -27,6 +27,9 @@
     case "ts-expo-en-2017":
         $link = '../sr/ts-expo-2017.php';
         break;
+      case "ts-expo-en-2018":
+        $link = '../sr/ts-expo-2018.php';
+        break;
     case "virtual-tour":
         $link = '../sr/virtual-tour.php';
         break;
@@ -117,7 +120,7 @@
               <i class="fa fa-bars"></i>
             </button>
             <!-- End Toggle Nav Link For Mobiles -->
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index.php">
               <img alt="" src="images/tslogo.png" class="logo-full">
               <img alt="" src="images/tslogo2.png" class="logo-mobile">
             </a>
@@ -136,22 +139,25 @@
             <!-- Start Navigation List -->
             <ul class="nav navbar-nav navbar-right">
               <li><a <?php if($page == 'home'): ?> class="active"<?php endif ?> href="index.php">Home</a></li>
-              <li class="drop"><a style="cursor: pointer; pointer-events: none;" <?php if($page == 'exhibitions'): ?> class="active"<?php endif ?> href="#">EXHIBITORS</a>
+              <li class="drop"><a style="cursor: pointer; pointer-events: auto;" <?php if($page == 'exhibitions'): ?> class="active"<?php endif ?> >EXHIBITORS</a>
                 <ul class="dropdown">
                   <li><a href="exhibitors-profile.php">PROFILE OF EXHIBITORS</a></li>
                   <li><a href="exhibitors-terms.php">GENERAL TERMS</a></li>
-                  <li><a href="ground-plan.php">GROUND PLAN</a></li>
+                  <!-- <li><a href="ground-plan.php">GROUND PLAN</a></li> -->
                 </ul>
               </li>
               <li><a <?php if($page == 'visitors'): ?> class="active"<?php endif ?> href="visitors.php">VISITORS</a></li>
               <li><a <?php if($page == 'program_en'): ?> class="active"<?php endif ?> href="program_en.php">PROGRAM</a></li>
-              <li><a <?php if($page == 'location'): ?> class="active"<?php endif ?> href="location.php">CONTACT</a>
+              <li class="drop"><a style="cursor: pointer; pointer-events: auto;" <?php if($page == 'location'): ?> class="active"<?php endif ?> >CONTACT</a>
                 <ul class="dropdown">
+                  <li><a href="location.php">CONTACT</a></li>
                   <li><a href="accommodation.php">ACCOMMODATION</a></li>
                 </ul>
               </li>
-              <li><a <?php if($page == 'archive'): ?> class="active"<?php endif ?> href="ts-expo-en-2017.php" style="color: #29aae2; font-weight: 600;">TS-EXPO 2017</a>
+              <li class="drop"><a style="cursor: pointer; pointer-events: auto; color: #29aae2; font-weight: 600;" <?php if($page == 'archive'): ?> class="active"<?php endif ?> >ARCHIVE</a>
                 <ul class="dropdown">
+                  <li><a href="ts-expo-en-2018.php">TS-EXPO 2018</a></li>
+                  <li><a href="ts-expo-en-2017.php">TS-EXPO 2017</a></li>
                   <li><a href="virtual-tour.php">VRTUAL TOUR 360°</a></li>
                 </ul>
               </li> 
@@ -163,7 +169,7 @@
         <!-- Mobile Menu Start -->
         <ul class="wpb-mobile-menu">
           <li><a <?php if($page == 'home'): ?> class="active"<?php endif ?> href="index.php">HOME</a></li>
-          <li><a style="cursor: pointer; pointer-events: none;" <?php if($page == 'exhibitions'): ?> class="active"<?php endif ?> href="#">EXHIBITORS</a>
+          <li><a style="cursor: pointer; pointer-events: auto;" <?php if($page == 'exhibitions'): ?> class="active"<?php endif ?> href="#">EXHIBITORS</a>
             <ul class="dropdown">
               <li><a href="exhibitors-profile.php">PROFILE OF EXHIBITORS</a></li>
               <li><a href="exhibitors-terms.php">GENERAL TERMS</a></li>
@@ -172,13 +178,16 @@
           </li>
           <li><a <?php if($page == 'visitors'): ?> class="active"<?php endif ?> href="visitors.php">VISITORS</a></li>
           <li><a <?php if($page == 'program_en'): ?> class="active"<?php endif ?> href="program_en.php">PROGRAM</a></li>
-          <li><a <?php if($page == 'location'): ?> class="active"<?php endif ?> href="location.php">CONTACT</a>
+          <li><a style="cursor: pointer; pointer-events: auto;" <?php if($page == 'location'): ?> class="active"<?php endif ?> href="#">CONTACT</a>
             <ul class="dropdown">
+              <li><a href="location.php">CONTACT</a></li>
               <li><a href="accommodation.php">ACCOMMODATION</a></li>
             </ul>
           </li>
-          <li><a <?php if($page == 'archive'): ?> class="active"<?php endif ?> href="ts-expo-en-2017.php" style="color: #29aae2; font-weight: 600;">TS-EXPO 2017</a>
+          <li><a style="cursor: pointer; pointer-events: auto;" <?php if($page == 'archive'): ?> class="active"<?php endif ?> href="#" style="color: #29aae2; font-weight: 600;">ARCHIVE</a>
             <ul class="dropdown">
+              <li><a href="ts-expo-en-2018.php">TS-EXPO 2018</a></li>
+              <li><a href="ts-expo-en-2017.php">TS-EXPO 2017</a></li>
               <li><a href="virtual-tour.php">VRTUAL TOUR 360°</a></li>
             </ul>
           </li>
