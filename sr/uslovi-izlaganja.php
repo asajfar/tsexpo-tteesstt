@@ -168,8 +168,8 @@ $englink = 'uslovi-izlaganja';
                             <li class="kolona" style="line-height: 3em;">14.400,00</li>
                         </ul>
                     </div>
-                    <!-- <div class="table_reg"><a href="../en/docs/reg/Registracioni_formular_2019.pdf" target="_blank"><button class="register-button-izv"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> REGISTRACIONI FORMULAR</button></a></div> -->
-                    <div class="table_reg"><button title="USKORO!" class="register-button-izv" style="color: #2f90b9;" ><i class="fa fa-file-pdf-o" aria-hidden="true"></i> REGISTRACIONI FORMULAR</button></div>
+                    <div class="table_reg"><a href="../en/docs/reg/Registracioni_formular_2019.pdf" target="_blank"><button class="register-button-izv"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> REGISTRACIONI FORMULAR</button></a></div>
+                    <!-- <div class="table_reg"><button title="USKORO!" class="register-button-izv" style="color: #2f90b9;" ><i class="fa fa-file-pdf-o" aria-hidden="true"></i> REGISTRACIONI FORMULAR</button></div> -->
                     <div class="pricing-footer">
                       * Sve cene su izražene u RSD bez PDVa. PDV pada na teret kupca.<br>Za izlagače iz inostranstva cena će biti iskazana u EUR, po kursu NBS na dan uplate.
                     </div>
@@ -200,8 +200,8 @@ $englink = 'uslovi-izlaganja';
                             <li class="kolona" style="line-height: 3em;">16.800,00</li>
                         </ul>
                     </div>
-                    <!-- <div class="table_reg"><a href="../en/docs/reg/Registracioni_formular_2019.pdf" target="_blank"><button class="register-button-izv"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> REGISTRACIONI FORMULAR</button></a></div> -->
-                    <div class="table_reg"><button title="USKORO!" class="register-button-izv" style="color: #2f90b9;" ><i class="fa fa-file-pdf-o" aria-hidden="true"></i> REGISTRACIONI FORMULAR</button></div>
+                    <div class="table_reg"><a href="../en/docs/reg/Registracioni_formular_2019.pdf" target="_blank"><button class="register-button-izv"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> REGISTRACIONI FORMULAR</button></a></div>
+                    <!-- <div class="table_reg"><button title="USKORO!" class="register-button-izv" style="color: #2f90b9;" ><i class="fa fa-file-pdf-o" aria-hidden="true"></i> REGISTRACIONI FORMULAR</button></div> -->
                     <div class="pricing-footer">
                      * Sve cene su izražene u RSD bez PDVa. PDV pada na teret kupca.<br>Za izlagače iz inostranstva cena će biti iskazana u EUR, po kursu NBS na dan uplate.
                     </div>
@@ -232,8 +232,8 @@ $englink = 'uslovi-izlaganja';
                             <li class="kolona" style="line-height: 3em;">19.200,00</li>
                         </ul>
                     </div>
-                    <!-- <div class="table_reg"><a href="../en/docs/reg/Registracioni_formular_2019.pdf" target="_blank"><button class="register-button-izv"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> REGISTRACIONI FORMULAR</button></a></div> -->
-                    <div class="table_reg"><button title="USKORO!" class="register-button-izv" style="color: #2f90b9;" ><i class="fa fa-file-pdf-o" aria-hidden="true"></i> REGISTRACIONI FORMULAR</button></div>
+                    <div class="table_reg"><a href="../en/docs/reg/Registracioni_formular_2019.pdf" target="_blank"><button class="register-button-izv"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> REGISTRACIONI FORMULAR</button></a></div>
+                    <!-- <div class="table_reg"><button title="USKORO!" class="register-button-izv" style="color: #2f90b9;" ><i class="fa fa-file-pdf-o" aria-hidden="true"></i> REGISTRACIONI FORMULAR</button></div> -->
                     <div class="pricing-footer">
                       * Sve cene su izražene u RSD bez PDVa. PDV pada na teret kupca.<br>Za izlagače iz inostranstva cena će biti iskazana u EUR, po kursu NBS na dan uplate.
                     </div>

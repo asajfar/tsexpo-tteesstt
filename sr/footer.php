@@ -10,11 +10,11 @@
             <div class="footer-widget mail-subscribe-widget">
               <h4>Ostanimo u vezi<span class="head-line"></span></h4>
               <p>Pridružite se našoj mail listi i budite informisani!</p>
-              <form class="subscribe" action="http://adomne.us9.list-manage.com/subscribe/post" method="POST">
+              <form target="_blank" class="subscribe" action="http://adomne.us9.list-manage.com/subscribe/post" method="POST">
                 <input type="hidden" name="u" value="463fc7d46e4f471e9f5d8312a">
                 <input type="hidden" name="id" value="511d158f34">
                 <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" placeholder="mail@example.com">
-                <input type="submit" class="btn-system" name="submit" value="Send">
+                <input type="submit" class="btn-system" name="submit" value="Pošalji">
               </form>
             </div>
             <div class="footer-widget social-widget">

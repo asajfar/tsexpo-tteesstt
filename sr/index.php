@@ -76,7 +76,7 @@ $englink = 'naslovna';
   <script type="text/javascript" src="../en/js/jquery.parallax.js"></script>
   <script type="text/javascript" src="../en/js/mediaelement-and-player.js"></script>
   <script type="text/javascript" src="../en/js/jquery.slicknav.js"></script>
-  
+
 
   <!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -90,7 +90,7 @@ $englink = 'naslovna';
   "description": "TRAFFIC SOLUTIONS EXPO ima za cilj da doprinese opštem razvoju saobraćaja, prezentovanjem različitih proizvoda i usluga, povezivanjem interesnih subjekata i informisanjem stručne i društvene javnosti.",
   "image": "http://ts-expo.rs/en/images/tslogo2.png",
   "startDate": "2019-10-16T00:00",
-  "endDate": "2019-09-18T00:00",
+  "endDate": "2019-10-18T00:00",
   "location": {
     "@type": "Place",
     "name": "Kongresni centar Master Novosadskog sajma",
@@ -116,6 +116,12 @@ $englink = 'naslovna';
   ga('send', 'pageview');
 
   </script>
+
+  <!-- Code for cookie policy -->
+  <link rel="stylesheet" type="text/css" href="//wpcc.io/lib/1.0.2/cookieconsent.min.css"/><script src="//wpcc.io/lib/1.0.2/cookieconsent.min.js">
+  </script><script>window.addEventListener("load", function(){window.wpcc.init({"colors":{"popup":{"background":"#606060","text":"#ffffff","border":"#f9f9f9"},"button":{"background":"#f9f9f9","text":"#000000"}},"position":"bottom","padding":"none","margin":"none","corners":"normal","content":{"href":"../en/docs/policy/cookie-policy-ts-expo.pdf","message":"Ovaj sajt koristi kolačiće kako bi korisnicima pružio najbolje iskustvo na sajtu / This website uses cookies to ensure you get the best experience on our website      ","link":"Pročitaj više / Learn more","button":"U redu / Got it"}})});</script>
+  <!-- END of code for cookie policy -->
+
 
 </head>
 
@@ -183,10 +189,10 @@ $englink = 'naslovna';
         <div class="naslov3"><meta itemprop="startDate" content="2019-10-16">16-18.10.2019. <!-- <span itemprop="location" itemscope itemtype="http://schema.org/Place">
 <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Novi Sad</span>, <span itemprop="addressCountry">Srbija</span></span></span> --></div>
         <div>        
-          <!-- <a itemprop="url" href="../en/docs/reg/Registracioni_formular_2019.pdf" target="_blank" title="Prijava za izlagače"><button class="register-button">PRIJAVA za izlagače</button></a> -->
-          <button title="USKORO!" style="color: grey;" class="register-button">PRIJAVA za izlagače</button>
-          <!-- <a itemprop="url" href="../en/docs/reg/Opsti_uslovi_izlaganja_2019.pdf" target="_blank"><button class="register-button" title="Opšti uslovi izlaganja">Uslovi za izlaganje</button></a> -->
-          <button title="USKORO!" style="color: grey;" class="register-button">Uslovi za izlaganje</button>
+          <a itemprop="url" href="../en/docs/reg/Registracioni_formular_2019.pdf" target="_blank" title="Prijava za izlagače"><button class="register-button">PRIJAVA za izlagače</button></a>
+          <!-- <button title="USKORO!" style="color: grey;" class="register-button">PRIJAVA za izlagače</button> -->
+          <a itemprop="url" href="../en/docs/reg/Opsti_uslovi_izlaganja_2019.pdf" target="_blank"><button class="register-button" title="Opšti uslovi izlaganja">Uslovi za izlaganje</button></a>
+          <!-- <button title="USKORO!" style="color: grey;" class="register-button">Uslovi za izlaganje</button> -->
           <button class="register-button" data-toggle="modal" data-target="#myModalHorizontal">PRIJAVA za posetioce</button>
         </div>
       </div>
@@ -223,7 +229,7 @@ $englink = 'naslovna';
           <ul>
           	<li><img style="cursor: pointer; width: 165px" src="../en/images/logos/01-Public-Connection-doo-small-2.png" alt="logo" title="Public Connection d.o.o. Novi Sad"></li>
             <li><a href="http://www.sajam.net/" target="_blank"><img style="cursor: pointer; width: 165px" src="../en/images/logos/02-Sajam_logo_small-2.png" alt="logo" title="Novosadski sajam"></a></li>
-            <li><a href="http://www.navak.rs/" target="_blank"><img style="cursor: pointer; width: 240px" src="../en/images/logos/navakH_small-2.png" alt="logo" title="NAVAK - Nacionalna Vozačka Akademija"></a></li>
+            <li><a href="http://www.navak.rs/" target="_blank"><img style="cursor: pointer; width: 100px" src="../en/images/logos/navakH_small-2.png" alt="logo" title="NAVAK - Nacionalna Vozačka Akademija"></a></li>
             <li><a href="http://www.amss.org.rs/" target="_blank"><img style="cursor: pointer; width: 130px" src="../en/images/logos/amss-small-2.png" alt="logo" title="AMSS - Auto-moto savez Srbije"></a></li>
             <!-- <li><img style="cursor: pointer;" src="../en/images/logos/01-Public-Connection-doo-small.png" alt="logo" title="Public Connection d.o.o. Novi Sad"></li> -->
             <!-- <li><a href="http://www.ftn.uns.ac.rs/1742896254/departman-za-saobracaj" target="_blank"><img src="../en/images/logos/03-FTN_Logo-small.png" alt="logo" title="Fakultet tehničkih nauka, Novi Sad"></a></li> -->

@@ -174,6 +174,8 @@
               <!-- Call Action Text -->
               <h2 class="primary">Entrance to TRAFFIC SOLUTIONS EXPO 2019 is free for all visitors with obligatory registration.</h2>
               <button class="register-button-pos" data-toggle="modal" data-target="#myModalHorizontal">APPLICATION FORM</button>
+              <!-- <button class="register-button-pos" onclick="location.href='../en/docs/privatnost/politika-privatnosti.pdf';">Privacy Policy</button> -->
+              <button class="register-button-pos" onclick="window.open('../en/docs/privatnost/politika-privatnosti.pdf')">Privacy Policy</button>
             </div>
           </div>
 

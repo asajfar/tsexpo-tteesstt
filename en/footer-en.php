@@ -10,7 +10,7 @@
             <div class="footer-widget mail-subscribe-widget">
               <h4>Get in touch<span class="head-line"></span></h4>
               <p>Join our mailing list and be informed!</p>
-              <form class="subscribe" action="http://adomne.us9.list-manage.com/subscribe/post" method="POST">
+              <form target="_blank" class="subscribe" action="http://adomne.us9.list-manage.com/subscribe/post" method="POST">
                 <input type="hidden" name="u" value="463fc7d46e4f471e9f5d8312a">
                 <input type="hidden" name="id" value="511d158f34">
                 <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" placeholder="mail@example.com">

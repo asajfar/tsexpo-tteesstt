@@ -177,6 +177,8 @@ $englink = 'posetioci';
               <!-- Call Action Text -->
               <h2 class="primary">Ulaz na TRAFFIC SOLUTIONS EXPO 2019 je besplatan za sve posetioce uz obaveznu registraciju.</h2>
               <button class="register-button-pos" data-toggle="modal" data-target="#myModalHorizontal">PRIJAVA</button>
+              <!-- <button class="register-button-pos" onclick="location.href='../en/docs/privatnost/politika-privatnosti.pdf';">Politika privatnosti</button> -->
+              <button class="register-button-pos" onclick="window.open('../en/docs/privatnost/politika-privatnosti.pdf')">Politika privatnosti</button>
             </div>
           </div>
           

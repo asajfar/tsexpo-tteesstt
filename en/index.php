@@ -117,6 +117,11 @@
 
   </script>
 
+  <!-- Code for cookie policy -->
+  <link rel="stylesheet" type="text/css" href="//wpcc.io/lib/1.0.2/cookieconsent.min.css"/><script src="//wpcc.io/lib/1.0.2/cookieconsent.min.js">
+  </script><script>window.addEventListener("load", function(){window.wpcc.init({"colors":{"popup":{"background":"#606060","text":"#ffffff","border":"#f9f9f9"},"button":{"background":"#f9f9f9","text":"#000000"}},"position":"bottom","padding":"none","margin":"none","corners":"normal","content":{"href":"../en/docs/policy/cookie-policy-ts-expo.pdf","message":"Ovaj sajt koristi kolačiće kako bi korisnicima pružio najbolje iskustvo na sajtu / This website uses cookies to ensure you get the best experience on our website      ","link":"Pročitaj više / Learn more","button":"U redu / Got it"}})});</script>
+  <!-- END of code for cookie policy -->
+
 </head>
 
 <body>
