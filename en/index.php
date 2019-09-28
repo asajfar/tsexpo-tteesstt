@@ -122,9 +122,45 @@
   </script><script>window.addEventListener("load", function(){window.wpcc.init({"colors":{"popup":{"background":"#606060","text":"#ffffff","border":"#f9f9f9"},"button":{"background":"#f9f9f9","text":"#000000"}},"position":"bottom","padding":"none","margin":"none","corners":"normal","content":{"href":"../en/docs/policy/cookie-policy-ts-expo.pdf","message":"Ovaj sajt koristi kolačiće kako bi korisnicima pružio najbolje iskustvo na sajtu / This website uses cookies to ensure you get the best experience on our website      ","link":"Pročitaj više / Learn more","button":"U redu / Got it"}})});</script>
   <!-- END of code for cookie policy -->
 
+   <!-- Skripta da se modal sa ID myModal automatski prikazuje pri ucitavanju stranice -->
+  <script type="text/javascript">
+      $(document).ready(function(){
+          $("#myModal").modal('show');
+      });
+  </script>
+  <!-- kraj skripte za ucitavanje modala -->
+
+  
+  <!-- Skripta za ucitavanje modala uz pamcenje cookie-a kako bi se ucitavanje odradilo samo jednom -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>  
+  <script>
+  $(document).ready(function() {   
+        if ($.cookie("popup_1_2") == null) {
+             $('#myModal').modal('show');
+        $.cookie("popup_1_2", "2");
+     }
+   });
+  </script> -->
+  <!-- Kraj skripte za ucitavanje modula koriscenjem cookie-a -->
+
 </head>
 
 <body>
+
+<!-- modal sa ID myModal sa videom koji bi trebao da se pokrece automatski -->
+  <div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+             <div class="modal-body" style="padding: 5px 5px 0px 5px;">
+                <video width="100%" height="auto" controls autoplay poster="../en/docs/videos/video-slika.jpg">
+                  <source src="../en/docs/videos/movie.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- kraj modala sa videom -->
 
 <!-- Popup window -->
 <!-- <div class="pop-up">
