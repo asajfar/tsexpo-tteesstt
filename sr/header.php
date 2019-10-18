@@ -145,7 +145,7 @@
               <!-- <li><a href="izlagaci-2018.html">SPISAK IZLAGAČA 2018</a></li> -->                  
                   <li><a href="profil-izlagaca.php">PROFILI IZLAGAČA</a></li>
                   <li><a href="uslovi-izlaganja.php">USLOVI ZA IZLAGANJE</a></li>
-                  <!-- <li><a href="tlocrt.php">TLOCRT</a></li> --> 
+                  <li><a href="tlocrt.php">TLOCRT</a></li> 
                 </ul>
               </li>
               <li><a <?php if($page == 'posetioci'): ?> class="active"<?php endif ?> href="posetioci.php">POSETIOCI</a></li>

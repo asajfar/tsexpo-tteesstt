@@ -145,14 +145,14 @@ $englink = 'tlocrt';
         </div>
         <div class="row tlocrt">
           <div class="col-md-12">
-            <img src="../en/images/tlocrt/SajamSaobracaja2018-lokacija-tlocrt-1.jpg" alt="tlocrt 1">
+            <a href="../en/images/tlocrt/SajamSaobracaja2019-lokacija-tlocrt-1-full.jpg" target="_blank"><img src="../en/images/tlocrt/SajamSaobracaja2019-lokacija-tlocrt-1.jpg" alt="tlocrt 1"></a>
           </div>
         </div>
-        <div class="row tlocrt">
+        <!-- <div class="row tlocrt">
           <div class="col-md-12">
             <img src="../en/images/tlocrt/SajamSaobracaja2018-TipskiStandovi-tlocrt-2.jpg" alt="tlocrt 1">
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="hr1" style="margin-bottom:50px;"></div>

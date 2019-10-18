@@ -533,9 +533,116 @@ $englink = 'program';
                 
                     <!--Tab / Wednesday-->
                     <div class="tab current" id="wednesday">
-                      <div><p>USKORO!</p></div>
+                      <!-- <div><p>USKORO!</p></div> -->
                         
+                      <div class="hour-box">
+                          <div class="hour">10:00-11:00 <p></p></div>
+                          <div class="img-circle circle"><span></span></div>
+                          <div><h3>OKUPLJANJE IZLAGAČA, UČESNIKA I POSETILACA</h3></div>
+                      </div>
                         
+                      <div class="hour-box">
+                            <div class="hour">11:00-11:15</div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h3>UVODNO OBRAĆANJE</h3></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Slobodan CVETKOVIĆ, generalni direktor Novosadskog sajma</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div> 
+                                </div>
+                            </div>
+                        </div>
+                      
+                       <div class="hour-box">
+                            <div class="hour">11:15-12:00</div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>PANEL:</h6><h3>INVESTICIJE U SAOBRAĆAJU I NISKOGRADNJI U SRBIJI I REGIONU</h3><br><h5>(Moderator: Mladen Alvirović, NAVAK)</h5></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Ministarstvo građevinarstva, saobraćaja i infrastrukture Republike Srbije;</li>
+                                      <li><i class="fa fa-check-circle"></i>Nenad GRBIĆ, Pokrajinski sekretar za građevinarstvo, energetiku i saobraćaj;</li>
+                                      <li><i class="fa fa-check-circle"></i>Nenad NEŠIĆ, direktor JP Putevi Republike Srpske, Banja Luka, Republika Srpska;</li>
+                                      <li><i class="fa fa-check-circle"></i>Slobodan LEŽAIĆ, Koridori Srbije d.o.o. Beograd;</li>
+                                      <li><i class="fa fa-check-circle"></i>Jasmina MILOŠEVIĆ, Agencija za bezbednost saobraćaja Republike Srbije.</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hour-box">
+                            <div class="hour">12:00-13:00</div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>PANEL:</h6><h3>IZAZOVI LOKALNIH SAMOUPRAVA U OBLASTI UNAPREĐENJA SAOBRAĆAJA</h3><br><h5>(Moderator: Mladen Alvirović, NAVAK)</h5></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Đorđe STANIČIĆ, Generalni sekretar Stalne konferencije gradova i opština;</li>
+                                      <li><i class="fa fa-check-circle"></i>Aleksandar KRAVIĆ, Član Gradskog veća Grada Novog Sada zadužen za saobraćaj;</li>
+                                      <li><i class="fa fa-check-circle"></i>Igor VOJINOVIĆ, Član Gradskog veća Grada Niša zadužen za saobraćaj;</li>
+                                      <li><i class="fa fa-check-circle"></i>Dragan JOVANOVIĆ, direktor Departmana za saobraćaj Fakulteta tehničkih nauka;</li>
+                                      <li><i class="fa fa-check-circle"></i>Nikola RADIVOJEVIĆ, dekan Visoke tehničke škole strukovnih studija, Kragujevac.</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hour-box">
+                          <div class="hour">13:00-14:00 <p></p></div>
+                          <div class="img-circle circle"><span></span></div>
+                          <div><h3>KOKTEL DOBRODOŠLICE I RUČAK</h3></div>
+                        </div>
+                        
+                        <div class="hour-box">
+                            <div class="hour">14:00-15:30</div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>Pokrajinski sekretarijat za energetiku, građevinarstvo i saobraćaj i EU Build</h6><h3>INFRASTRUKTURA - OD VIZIJE DO OTVARANJA</h3></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Zoran ĐORĐEVIĆ</li>
+                                      <li><i class="fa fa-check-circle"></i>Slobodan AĆIMOVIĆ</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hour-box">
+                            <div class="hour">15:30-16:30</div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>ZODAX d.o.o. – FLIR Inteligentni transportni sistemi, Beograd</h6><h3>AUTOMATSKA DETEKCIJA INCIDENTA I POŽAR U TUNELU</h3></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Zoran JAKŠIĆ</li>
+                                      <li><i class="fa fa-check-circle"></i>Marko KOLJENŠIĆ</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hour-box">
+                            <div class="hour">14:00-16:00 <p><span style="position: relative; top: -6px; left: 3px">SALA 3</span></p></div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>Pokrajinski sekretarijat za energetiku, građevinarstvo i saobraćaj i Republička uprava za inspekcijske poslove – Inspektorat Republike Srpske</h6><h3>SAVETOVANJE INSPEKTORA IZ OBLASTI SAOBRAĆAJA NA TERITORIJI AUTONOMNE POKRAJINE VOJVODINE I REPUBLIKE SRPSKE</h3></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Jovo MILANOVIĆ</li>
+                                      <li><i class="fa fa-check-circle"></i>Branislav PAŽUR</li>
+                                      <li><i class="fa fa-check-circle"></i>Danislav DRAŠKOVIĆ</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                </div>
+                            </div>
+                        </div>
+
                         <!-- <div class="hour-box">
                             <div class="hour">8:00-16:15 <p><span style="position: relative; top: -6px; left: 3px">Velika sala</span></p></div>
                             <div class="img-circle circle"><span></span></div>
@@ -732,9 +839,6 @@ $englink = 'program';
                             <div class="img-circle circle"><span></span></div>
                             <div class="1toggle-btn"><h6>Nacionalna vozačka akademija (NAVAK) d.o.o. Beograd</h6><h3>SIMULACIJA ČEONOG SUDARA I BOČNOG PREVRTANJA AUTOMOBILA <br>ZNAČAJ SIGURNOSNOG POJASA, VAZDUŠNIH JASTUKA I UPOTREBE DEČIJIH SEDIŠTA</h3></div>
                         </div> -->
-
-
-
                         
                         <!-- <div class="hour-box">
                             <div class="hour">12:00 AM</div>
@@ -828,8 +932,176 @@ $englink = 'program';
                 
                     <!--Tab / Thursday-->
                     <div class="tab" id="thursday">
-                      <div><p>USKORO!</p></div>
+                      <!-- <div><p>USKORO!</p></div> -->
                         
+                        <div class="hour-box">
+                            <div class="hour">10:30-11:15 <p><span style="position: relative; top: -6px; left: 3px">SALA 3</span></p></div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>Agencija za bezbednost saobraćaja Republike Srbije</h6><h3>USPOSTAVLJANJE SISTEMA CPC U REPUBLICI SRBIJI</h3></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Slobodan KARLIČIĆ</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="hour-box">
+                            <div class="hour">11:15-12:00 <p><span style="position: relative; top: -6px; left: 3px">SALA 3</span></p></div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>Auto-moto savez Srbije – Centar za motorna vozila (AMSS-CMV, Beograd)</h6><h3>OBUKE PROFESIONALNIH VOZAČA I MENADŽERA, DOPRINOS RADU TRANSPORTNIH KOMPANIJA</h3></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Darko PETROVIĆ</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="hour-box">
+                            <div class="hour">12:00-12:30 <p><span style="position: relative; top: -6px; left: 3px">SALA 3</span></p></div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>Zodax d.o.o. Beograd – Messe Frankfurt GmbH, Beograd</h6><h3>INOVATIVNA MOBILNOST I LOGISTIKA (MESSE FRANKFURT GMBH)</h3></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Jelena JAKŠIĆ</li>
+                                      <li><i class="fa fa-check-circle"></i>Zoran JAKŠIĆ</li>
+                                      <li><i class="fa fa-check-circle"></i>Marko KOLJENŠIĆ</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hour-box">
+                            <div class="hour">10:00-11:00</div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>ZODAX d.o.o. – FLIR Inteligentni transportni sistemi, Beograd</h6><h3>BROJANJE I KLASIFIKACIJA SAOBRAĆAJA + V2X</h3></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Zoran JAKŠIĆ</li>
+                                      <li><i class="fa fa-check-circle"></i>Marko KOLJENŠIĆ</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hour-box">
+                            <div class="hour">11:00-11:30</div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>SELMA d.o.o., Subotica i Grad Smederevo</h6><h3>SISTEMI ZA UPRAVLJANJE BRZINAMA</h3></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Miroslav DERIKONJIĆ</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="hour-box">
+                            <div class="hour">11:30-12:00</div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>DMV d.o.o. Niš</h6><h3>PRIMENA IZMENLJIVE SAOBRAĆAJNE SIGNALIZACIJE U GRADOVIMA I OPŠTINAMA</h3></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Milan MARKOVIĆ</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="hour-box">
+                            <div class="hour">12:00-14:00</div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div><h6>Stalna konferencija gradova i opština (SKGO)</h6><h3>Okrugli sto: PLANIRANJE ODRŽIVE URBANE MOBILNOSTI U SRBIJI</h3><h5>(Moderatori: Ljubinka KALUĐEROVIĆ i Klara DANILOVIĆ, SKGO)</h5><h5>Preuzmite <a href="../en/docs/prog/2019/Okrugli-sto-NS-sajam-SKGO.pdf" target="_blank">DNEVNI RED</a> okruglog stola</h5></div>
+                            <!-- <div class="content-box">
+                                <div class="content">
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Milan MARKOVIĆ</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                </div>
+                            </div> -->
+                        </div>
+
+                        <div class="hour-box">
+                          <div class="hour">14:00-15:00 <p></p></div>
+                          <div class="img-circle circle"><span></span></div>
+                          <div><h3>KOKTEL I RUČAK</h3></div>
+                        </div>
+
+                        <div class="hour-box">
+                            <div class="hour">15:00-15:30</div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>Pokrajinski sekretarijat za energetiku, građevinarstvo i saobraćaj</h6><h3>ULOGA LOKALNIH SAMOUPRAVA U DEFINISANJU OBAVEZE JAVNOG PREVOZA</h3></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Gordan STOJIĆ</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hour-box">
+                            <div class="hour">15:00-16:00</div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>Auto-Moto Savez Srbije – Centar za motorna vozila (AMSS-CMV, Beograd)</h6><h3>ISPITIVANJE I SERTIFIKACIJA SAOBRAĆAJNE SIGNALIZACIJE</h3></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Vladan ŠKEROVIĆ</li>
+                                      <li><i class="fa fa-check-circle"></i>Slavko MUŽDEKA</li>
+                                      <li><i class="fa fa-check-circle"></i>Đorđe ILIĆ</li>
+                                      <li><i class="fa fa-check-circle"></i>Jovan MANDIĆ</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hour-box">
+                            <div class="hour">16:00-16:30</div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>ADOMNE d.o.o. za projektovanje i inženjering, Novi Sad</h6><h3>IZRADA PROJEKATA TEHNIČKOG REGULISANJA SAOBRAĆAJA U GRADOVIMA I OPŠTINAMA U SRBIJI</h3></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Miodrag POČUČ</li>
+                                      <li><i class="fa fa-check-circle"></i>Goran KALAMANDA</li>
+                                      <li><i class="fa fa-check-circle"></i>Igor VUKOBRATOVIĆ</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hour-box">
+                            <div class="hour">16:30-17:00</div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>Udruženje parkirališta Srbije i JKP Parking servis Novi Sad</h6><h3>NOVI TRENDOVI U INDUSTRIJI PARKIRANJA</h3></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Dragan JOVANOVIĆ, Koordinator za inovativne tehnologije JKP Parking servis Novi Sad</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                </div>
+                            </div>
+                        </div>
+
                         <!-- <div class="hour-box">
                             <div class="hour">9:00-16:00 <p><span style="position: relative; top: -6px; left: 3px">SALA 6</span></p></div>
                             <div class="img-circle circle"><span></span></div>
@@ -965,8 +1237,6 @@ $englink = 'program';
                             <div class="img-circle circle"><span></span></div>
                             <div class="1toggle-btn"><h6>Nacionalna vozačka akademija (NAVAK) d.o.o. Beograd</h6><h3>SIMULACIJA ČEONOG SUDARA I BOČNOG PREVRTANJA AUTOMOBILA <br>ZNAČAJ SIGURNOSNOG POJASA, VAZDUŠNIH JASTUKA I UPOTREBE DEČIJIH SEDIŠTA</h3></div>
                         </div> -->
-
-                        
 
                         <!-- <div class="hour-box">
                             <div class="hour">10:00-13:00 <p><span style="position: relative; top: -6px; left: 3px">SALA 4</span></p></div>
@@ -1363,9 +1633,65 @@ $englink = 'program';
                 
                     <!--Tab / Friday-->
                     <div class="tab" id="friday">
-                        <div><p>USKORO!</p></div>
+                        <!-- <div><p>USKORO!</p></div> -->
 
-                         <!-- <div class="hour-box">
+                        <div class="hour-box">
+                            <div class="hour">10:00-10:30 <br> <span style="display:block; margin-top:-13px;">11:30-12:00</span> <p><span style="position: relative; top: -6px; left: 3px">SALA 3</span></p></div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div><h6>Agencija za bezbednost saobraćaja Republike Srbije</h6><h3>Predstava za decu: <br>SAOBRAĆAJNO-OBRAZOVNI ČAS "PAŽLJIVKOVA PRAVILA U SAOBRAĆAJU"</h3></div>
+                            <!-- <div class="content-box">
+                                <div class="content">
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Milan MARKOVIĆ</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                </div>
+                            </div> -->
+                        </div>
+
+                        <div class="hour-box">
+                            <div class="hour">11:00-12:00</div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div><h6>Agencija za bezbednost saobraćaja Republike Srbije</h6><h3>RADIONICA O BEZBEDNOSTI SAOBRAĆAJA ZA MLADE ZAVRŠNE GODINE SREDNJE ŠKOLE</h3></div>
+                            <!-- <div class="content-box">
+                                <div class="content">
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Milan MARKOVIĆ</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                </div>
+                            </div> -->
+                        </div>
+
+                        <div class="hour-box">
+                            <div class="hour">12:00-13:00</div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div class="toggle-btn"><h6>Udruženje građana "Srbija - moj dom"</h6><h3>BUDUĆNOST JE U ALTERNATIVI</h3></div>
+                            <div class="content-box">
+                                <div class="content">
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Dejan RADIVOJEV</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hour-box">
+                            <div class="hour">10:00-16:00</div>
+                            <div class="img-circle circle"><span></span></div>
+                            <div><h6>Nacionalna vozačka akademija (NAVAK) d.o.o. Beograd</h6><h3>SIMULACIJA ČEONOG SUDARA I BOČNOG PREVRTANJA AUTOMOBILA ZNAČAJ SIGURNOSNOG POJASA, VAZDUŠNIH JASTUKA</h3></div>
+                            <!-- <div class="content-box">
+                                <div class="content">
+                                    <ul class="icons-list program-list">
+                                      <li><i class="fa fa-check-circle"></i>Milan MARKOVIĆ</li>
+                                    </ul>
+                                    <div class="hr1" style="margin-bottom:10px;"></div>
+                                </div>
+                            </div> -->
+                        </div>
+
+                        <!-- <div class="hour-box">
                             <div class="hour">09:30-17:00 <p><span style="position: relative; top: -6px; left: 3px">SALA 5 i 6</span></p></div>
                             <div class="img-circle circle"><span></span></div>
                             <div class="toggle-btn"><h6>VI Međunarodno savetovanje „U susret humanom gradu“:</h6><h3>INTELIGENTNA MOBILNOST - SINERGIJA IZMEĐU ODRŽIVE MOBILNOSTI I NOVIH TEHNOLOGIJA</h3><br><h5>Kongresni centar Master Novosadskog sajma, Novi Sad, petak, 27. oktobar 2017. godine.</h5></div>
@@ -1911,8 +2237,8 @@ $englink = 'program';
             <!--Schedule Box End-->
             <br>
             <div class="text-right">
-                <!-- <a href="../en/docs/prog/2018/Program Traffic solutions expo 2018.pdf" target="_blank" class="download-btn theme-btn"><span class="fa fa-file-pdf-o"></span>PROGRAM</a> -->
-                <a class="not-link" class="download-btn theme-btn">USKORO PREUZMITE PROGRAM U .pdf FORMATU</a>
+                <a href="../en/docs/prog/2019/Program-Traffic-solutions-expo-2019.pdf" target="_blank" class="download-btn theme-btn"><span class="fa fa-file-pdf-o"></span>PROGRAM</a>
+                <!-- <a class="not-link" class="download-btn theme-btn">USKORO PREUZMITE PROGRAM U .pdf FORMATU</a> -->
             </div>
         </div>
     </section>
